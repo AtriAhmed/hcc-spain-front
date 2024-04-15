@@ -1,0 +1,87 @@
+{
+  "name": "halal-correct",
+  "private": true,
+  "description": "HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED Certification provides certification of manufacturers and suppliers of halal products. With our experience of many years, HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED Certification has a reputation for being a unique, professional,and expert organization in the Netherlands and Europe.",
+  "version": "0.1.0",
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@fortawesome/fontawesome-svg-core": "^6.2.1",
+    "@fortawesome/free-brands-svg-icons": "^6.2.1",
+    "@fortawesome/free-regular-svg-icons": "^6.2.1",
+    "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@headlessui/react": "^1.7.7",
+    "@heroicons/react": "^2.0.13",
+    "@material-tailwind/react": "^1.2.5",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.4",
+    "animate.css": "^4.1.1",
+    "axios": "^1.2.3",
+    "gatsby": "^5.4.0",
+    "gatsby-plugin-image": "^3.4.0",
+    "gatsby-plugin-manifest": "^5.4.0",
+    "gatsby-plugin-sharp": "^5.4.0",
+    "gatsby-plugin-sitemap": "^6.4.0",
+    "gatsby-source-filesystem": "^5.4.0",
+    "gatsby-transformer-sharp": "^5.4.0",
+    "js-file-download": "^0.4.12",
+    "react": "^18.2.0",
+    "react-animation-on-scroll": "^5.1.0",
+    "react-dom": "^18.2.0",
+    "react-loading": "^2.0.3",
+    "react-multi-email": "^1.0.6",
+    "react-qr-code": "^2.0.12",
+    "react-scroll-parallax": "^3.3.2",
+    "react-to-print": "^2.14.15",
+    "react-youtube": "^10.1.0",
+    "sweetalert2": "^11.7.0",
+    "swiper": "^8.4.5",
+    "uuid": "^9.0.0",
+    "validator": "^13.7.0"
+  },
+  "dependenciesMeta": {
+    "@fortawesome/fontawesome-svg-core": {
+      "built": false
+    },
+    "@fortawesome/free-brands-svg-icons": {
+      "built": false
+    },
+    "@fortawesome/free-solid-svg-icons": {
+      "built": false
+    }
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "gatsby-plugin-postcss": "^6.4.0",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.1",
+    "tailwindcss": "^3.2.4"
+  },
+  "keywords": [
+    "halal certification",
+    "halal",
+    "halal business",
+    "halal products",
+    "HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED"
+  ],
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "host": "gatsby develop -H 0.0.0.0 -o",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
+    "start": "gatsby develop -o -p 3000",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "buildServe": "gatsby clean && gatsby build && gatsby serve -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
