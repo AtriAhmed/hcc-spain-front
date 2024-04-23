@@ -1,36 +1,23 @@
 import React from "react"
 import FadeUpOnScroll from "../../../lib/FadeUpOnScroll"
+import ScrollAnimation from "react-animate-on-scroll"
 
 export default function RegulationFee() {
   return (
     <div className="w-full">
       <div className="w-full px-8 py-10 max-w-7xl mx-auto">
-        <FadeUpOnScroll>
+      <ScrollAnimation animateIn="animate__fadeInUp">
           <h1 className="font-poppins font-bold text-3xl md:text-4xl text-center md:text-left text-[#9dbc98] capitalize transition-all duration-1000 ">
             Fee Regulation:
           </h1>
-        </FadeUpOnScroll>
-        <FadeUpOnScroll>
+          </ScrollAnimation>
+        <ScrollAnimation animateIn="animate__fadeInUp" delay={1} duration={2}>
           <p className="pt-6 font-open font-normal text-base text-center md:text-left text-slate-900">
-            <span className="font-bold">Introduction :</span> HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED
-            Certification is highly recognized certification body and already
-            accredited by several accreditation/approval body such as Emirates
-            International Accreditation Center (EIAC), Saudi Food and Drug
-            Authority (SFDA), Majelis Ulama Indonesia (MUI), Majelis Ugama Islam
-            Singapore (MUIS) and Jabatan Kemajuan Islam Malaysia (JAKIM). The
-            recognition allows HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED to broaden its certification
-            services through many companies around the Netherlands and Europe.
-            To provide a brief explanation how the costumers of HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED
-            will deal with the certification cost, HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED creates this
-            fee regulation system. This description is expected can make the
-            certification processes and procedures as transparent as possible.
-            Therefore, to start the certification process, it is important to
-            deal with several components mentioned below by HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED to
-            decide an estimated certification price.
+          <span className="font-bold">Introduction :</span> Halal Correct France is highly recognized certification body and already accredited by several accreditation/approval body such as Emirates International Accreditation Center (EIAC), Saudi Food and Drug Authority (SFDA) and Ministry of Industry & Advanced Technology (MOIAT). The recognition allows Halal Correct France to broaden its certification services through many companies around France and Europe. To provide a brief explanation how the costumers of Halal Correct France will deal with the certification cost, Halal Correct France creates this fee regulation system. This description is expected can make the certification processes and procedures as transparent as possible. Therefore, to start the certification process, it is important to deal with several components mentioned below by Halal Correct France to decide an estimated certification price.
           </p>
           <ul className="px-8 pt-6 font-open font-normal text-base list-disc">
             <li>
-              Price component of HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED :
+            Price component of Halal correct France :
               <br />
               <br />
               <div className="grid grid-cols-12 divide-y">
@@ -76,11 +63,11 @@ material/screening products
                 Correct in the Netherlands.
               </div>
               <div>
-                There are many costumers located outside of the Netherlands;
+              There are many costumers located outside of the Netherlands;
                 however, it does not mean that the price would be much higher.
                 Other several components would affect the charged fee.
                 Therefore, the location is considered as one of the factors
-                affecting the fee due to HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED spending on transport to
+                affecting the fee due to Halal correct France spending on transport to
                 reach the company, accommodation, days of audit, and auditor
                 fee.
               </div>
@@ -134,7 +121,7 @@ material/screening products
 
               <br />
               <div>
-                HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED can have a highly risk company which usually needs
+              Halal correct France can have a highly risk company which usually needs
                 further inspection. The inspection is needed to monitor the
                 company to make sure they still apply halal procedure after the
                 certification process.
@@ -148,8 +135,8 @@ material/screening products
 
               <br />
               <div>
-                After the applicant sends the source screening and application
-                form, HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED will review and screen the products and raw
+              After the applicant sends the source screening and application
+                form, Halal correct France will review and screen the products and raw
                 materials. Generally, the applicant is asked to forward the
                 specification of raw materials, flowchart (if it is needed), and
                 Halal certificate of raw materials.
@@ -174,11 +161,11 @@ material/screening products
               </span>
               <br />
               <div>
-                For the certified products within the country, the complexity is
+              For the certified products within the country, the complexity is
                 less than an export product; especially to export the product to
                 Gulf country. The company usually needs a special letter/support
                 for specific country when they intend to send their products.
-                This letter of support will be provided by HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED.
+                This letter of support will be provided by Halal correct France.
               </div>
               <br />
             </div>
@@ -186,7 +173,7 @@ material/screening products
               <span className="font-bold">8. Administration fee</span>
               <br />
               <div>
-                Other administrative work has to be done by administration
+              Other administrative work has to be done by administration
                 assistant; therefore, there will be a specific fee for this
                 activity. Administration work is a part of internal process. The
                 specific fee shall be made for their activity to support the
@@ -201,7 +188,7 @@ material/screening products
               <br />
 
               <div>
-                After the audit, company sometimes requests to any changes on
+              After the audit, company sometimes requests to any changes on
                 their issued certificate. Common request is adding a new raw
                 material/product to its halal certificate. Others might be the
                 approval to use new raw materials on halal certified product.
@@ -216,18 +203,18 @@ material/screening products
               <br />
 
               <div>
-                Generally, one client would have one certificate and all halal
+              Generally, one client would have one certificate and all halal
                 certified products will be mentioned on annex page; however,
                 other companies might differ. The request from their costumer
                 ask to mention one product only in one annex. It means that if
-                the costumers of HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED own around 10 Halal certified
+                the costumers of Halal correct France own around 10 Halal certified
                 products, there will be around 10 pages of annex shall be made.
                 The price of certification is affected by this request.
               </div>
               <br />
             </div>
           </ul>
-        </FadeUpOnScroll>
+        </ScrollAnimation>
       </div>
     </div>
   )

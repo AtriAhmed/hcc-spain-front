@@ -1,9 +1,9 @@
 import React from "react"
 import { Swiper, SwiperSlide } from "swiper/react"
-import swiper3 from "../images/swiper_3.jpg"
-import swiper7 from "../images/swiper_7.jpg"
-import hccLogo from "../images/logo2.png"
-import sasoLogo from "../images/sasoLogo.jpg"
+import sfda from "../images/sfda.jpg"
+import moiat from "../images/moiat.jpg"
+import eiac from "../images/eiac.jpg"
+import hcc from "../images/logo2.png"
 
 import "swiper/css"
 import "swiper/css/autoplay"
@@ -13,10 +13,10 @@ import FadeUpOnScroll from "../lib/FadeUpOnScroll"
 function Partnership() {
   return (
     <div className="w-full">
-      <div className="w-full px-8 py-16 max-w-7xl mx-auto">
+      <div className="w-full px-8 py-16 max-w-w1300 mx-auto">
         <FadeUpOnScroll>
-          <h3 className="capitalize font-poppins font-bold text-3xl md:text-4xl text-center md:text-left text-[#9dbc98]  transition-all duration-1000 ">
-            Accreditation and partnerships:
+          <h3 className="capitalize font-poppins font-bold text-3xl md:text-4xl text-center md:text-left text-teal-500  transition-all duration-1000 ">
+            Accreditation and partnership:
           </h3>
         </FadeUpOnScroll>
         <FadeUpOnScroll>
@@ -43,7 +43,7 @@ function Partnership() {
                 <img
                   src={slide.src}
                   alt=""
-                  className="h-28 sm:h-40 mx-auto"
+                  className="h-28 scr600:h-40 mx-auto"
                 />
               </SwiperSlide>
             ))}
@@ -57,18 +57,16 @@ function Partnership() {
 export default Partnership
 
 const slides = [
-
   {
-    src: swiper3,
+    src: sfda,
   },
   {
-    src: swiper7,
+    src: moiat,
   },
   {
-    src: sasoLogo
+    src: eiac,
   },
   {
-    src: hccLogo
-  },
-
+    src: hcc,
+  }
 ]

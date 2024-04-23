@@ -26,7 +26,7 @@ function Why() {
              <span className="text-[#9dbc98] block">Halal Certification</span>
               <span className="block">for Manufacturers</span>
               <div className="text-sm font-normal text-justify mt-2">
-              HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED is dedicated to ensuring the authenticity
+              Halal Correct France Certification is dedicated to ensuring the authenticity
 and integrity of halal products through our rigorous certification
 process. We work closely with manufacturers and suppliers to meet
 the needs of Muslim consumers worldwide.

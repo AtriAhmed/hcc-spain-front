@@ -13,12 +13,10 @@ function InternationalDesc() {
         <FadeUpOnScroll>
           <div className="pt-8 flex flex-col items-center md:flex-row gap-8">
             <p className="font-open font-normal text-base text-center md:text-left text-slate-900">
-            Did you know that HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED is the Halal
-organization with the most international approvals in Africa?
+            Did you know that Halal Correct France is the Halal organization with the most international approvals in France?
               <br />
               <br />
-              HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED (HCC Kenya) is accredited and
-recognized by many international Islamic authorities such us SFDA, EIAC, SASO.
+              Halal Correct France is accredited and recognized by many international Islamic authorities such us SFDA, EIAC and MOIAT.  
               <br />
               <br />
               

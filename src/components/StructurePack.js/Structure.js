@@ -13,13 +13,9 @@ function Structure() {
         <FadeUpOnScroll>
           <div className="pt-8 flex flex-col items-center md:flex-row gap-8">
             <p className="font-open font-normal text-base text-center md:text-left text-slate-900">
-            Mr. Salem Mubarak Aljenibi, Mr. Abdulafatteh Ali Salah and Mr. Hussein
-Mukter Haji Mohamed are the founders of HCC EAST AFRICAN HALAL CONFIRMATION
-CENTER LIMITED and is one of the leading pioneers in the Halal meat market in Kenya and Africa.
+            Mr. Ben Ali-Salah and Mr. Ali Boukhelifa (رحمه الله) are the founders of Halal Correct France which is a member of halal correct certification-Group  and is one of the leading pioneers in the Halal food market in France and Europe.
               <br />
-              <br /> Our departments work daily on achieving the organizational goals, with the purpose to make Halal
-meat accessible to everyone. The organization chart below shows a simple representation of the
-departments in the organization. The blue lines represent external departments.
+              <br /> Our departments work daily on achieving the organizational goals, with the purpose to make Halal food accessible to everyone. The organization chart below shows a simple representation of the departments in the organization. The blue lines represent external departments.
             </p>
           </div>
         </FadeUpOnScroll>

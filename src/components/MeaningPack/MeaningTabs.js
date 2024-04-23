@@ -14,7 +14,7 @@ function MeaningTabs() {
       <div className="w-full px-8 py-10 max-w-7xl mx-auto">
         <FadeUpOnScroll>
           <h3 className="font-poppins font-bold  text-3xl md:text-4xl text-center md:text-left text-[#9dbc98] capitalize transition-all duration-1000 ">
-          HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED Certification has drawn up a number of principles
+          Halal correct France Certification has drawn up a number of principles
           </h3>
         </FadeUpOnScroll>
         <FadeUpOnScroll className="pt-8">

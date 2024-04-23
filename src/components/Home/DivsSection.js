@@ -5,7 +5,7 @@ import img from "../../images/C.jpg"
 const DATA = [
   {
     title:"Benefits of Halal Certification",
-    content:`Obtaining Halal certification through HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED Certification ensures that
+    content:`Obtaining Halal certification through Halal Correct France Certification ensures that
     your products meet the strict standards of halal production and are suitable for
     Muslim consumers. Our certification process provides credibility and trust,
     giving your business a competitive edge in the halal market.`
@@ -20,7 +20,7 @@ const DATA = [
   },
   {
     title:"Market Advantage",
-    content:`By obtaining HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED Certification, you gain a significant advantage in the
+    content:`By obtaining Halal Correct France Certification, you gain a significant advantage in the
     halal market. Our certification logo on your products and marketing materials
     enhances your brand reputation and attracts Muslim consumers who prioritize
     halal products. Don't miss out on the growing halal market segment.`

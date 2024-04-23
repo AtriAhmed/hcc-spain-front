@@ -13,7 +13,7 @@ function AuditingDesc() {
         <FadeUpOnScroll>
           <div className="pt-8 flex flex-col items-center md:flex-row gap-8">
             <p className="font-open font-normal text-base text-center md:text-left text-slate-900">
-              The organization team is an expertise on their field. We set a
+            The organization team is an expertise on their field. We set a
               high concern on our recruitment. They are selected based on their
               competency and experiences according to GSO-2055:2021 clause 7.
               Most of them have a background on food technology and food

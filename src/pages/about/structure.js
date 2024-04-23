@@ -2,7 +2,7 @@ import React from "react"
 import HalalProducer from "../../components/HalalProducer"
 import Seo from "../../components/seo"
 import Structure from "../../components/StructurePack.js/Structure"
-import structure1 from "../../images/structure.png"
+import structure1 from "../../images/structure_1.jpg"
 import FadeUpOnScroll from "../../lib/FadeUpOnScroll"
 
 function structure() {

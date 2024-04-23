@@ -20,6 +20,7 @@ function index() {
       <QuickScan />
       <AuditingServices />
       <HalalProducer />
+      <TrainingService />
       <Partnership />
     </div>
   )

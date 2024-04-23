@@ -12,7 +12,7 @@ import UIToolsProvider from "./src/contexts/UIToolsProvider"
 
 import { config } from "@fortawesome/fontawesome-svg-core"
 import "@fortawesome/fontawesome-svg-core/styles.css"
-import "animate.css/animate.min.css";
+import "animate.css";
 import axios from "axios"
 import AdminPrivateRoute from "./src/components/auth/AdminPrivateRoute"
 import AuthProvider from "./src/contexts/AuthProvider"

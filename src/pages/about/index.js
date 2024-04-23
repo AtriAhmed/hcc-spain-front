@@ -12,6 +12,7 @@ function index() {
       <div className="h-[300px] bg-[url(./images/AZ.jpg)] bg-cover bg-center"></div>
       <WhoAreWe />
       <Cards />
+      <PartnershipsTab />
       <HalalProducer />
       <Partnership />
     </div>

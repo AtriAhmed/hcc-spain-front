@@ -1,7 +1,7 @@
 import axios from "axios"
 import React, { useEffect, useState } from "react"
 import QRCode from "react-qr-code"
-import logo2 from "../../images/kenya.jpg"
+import logo2 from "../../images/logo2.png"
 import { ExclamationTriangleIcon, StarIcon } from "@heroicons/react/24/outline"
 import { Link } from "gatsby"
 
@@ -37,24 +37,23 @@ export default function CheckCertificate({ location, params }) {
           <div className=" p-[50px] flex flex-col justify-between">
             <header className="grid grid-cols-12 text-[12px] border-b-2 border-black pb-2">
               <div className="col-span-12 sm:col-span-4">
-                <div>Total Quality HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED Certification</div>
+                <div>Total Quality Halal correct France Certification(TQHCC)</div>
                 <div>PO. Box 179, 2300 AD Leiden, the Netherlands, C.C.</div>
                 <div>KvK registration: 27329597</div>
                 <div>Tel: +31(071)52 35 770 fax: +31(071)52 35 771</div>
-                <div>e-mail: halalcentrekenya@gmail.com</div>
-                <div>website: www.hcceastafrica.com</div>
+                <div>e-mail: info@halalcorrect.com</div>
+                <div>website: www.halalcorrect.com</div>
               </div>
               <div className="col-span-12 sm:col-span-4 flex justify-center items-center flex-col">
                 <div className="text-[#30ccbb] text-base">
                   مؤسسة الأمانة الإسلامية لمراقبة اللحوم والأغذية
                 </div>
-                <div className="text-xl">HCC EAST AFRICAN HALAL
-CONFIRMATION CENTER LIMITED</div>
+                <div className="text-xl">Halal correct France Certification</div>
               </div>
               <div className="col-span-12 sm:col-span-4 flex items-center justify-center sm:justify-end">
                 <img
                   src={logo2}
-                  alt="HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED logo"
+                  alt="halal correct france logo"
                   className="w-full max-w-[135px]"
                 />
               </div>
@@ -84,7 +83,7 @@ CONFIRMATION CENTER LIMITED</div>
                   </span>
                 </div>
                 <div className="text-center">
-                  We "Total Quality HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED Certification" hereby declare,
+                  We "Total Quality Halal correct France Certification" hereby declare,
                   that the below mentioned products have been produced according
                   to the Islamic Rities and certified by the rules of Halal
                   Correct Certification.
@@ -163,7 +162,7 @@ CONFIRMATION CENTER LIMITED</div>
                 <div className="">
                   <div>
                     Certified products are subjects for continous conformity
-                    assurance by HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED
+                    assurance by Halal correct France
                   </div>
                 </div>
                 <div className="grid grid-cols-12">
@@ -203,13 +202,13 @@ CONFIRMATION CENTER LIMITED</div>
                 </div>
                 <div>
                   It is not allowed to use this Halal certification by
-                  shops/restaurants without permission of HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED.
+                  shops/restaurants without permission of Halal correct France.
                 </div>
               </div>
               <div className="text-center w-full">
-                HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED Certification is member of World Halal
+                Halal correct France Certification (TQHCC) is member of World Halal
                 Food Council-WHFC <br></br>And accredited by
-                MUI-JAKIM-MUIS-ESMA-GAC:Copyright 2018 - HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED
+                MUI-JAKIM-MUIS-ESMA-GAC:Copyright 2018 - Halal correct France
                 Certification ©
               </div>
             </footer>
@@ -226,7 +225,7 @@ CONFIRMATION CENTER LIMITED</div>
               to="/"
               className="bg-[#14b8a6] py-2 px-4 rounded-xl text-white font-bold"
             >
-              Go to hcceastafrica.com
+              Go to Halalcorrect.com
             </Link>
           </div>
         </div>

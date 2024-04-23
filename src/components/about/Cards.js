@@ -23,17 +23,14 @@ export default Cards
 const arr = [
   {
     title: "the entire chain",
-    text: "HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED shall comply with the foundations of Islamic slaughter and processing of products at all times. HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED handles the entire chain strictly and professionally. In addition, HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED sets the highest standards and requirements to its quality management system by using a professional documentation and traceability system which is implemented.",
+    text: "Halal correct France shall comply with the foundations of Islamic slaughter and processing of products at all times. Halal correct France handles the entire chain strictly and professionally. In addition, Halal correct France sets the highest standards and requirements to its quality management system by using a professional documentation and traceability system which is implemented.",
   },
   {
     title: "the halal consumer",
-    text: `We believe that people have the right to consume reliable halal meat, in
-    Kenya as well as in Africa and the rest of the world. That is why we are committed to continuously
-    improve our own quality management system. To achieve this, we are working more and more on an
-    international level and we increasingly aim for international accreditation.`,
+    text: "Halal correct France believes that people have the right to consume reliable halal products, in France as well as in Europe and the rest of the world. That is why we continuously aim to improve our quality management system. To achieve this, we have raised our activities to a more international level and we strive for international accreditations and recognition.",
   },
   {
     title: "accreditations",
-    text: "HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED works in compliance with the internationally recognized Halal guidelines based on the quality management system ISO 9001:2015/ EC 17065:2012. To provide additional transparency and halal guarantee, it is our goal to obtain broad international recognition.",
+    text: "Halal correct France Certification works in compliance with the internationally recognized Halal guidelines based on the quality management system ISO 9001:2015/ EC 17065:2012. To provide additional transparency and halal guarantee, it is our goal to obtain broad international recognition. Click here to see all the international accreditations we have obtained.",
   },
 ]

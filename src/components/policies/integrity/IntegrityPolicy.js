@@ -12,22 +12,15 @@ function IntegrityPolicy() {
         </FadeUpOnScroll>
         <FadeUpOnScroll>
           <p className="pt-6 font-open font-normal text-base text-center md:text-left text-slate-900">
-            We do it all for the halal consumer, according to HCC EAST AFRICAN HALAL
-CONFIRMATION CENTER LIMITED's
-            motto. Employees at HCC EAST AFRICAN HALAL
-CONFIRMATION CENTER LIMITED contribute to this philosophy,
+          We do it all for the halal consumer, according to Halal correct France's
+            motto. Employees at Halal correct France contribute to this philosophy,
             which is something to be proud of. The four additional work concepts
-            that HCC EAST AFRICAN HALAL
-CONFIRMATION CENTER LIMITED has particularly named as being the cornerstone
-            of HCC EAST AFRICAN HALAL
-CONFIRMATION CENTER LIMITED are "Confidence in workmanship," "Consciously
+            that Halal correct France has particularly named as being the cornerstone
+            of Halal correct France are "Confidence in workmanship," "Consciously
             ethical," "Improving and learning continuously," and "Objective
-            approach." HCC EAST AFRICAN HALAL
-CONFIRMATION CENTER LIMITED must be trustworthy to consumers. In many
-            ways, Halal consumers depend on the Halal review. The HCC EAST AFRICAN HALAL
-CONFIRMATION CENTER LIMITED
-            organization must be moral as a result. This calls for HCC EAST AFRICAN HALAL
-CONFIRMATION CENTER LIMITED
+            approach." Halal correct France must be trustworthy to consumers. In many
+            ways, Halal consumers depend on the Halal review. The Halal correct France
+            organization must be moral as a result. This calls for Halal correct France
             to conduct its business with integrity and dependability and to
             treat its customers fairly and respectfully.
           </p>
@@ -36,12 +29,10 @@ CONFIRMATION CENTER LIMITED
               Integrity and impartiality:
               <br />
               <br />
-              HCC EAST AFRICAN HALAL
-CONFIRMATION CENTER LIMITED Certification (HCC EAST AFRICAN HALAL
-CONFIRMATION CENTER LIMITED Certification)
+              Halal correct France Certification (Halal correct France Certification)
               guarantees its impartiality policy and confidentiality with
-              respect to the delivery of all our services. The HCC EAST AFRICAN HALAL
-CONFIRMATION CENTER LIMITED Certification managers and auditors are thoroughly screened and
+              respect to the delivery of all our services. The Halal correct France
+              Certification managers and auditors are thoroughly screened and
               trained to ensure their integrity, impartiality, and
               confidentiality. The Executive Board and employees of Halal
               Correct Certification have no personal connections with the
@@ -58,8 +49,7 @@ CONFIRMATION CENTER LIMITED Certification managers and auditors are thoroughly s
               Commission to guarantee Impartiality and Confidentiality:
               <br />
               <br />
-              The HCC EAST AFRICAN HALAL
-CONFIRMATION CENTER LIMITED Certification Foundation is supervised by an
+              The Halal correct France Certification Foundation is supervised by an
               independent committee of balanced representation of interested
               stakeholders in the sector who test and guarantee the impartiality
               and confidentiality of the organization.

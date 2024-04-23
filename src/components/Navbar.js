@@ -13,7 +13,7 @@ function Navbar({ location }) {
       <div className="w-full max-w-7xl flex items-center justify-between m-auto py-4 px-3 lg:px-20">
         <Link to="/">
           <h2 className="uppercase font-poppins font-bold text-xl lg:text-3xl text-center text-white transition-all duration-300">
-            HCC EAST AFRICA
+            HALAL CORRECT FRANCE
           </h2>
         </Link>
         <button
@@ -97,6 +97,10 @@ const aboutItems = {
       text: "What does halal mean?",
       path: "/about/halal-meaning",
     },
+    {
+      text: "Locations",
+      path: "/about/locations",
+    },
   ],
 }
 
@@ -108,12 +112,20 @@ const certificationItems = {
       path: "/certification/procedure",
     },
     {
+      text: "Product categories",
+      path: "/certification/categories",
+    },
+    {
       text: "Our services",
       path: "/certification/services",
     },
     {
       text: "Auditing and training",
       path: "/certification/auditing",
+    },
+    {
+      text: "Benefits of out certification",
+      path: "/certification/benefits",
     },
   ],
 }

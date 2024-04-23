@@ -22,6 +22,7 @@ function Dropdown({ title, path = "", items, active }) {
       onMouseLeave={handleMouseLeave}
       onFocus={handleMouseEnter}
       onBlur={handleMouseLeave}
+      className="relative"
     >
       <button
         className={`py-2 relative font-open capitalize transition duration-300 before:w-full before:h-[20px] before:absolute before:top-[95%] ${

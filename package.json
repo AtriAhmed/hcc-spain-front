@@ -27,6 +27,7 @@
     "gatsby-transformer-sharp": "^5.4.0",
     "js-file-download": "^0.4.12",
     "react": "^18.2.0",
+    "react-animate-on-scroll": "^2.1.7",
     "react-animation-on-scroll": "^5.1.0",
     "react-dom": "^18.2.0",
     "react-loading": "^2.0.3",

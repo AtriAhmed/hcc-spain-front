@@ -20,6 +20,6 @@ export default index
 export const Head = () => (
   <Seo
     title="International approval"
-    description="The HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED Certification Foundation (TQ HCC) is accredited and recognized by many international Islamic authorities and is supervised by the independent Islamic Council for Fatwa and Research in the Netherlands."
+    description="Halal Correct France is accredited and recognized by many international Islamic authorities such us SFDA, EIAC and MOIAT."
   />
 )

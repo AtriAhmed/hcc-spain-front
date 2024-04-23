@@ -12,7 +12,7 @@ function HalalGuarantee() {
         </FadeUpOnScroll>
         <FadeUpOnScroll>
           <p className="pt-6 font-open font-normal text-base text-center md:text-left text-slate-900">
-            If you find out our logo on a product in the market it means that
+          If you find out our logo on a product in the market it means that
             the product has been halal certified by us. This assurance comes
             through a various process of certification and inspection from the
             beginning to end production lines.
@@ -23,7 +23,7 @@ function HalalGuarantee() {
             expertise and other relevant training.
             <br />
             <br />
-            The Halal Correct Certification Foundation HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED
+            The Halal correct France Certification Foundation Halal correct France
             Certification places great store on working in compliance with the
             core values and the foundation of the Islamic nutrition regulations
             when it comes to halal certification. “الرجوع إلى الأصل”.
@@ -32,7 +32,7 @@ function HalalGuarantee() {
             That is why we have summarized our guidelines in 7 standards which
             we can guarantee to the Muslim consumer. When you opt for Halal
             Correct, you are choosing the following seven stars/Guarantees of
-            HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED:
+            Halal correct France:
           </p>
           <ul className="px-8 pt-6 font-open font-normal text-base list-disc">
             <li>Guarantee that animal welfare is safeguarded.</li>

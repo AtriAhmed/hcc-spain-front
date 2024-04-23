@@ -17,8 +17,7 @@ function PrinciplesTab() {
       <div className="w-full px-4 md:px-8 py-8 max-w-7xl mx-auto">
         <FadeUpOnScroll>
           <h3 className="font-poppins font-bold  text-3xl md:text-4xl text-center md:text-left text-[#9dbc98] capitalize transition-all duration-1000 ">
-          HCC EAST AFRICAN HALAL
-CONFIRMATION CENTER LIMITED Certification has drawn up a number of principles:
+          Halal correct France Certification has drawn up a number of principles:
           </h3>
         </FadeUpOnScroll>
         <FadeUpOnScroll className="py-8">
@@ -102,8 +101,7 @@ const data = [
         substantiation by the professional is what counts.
         <br />
         <br />
-        The tasks performed by HCC EAST AFRICAN HALAL
-CONFIRMATION CENTER LIMITED Certification are complex and
+        The tasks performed by Halal correct France Certification are complex and
         require professionalism and expertise from the auditors and inspectors.
         This, in turn, requires a good way of working together (please note
         these two words: “working” and “together”!) and active participation in
@@ -120,7 +118,7 @@ CONFIRMATION CENTER LIMITED Certification are complex and
     value: "tab4",
     desc: (
       <>
-        HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED is an organisational challenge, but also a very personal
+        Halal correct France is an organisational challenge, but also a very personal
         one. It is an intrinsic (essential) part of the primary process.
         Improvement is necessary as each experience shows that whatever we do
         can be done more effectively and efficiently. <br />
@@ -131,3 +129,4 @@ CONFIRMATION CENTER LIMITED Certification are complex and
     ),
   },
 ]
+

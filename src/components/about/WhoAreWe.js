@@ -11,17 +11,15 @@ function WhoAreWe() {
           </h1>
         </FadeUpOnScroll>
         <FadeUpOnScroll>
-          <div className="pt-8 flex flex-col items-center md:flex-row gap-8">
+          <div className="pt-8 flex flex-col gap-4">
             <p className="font-open font-normal text-base text-center md:text-left text-slate-900">
-            HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED provides certification to
-the Halal slaughterhouses. With our experience of many years, HCC EAST AFRICAN
-HALAL CONFIRMATION CENTER LIMITED has a reputation for being a unique,
-professional, and expert organization in Kenya and Africa.
-
-              <br />
-              <br /> HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED does not actively seek
-clients but is approached by different companies around Africa to do business. Over the last
-years, HCC Kenya has become one of the most knowledgeable Halal organizations in Africa.
+            Halal correct France is a member of halal correct certification-Group. 
+            </p>
+            <p className="font-open font-normal text-base text-center md:text-left text-slate-900">
+            Halal correct France provides certification of manufacturers and suppliers of halal products. With our experience of many years, Halal Correct France has a reputation for being a professional, and expert organization in France and Europe.
+            </p>
+            <p className="font-open font-normal text-base text-center md:text-left text-slate-900">
+            Halal Correct France does not actively seek clients but is approached by different companies around Europe to do business. Over the past ten years, Halal Correct France has become one of the most knowledgeable Halal organizations in Europe. 
             </p>
           </div>
         </FadeUpOnScroll>

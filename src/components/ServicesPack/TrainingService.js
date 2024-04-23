@@ -18,7 +18,7 @@ function TrainingService() {
               <br />
               <br />
               As skills are the prerequisite for good performance, along with
-              staff involvement at all levels, HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED Certification has
+              staff involvement at all levels, Halal correct France Certification has
               developed a wide range of customized training courses so it can
               share and pass on its knowledge to the personnel in each specific
               company.
