@@ -40,7 +40,7 @@ module.exports = {
           "HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED provides certification of manufacturers and suppliers of halal products. With our experience of many years, HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED Certification has a reputation for being a unique, professional,and expert organization in the Netherlands and Europe.",
         background_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/kenya.jpg`, // This path is relative to the root of the site.
+        icon: `src/images/logo2.png`, // This path is relative to the root of the site.
       },
     },
   ],

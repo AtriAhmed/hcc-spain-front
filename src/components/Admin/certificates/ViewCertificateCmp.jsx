@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react"
 import Modal from "../../Modal"
 import QRCode from "react-qr-code"
-import logo2 from "../../../images/kenya.jpg"
+import logo2 from "../../../images/logo2.png"
 import { StarIcon } from "@heroicons/react/24/outline"
 import { useReactToPrint } from "react-to-print"
 import "./ToPrint.css"
@@ -46,25 +46,25 @@ export default function ViewCertificateCmp({ show, hide, toview }) {
           <div className="w-[793px] h-[1122px] border-black border p-[50px] flex flex-col justify-between">
             <header className="text-[12px] border-b-2 border-black flex justify-between pb-2">
               <div className="">
-                <div>Total Quality HCC E. A. Certification</div>
-                <div>PO. Box 8992-00100, Nairobi, Kenya</div>
+                <div>Total Quality HCC France Certification</div>
+                <div>PO. 59200 Tourcoing, France</div>
                 {/* <div>KvK registration: 27329597</div> */}
-                <div>Tel: +254 722 419794 
+                <div>Tel: +33 661 142 787 
                   {/* fax: +31(071)52 35 771 */}
                   </div>
-                <div>e-mail: halalcentrekenya@gmail.com</div>
+                <div>e-mail: france@halalcorrect.com</div>
                 <div>website: www.hcceastafrica.com</div>
               </div>
               <div className="flex justify-center items-center flex-col">
                 <div className="text-[#30ccbb] text-base">
                   مؤسسة الأمانة الإسلامية لمراقبة اللحوم والأغذية
                 </div>
-                <div className="text-xl">HCC E. A. Certification</div>
+                <div className="text-xl">HCC France Certification</div>
               </div>
               <div className="flex items-center">
                 <img
                   src={logo2}
-                  alt="HCC E. A. logo"
+                  alt="HCC France logo"
                   className="w-full max-w-[135px]"
                 />
               </div>
@@ -94,7 +94,7 @@ export default function ViewCertificateCmp({ show, hide, toview }) {
                   </span>
                 </div>
                 <div className="text-center">
-                  We "Total Quality HCC E. A. Certification" hereby declare,
+                  We "Total Quality HCC France Certification" hereby declare,
                   that the below mentioned products have been produced according
                   to the Islamic Rities and certified by the rules of Halal
                   Correct Certification.
@@ -173,7 +173,7 @@ export default function ViewCertificateCmp({ show, hide, toview }) {
                 <div className="">
                   <div>
                     Certified products are subjects for continous conformity
-                    assurance by HCC E. A.
+                    assurance by HCC France
                   </div>
                 </div>
                 <div className="grid grid-cols-12">
@@ -208,7 +208,7 @@ export default function ViewCertificateCmp({ show, hide, toview }) {
                 <div className="col-span-4 flex flex-col items-center">
                   <div>الهيئة الخاصة بالتدقيق والمراقبة</div>
                   <div className="text-center">
-                    Chairman of the Foundation HCC E. A. Certification
+                    Chairman of the Foundation HCC France Certification
                     MR. Abdulfatteh Ali-Salah
                   </div>
                 </div>
@@ -241,13 +241,13 @@ export default function ViewCertificateCmp({ show, hide, toview }) {
                 </div>
                 <div>
                   It is not allowed to use this Halal certification by
-                  shops/restaurants without permission of HCC E. A..
+                  shops/restaurants without permission of HCC France.
                 </div>
               </div>
               <div className="text-center w-full">
-                HCC E. A. Certification is member of World Halal
+                HCC France Certification is member of World Halal
                 Food Council-WHFC <br></br>And accredited by
-                MUI-JAKIM-MUIS-ESMA-GAC:Copyright 2018 - HCC E. A.
+                MUI-JAKIM-MUIS-ESMA-GAC:Copyright 2018 - HCC France
                 Certification ©
               </div>
             </footer>
@@ -264,26 +264,25 @@ export default function ViewCertificateCmp({ show, hide, toview }) {
             >
               <header className="text-[12px] border-b-2 border-black flex justify-between pb-2">
                 <div className="">
-                <div>Total Quality HCC E. A. Certification</div>
-                <div>PO. Box 8992-00100, Nairobi, Kenya</div>
+                <div>Total Quality HCC France Certification</div>
+                <div>PO. 59200 Tourcoing, France</div>
                 {/* <div>KvK registration: 27329597</div> */}
-                <div>Tel: +254 722 419794 
+                <div>Tel: +33 6 61 14 27 87 
                   {/* fax: +31(071)52 35 771 */}
                   </div>
-                <div>e-mail: halalcentrekenya@gmail.com</div>
+                <div>e-mail: france@halalcorrect.com</div>
                 <div>website: www.hcceastafrica.com</div>
                 </div>
                 <div className="flex justify-center items-center flex-col">
                   <div className="text-[#30ccbb] text-base">
                     مؤسسة الأمانة الإسلامية لمراقبة اللحوم والأغذية
                   </div>
-                  <div className="text-xl">HCC EAST AFRICAN HALAL
-CONFIRMATION CENTER LIMITED</div>
+                  <div className="text-xl">Halal Correct France Certification</div>
                 </div>
                 <div className="flex items-center">
                   <img
                     src={logo2}
-                    alt="HCC E. A. logo"
+                    alt="HCC France Logo"
                     className="w-full max-w-[135px]"
                   />
                 </div>
@@ -319,7 +318,7 @@ CONFIRMATION CENTER LIMITED</div>
 CONFIRMATION CENTER LIMITED" hereby
                     declare, that the below mentioned products have been
                     produced according to the Islamic Rities and certified by
-                    the rules of HCC E. A. Certification.
+                    the rules of HCC France Certification.
                   </div>
                 </section>
                 <section className="max-w-[550px] mx-auto flex flex-col gap-2">
@@ -397,7 +396,7 @@ CONFIRMATION CENTER LIMITED" hereby
                   <div className="">
                     <div>
                       Certified products are subjects for continous conformity
-                      assurance by HCC E. A.
+                      assurance by HCC France
                     </div>
                   </div>
                   <div className="grid grid-cols-12">
@@ -432,7 +431,7 @@ CONFIRMATION CENTER LIMITED" hereby
                   <div className="col-span-4 flex flex-col items-center">
                     <div>الهيئة الخاصة بالتدقيق والمراقبة</div>
                     <div className="text-center">
-                      Chairman of the Foundation HCC E. A. Certification
+                      Chairman of the Foundation HCC France Certification
                       Mr. Hussein Mukter Haji Mohamed
                     </div>
                   </div>
@@ -466,13 +465,13 @@ CONFIRMATION CENTER LIMITED" hereby
                   </div>
                   <div>
                     It is not allowed to use this Halal certification by
-                    shops/restaurants without permission of HCC E. A. .
+                    shops/restaurants without permission of HCC France.
                   </div>
                 </div>
                 <div className="text-center w-full">
-                  HCC E. A. Certification is member of World Halal
+                  HCC France Certification is member of World Halal
                   Food Council-WHFC <br></br>And accredited by
-                  MUI-JAKIM-MUIS-ESMA-GAC:Copyright 2018 - HCC E. A.
+                  MUI-JAKIM-MUIS-ESMA-GAC:Copyright 2018 - HCC France
                   Certification ©
                 </div>
               </footer>
