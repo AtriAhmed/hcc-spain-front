@@ -21,7 +21,7 @@ function Locations() {
     <div className="w-full">
       <div className="w-full px-8 py-10 max-w-w1300 mx-auto">
         <FadeUpOnScroll>
-          <h1 className="font-poppins font-bold text-3xl md:text-4xl text-center md:text-left text-teal-500 capitalize transition-all duration-1000 ">
+          <h1 className="font-poppins font-bold text-3xl md:text-4xl text-center md:text-left text-primary capitalize transition-all duration-1000 ">
             Locations:
           </h1>
         </FadeUpOnScroll>
