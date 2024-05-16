@@ -18,12 +18,7 @@ function VisionDesc() {
         <FadeUpOnScroll>
           <div className="pb-8 pt-4 flex flex-col items-center md:flex-row gap-8">
             <p className="font-open font-normal text-base text-center md:text-left text-slate-900">
-            We believe that people have the right to consume reliable halal
-              products, in France as well as in Europe and the rest of
-              the world. That is why we are committed to continuously improve
-              our own quality management system. To achieve this, we are working
-              more and more on an international level and we increasingly aim
-              for international accreditation.
+            We firmly believe in ensuring that individuals have access to trustworthy halal products, not only in France but also across Europe and globally. That's why we are dedicated to constantly enhancing our own quality management system. To achieve this goal, we are expanding our operations on an international scale and striving for greater international accreditation.
             </p>
           </div>
         </FadeUpOnScroll>
@@ -35,13 +30,7 @@ function VisionDesc() {
         <FadeUpOnScroll>
           <div className="pb-8 pt-4 flex flex-col items-center md:flex-row gap-8">
             <p className="font-open font-normal text-base text-center md:text-left text-slate-900">
-            The mission of Halal correct France is to assist people and organizations
-              who want to consume certified halal products. We certify
-              slaughterhouses and food processing industries around Europe, and
-              we are experts when it comes to the application of the right
-              processes of halal practices we certify and which are involved in
-              the preparation, processing, handling, packaging, transportation,
-              and distribution of food products.
+            The mission of Halal Correct France is to support individuals and organizations seeking certified halal products. We specialize in certifying slaughterhouses and food processing industries across Europe, ensuring the correct application of halal practices throughout various stages, including preparation, processing, handling, packaging, transportation, and distribution of food products.
             </p>
           </div>
         </FadeUpOnScroll>
@@ -53,11 +42,7 @@ function VisionDesc() {
         <FadeUpOnScroll>
           <div className="pt-4 flex flex-col items-center md:flex-row gap-8">
             <p className="font-open font-normal text-base text-center md:text-left text-slate-900">
-            Halal correct France Certification has established a list of principles.
-              These principles are guidelines for the determination of processes
-              and work method. The 5 principles of trust and expertise,
-              conscious integrity, improvements and continuous learning, and an
-              objective approach are the building blocks of Halal correct France.
+            Halal Correct France has established a set of principles to serve as guidelines for our processes and work methods. These principles—trust and expertise, conscious integrity, continuous improvement and learning, and an objective approach—form the foundation of Halal Correct France, ensuring reliability and excellence in our services.
             </p>
           </div>
         </FadeUpOnScroll>

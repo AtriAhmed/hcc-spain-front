@@ -23,14 +23,14 @@ export default Cards
 const arr = [
   {
     title: "the entire chain",
-    text: "Halal correct France shall comply with the foundations of Islamic slaughter and processing of products at all times. Halal correct France handles the entire chain strictly and professionally. In addition, Halal correct France sets the highest standards and requirements to its quality management system by using a professional documentation and traceability system which is implemented.",
+    text: "Halal Correct France ensures adherence to Islamic slaughter and processing principles throughout the supply chain with professionalism. We maintain the highest quality management standards through a rigorous documentation and traceability system, guaranteeing integrity and excellence in halal certification. ",
   },
   {
     title: "the halal consumer",
-    text: "Halal correct France believes that people have the right to consume reliable halal products, in France as well as in Europe and the rest of the world. That is why we continuously aim to improve our quality management system. To achieve this, we have raised our activities to a more international level and we strive for international accreditations and recognition.",
+    text: "Halal Correct France is committed to providing trustworthy halal products globally. We continually enhance our quality management system and pursue international accreditations to uphold the highest standards of reliability and integrity in halal certification.",
   },
   {
     title: "accreditations",
-    text: "Halal correct France Certification works in compliance with the internationally recognized Halal guidelines based on the quality management system ISO 9001:2015/ EC 17065:2012. To provide additional transparency and halal guarantee, it is our goal to obtain broad international recognition. Click here to see all the international accreditations we have obtained.",
+    text: "Halal Correct France operates in alignment with internationally recognized Halal guidelines, following the quality management system standards ISO 9001:2015/EC 17065:2012. Our aim is to enhance transparency and provide a robust halal guarantee by seeking broad international recognition.",
   },
 ]

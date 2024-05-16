@@ -60,7 +60,7 @@ const data = [
     desc: (
       <>
       <div className="font-semibold">Halal correct France is a member of halal correct certification-Group :</div>
-      The Halal Correct Certification Foundation (TQ HCC) is accredited and recognized by many international Islamic authorities and is supervised by the independent Islamic Council for Fatwa and Research in the Netherlands (The Islamic Board for Fatwa & Research in the Netherlands – IBFR). The Islamic Board for Fatwa & Research represents the four largest Islamic law schools and maintains close contact with relevant Islamic institutions in Europe and worldwide. Food technology; Foundation TQ HCC makes use of the expertise of specialized food agencies such as Eurofins Food & Feed Testing (International) and Scienta Nova in the Netherlands for research and laboratory services.
+      The Halal Correct Certification Foundation (TQ HCC) holds accreditation and recognition from numerous international Islamic authorities and operates under the supervision of the independent Islamic Council for Fatwa and Research in the Netherlands (IBFR). The IBFR represents the four major Islamic law schools and maintains strong connections with pertinent Islamic institutions globally. Additionally, TQ HCC collaborates with specialized food agencies like Eurofins Food & Feed Testing (International) and Scienta Nova in the Netherlands for research and laboratory services in the field of food technology. 
       </>
     ),
   },

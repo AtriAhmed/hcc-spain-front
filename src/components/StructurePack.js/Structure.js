@@ -13,9 +13,12 @@ function Structure() {
         <FadeUpOnScroll>
           <div className="pt-8 flex flex-col items-center md:flex-row gap-8">
             <p className="font-open font-normal text-base text-center md:text-left text-slate-900">
-            Mr. Ben Ali-Salah and Mr. Ali Boukhelifa (رحمه الله) are the founders of Halal Correct France which is a member of halal correct certification-Group  and is one of the leading pioneers in the Halal food market in France and Europe.
+            Mr. Ben Ali-Salah and Mr. Ali Boukhelifa (may Allah have mercy on him) are the founders of Halal Correct France, a proud member of the Halal Correct Certification Group and a leading force in the Halal food market in France and Europe. 
               <br />
-              <br /> Our departments work daily on achieving the organizational goals, with the purpose to make Halal food accessible to everyone. The organization chart below shows a simple representation of the departments in the organization. The blue lines represent external departments.
+              <br /> Our departments work diligently each day to fulfill the organizational goals, aiming to make Halal food widely accessible. The organizational chart below provides a simplified overview of our departments. The blue lines indicate external departments. 
+              <br />
+              <br />
+              Our departments work daily on achieving the organizational goals, with the purpose to make Halal food accessible to everyone. The organization chart below shows a simple representation of the departments in the organization. The blue lines represent external departments.
             </p>
           </div>
         </FadeUpOnScroll>

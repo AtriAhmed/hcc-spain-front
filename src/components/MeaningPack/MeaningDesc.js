@@ -13,16 +13,13 @@ function MeaningDesc() {
         <FadeUpOnScroll>
           <div className="pt-8 flex flex-col items-center md:flex-row gap-8">
             <p className="font-open font-normal text-base text-center md:text-left text-slate-900">
-              Halal means Permissible. Related to food, it is the permissible
-              food to be consumed based on Islamic rule. It does not only focus
-              on an end-product, but also to all actions take place prior the
-              delivery to our table.
+            Halal signifies what is permissible for Muslims who adhere to Islam as their religion. It encompasses not only the final product but also every step undertaken before delivery. 
               <br />
               <br />
-              Halal is not only limited to meat products, but according to Islam
-              everything Halal is good for people, animals, the environment and
-              society and vice versa. This also applies to haram. These
-              religious rules regarding food are based on:
+              Halal is a dietary practice governed by clear rules and guidelines that Muslims are obligated to observe. It extends beyond meat products; according to Islamic principles, anything deemed Halal is beneficial for individuals, animals, the environment, and society. Conversely, the same applies to what is considered haram (forbidden). 
+              <br/>
+              <br/>
+              These religious guidelines regarding food are rooted in:
             </p>
           </div>
         </FadeUpOnScroll>
