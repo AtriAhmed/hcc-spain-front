@@ -124,7 +124,7 @@ const certificationItems = {
       path: "/certification/auditing",
     },
     {
-      text: "Benefits of out certification",
+      text: "Benefits of our certification",
       path: "/certification/benefits",
     },
   ],
