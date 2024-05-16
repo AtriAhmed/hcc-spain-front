@@ -25,7 +25,7 @@ function CategoriesList() {
             return (
               <FadeUpOnScroll key={items[0][0].category.id}>
                 <section key={items[0][0].category.id} className="w-fit">
-                  <h3 className="font-open font-bold text-3xl text-teal-500">
+                  <h3 className="font-open font-bold text-3xl text-primary">
                     Categorie: {items[0][0].category.name}
                   </h3>
                   <ul className="px-8 pt-4 list-disc">
