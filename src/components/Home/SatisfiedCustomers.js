@@ -7,7 +7,7 @@ function SatisfiedCustomers() {
     <div className="w-full py-10">
       <div className="w-full max-w-w1300 mx-auto px-8 ">
         <FadeUpOnScroll>
-          <h3 className="font-poppins font-bold text-3xl md:text-4xl text-center md:text-left text-teal-500 capitalize transition-all duration-1000 ">
+          <h3 className="font-poppins font-bold text-3xl md:text-4xl text-center md:text-left text-primary capitalize transition-all duration-1000 ">
             Some of our satisfied customers:
           </h3>
         </FadeUpOnScroll>
