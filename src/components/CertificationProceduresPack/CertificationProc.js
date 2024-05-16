@@ -14,18 +14,10 @@ function CertificationProc() {
         <FadeUpOnScroll>
           <div className="pt-8 flex flex-col items-center md:flex-row gap-8">
             <p className="font-open font-normal text-base text-center md:text-left text-slate-900">
-            The Halal correct France Foundation has designed a systematic procedure
-              for halal certification (see figure below).
+            The Halal Correct France has developed a Halal certification procedure for applying for a Halal Certificate, see figure below.
               <br />
               <br />
-              All processes during the audit time is designed based on Halal
-              Correct Quality manual which refers to ISO/IEC 17065:2012 and GSO
-              2055-2021.
-              <br />
-              <br />
-              In addition, there are also some consideration based on the size,
-              the complexity, the scope, products and production processes in
-              the company (client).
+              The content of the audit program and all adjustments are based on the size and complexity of the organization, scope, products and processing. The proven level of the management system and results from previous audits are determined.
             </p>
           </div>
         </FadeUpOnScroll>

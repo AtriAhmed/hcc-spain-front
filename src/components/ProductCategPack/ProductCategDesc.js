@@ -13,12 +13,10 @@ function ProductCategDesc() {
         <FadeUpOnScroll>
           <div className="pt-8 flex flex-col items-center md:flex-row gap-8">
             <p className="font-open text-base text-center md:text-left text-slate-900 font-semibold">
-              Currently we work with a wide range of product categories. we are
-              also trusted by many International companies which have become our
-              clients for more than 20 years.
+            Halal Correct France is the partner with a strong global network that has more than 20 years of experience in serving producers and suppliers in the Halal market.
               <br />
               <br />
-              Halal correct France categorizes the products according to its scope :
+              Halal Correct France currently certifies the following products:
             </p>
           </div>
         </FadeUpOnScroll>
