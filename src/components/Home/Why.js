@@ -1,10 +1,8 @@
-import { faPlay } from "@fortawesome/free-solid-svg-icons"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { Link } from "gatsby"
 import React from "react"
 import { useUIToolsContext } from "../../contexts/UIToolsProvider"
 import ZoomInOnScroll from "../../lib/ZoomInOnScroll"
-import heroImg from "../../images/AZ.jpg"
+import heroImg from "../../images/handshake.jpeg"
 
 function Why() {
   const { setVideoOpen } = useUIToolsContext()
@@ -22,14 +20,11 @@ function Why() {
         <div className="w-full max-w-7xl m-auto px-8 py-32 flex flex-col lg:flex-row relative z-10">
           <div className="p-10 w-full md:w-[900px] lg:w-[600px] mx-auto lg:mx-0 flex flex-col gap-6 lg:gap-12 items-center lg:items-start bg-[rgba(0,0,0,0.2)]">
             <h1 className="capitalize font-poppins font-bold text-white text-4xl transition-all duration-1000 lg:text-5xl text-center lg:text-left">
-            <span>Providing Reliable</span>
+            <span>Offering Trusted</span>
              <span className="text-[#9dbc98] block">Halal Certification</span>
-              <span className="block">for Manufacturers</span>
+              <span className="block">Services Since 2005 </span>
               <div className="text-sm font-normal text-justify mt-2">
-              Halal Correct France Certification is dedicated to ensuring the authenticity
-and integrity of halal products through our rigorous certification
-process. We work closely with manufacturers and suppliers to meet
-the needs of Muslim consumers worldwide.
+              Halal Correct France is committed to being your trusted partner for halal certification. With our expertise and unwavering dedication to upholding halal integrity, we guarantee that your products will meet the highest standards of halal certification.
               </div>
             </h1>
             <div className="flex gap-4 z-50">
