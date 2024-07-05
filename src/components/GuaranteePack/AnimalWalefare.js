@@ -13,9 +13,9 @@ function AnimalWalefare() {
         <FadeUpOnScroll>
           <div className="pt-8 flex flex-col items-center md:flex-row gap-8">
             <p className="font-open font-normal text-base text-center md:text-left text-slate-900">
-            The welfare of the animals that are intended for halal slaughter
+              The welfare of the animals that are intended for halal slaughter
               is a very important part of the traditional halal certification
-              procedure of Halal correct France certification. The traditional and
+              procedure of Halal correct Germany certification. The traditional and
               ritual halal slaughter system demands a holistic approach to make
               sure that all the traditionally halal-slaughtered meat complies
               with the high standards of animal welfare. In addition, the
@@ -24,7 +24,7 @@ function AnimalWalefare() {
               slaughterhouses to ensure that the Tayyib (health) element of
               halal is carried out properly. This will provide safe and
               high-quality meat and it safeguards the standards for animal
-              welfare. Halal correct France Certification is also part of the committee
+              welfare. Halal correct Germany Certification is also part of the committee
               for slaughtering without the use of stunning or anesthetics, which
               was established by the Dutch government to safeguard the animal
               welfare during halal slaughtering.

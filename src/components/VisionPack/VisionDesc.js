@@ -18,7 +18,7 @@ function VisionDesc() {
         <FadeUpOnScroll>
           <div className="pb-8 pt-4 flex flex-col items-center md:flex-row gap-8">
             <p className="font-open font-normal text-base text-center md:text-left text-slate-900">
-            We firmly believe in ensuring that individuals have access to trustworthy halal products, not only in France but also across Europe and globally. That's why we are dedicated to constantly enhancing our own quality management system. To achieve this goal, we are expanding our operations on an international scale and striving for greater international accreditation.
+              We firmly believe in ensuring that individuals have access to trustworthy halal products, not only in France but also across Europe and globally. That's why we are dedicated to constantly enhancing our own quality management system. To achieve this goal, we are expanding our operations on an international scale and striving for greater international accreditation.
             </p>
           </div>
         </FadeUpOnScroll>
@@ -30,7 +30,7 @@ function VisionDesc() {
         <FadeUpOnScroll>
           <div className="pb-8 pt-4 flex flex-col items-center md:flex-row gap-8">
             <p className="font-open font-normal text-base text-center md:text-left text-slate-900">
-            The mission of Halal Correct France is to support individuals and organizations seeking certified halal products. We specialize in certifying slaughterhouses and food processing industries across Europe, ensuring the correct application of halal practices throughout various stages, including preparation, processing, handling, packaging, transportation, and distribution of food products.
+              The mission of Halal Correct Germany is to support individuals and organizations seeking certified halal products. We specialize in certifying slaughterhouses and food processing industries across Europe, ensuring the correct application of halal practices throughout various stages, including preparation, processing, handling, packaging, transportation, and distribution of food products.
             </p>
           </div>
         </FadeUpOnScroll>
@@ -42,7 +42,7 @@ function VisionDesc() {
         <FadeUpOnScroll>
           <div className="pt-4 flex flex-col items-center md:flex-row gap-8">
             <p className="font-open font-normal text-base text-center md:text-left text-slate-900">
-            Halal Correct France has established a set of principles to serve as guidelines for our processes and work methods. These principles—trust and expertise, conscious integrity, continuous improvement and learning, and an objective approach—form the foundation of Halal Correct France, ensuring reliability and excellence in our services.
+              Halal Correct Germany has established a set of principles to serve as guidelines for our processes and work methods. These principles—trust and expertise, conscious integrity, continuous improvement and learning, and an objective approach—form the foundation of Halal Correct Germany, ensuring reliability and excellence in our services.
             </p>
           </div>
         </FadeUpOnScroll>

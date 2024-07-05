@@ -21,6 +21,6 @@ export default index
 export const Head = () => (
   <Seo
     title="Benefits"
-    description="Halal correct France has been recognized nationally and internationally for its halal certification services. We work with more than hundred clients every year!"
+    description="Halal correct Germany has been recognized nationally and internationally for its halal certification services. We work with more than hundred clients every year!"
   />
 )

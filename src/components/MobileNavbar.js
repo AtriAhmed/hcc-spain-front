@@ -23,9 +23,8 @@ function MobileNavbar() {
 
   return (
     <div
-      className={`fixed top-0 left-0 w-full h-screen overflow-hidden z-[1000] ${
-        mobileNavbarOpen ? "pointer-events-auto" : "pointer-events-none"
-      }`}
+      className={`fixed top-0 left-0 w-full h-screen overflow-hidden z-[1000] ${mobileNavbarOpen ? "pointer-events-auto" : "pointer-events-none"
+        }`}
     >
       <Transition
         show={mobileNavbarOpen}
@@ -62,7 +61,7 @@ function MobileNavbar() {
             <Link to="/" onClick={() => setMobileNavbarOpen(false)}>
               <img
                 src={logo}
-                alt="HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED logo"
+                alt="Halal Correct GermanyN HALAL CONFIRMATION CENTER LIMITED logo"
                 className="w-full max-w-[300px] mx-auto"
               />
             </Link>
@@ -87,16 +86,14 @@ function MobileNavbar() {
                     icon={
                       <FontAwesomeIcon
                         icon={faChevronDown}
-                        className={`transition duration-300 ${
-                          open === index ? "-rotate-180" : ""
-                        }`}
+                        className={`transition duration-300 ${open === index ? "-rotate-180" : ""
+                          }`}
                       />
                     }
                   >
                     <AccordionHeader
-                      className={`px-3 py-2 flex font-open font-semibold text-base text-left ${
-                        open === index ? "border-b" : "border-0"
-                      }`}
+                      className={`px-3 py-2 flex font-open font-semibold text-base text-left ${open === index ? "border-b" : "border-0"
+                        }`}
                       onClick={() =>
                         setOpen(prev => (prev === index ? -1 : index))
                       }

@@ -20,6 +20,6 @@ export default index
 export const Head = () => (
   <Seo
     title="International approval"
-    description="Halal Correct France is accredited and recognized by many international Islamic authorities such us SFDA, EIAC and MOIAT."
+    description="Halal Correct Germany is accredited and recognized by many international Islamic authorities such us SFDA, EIAC and MOIAT."
   />
 )

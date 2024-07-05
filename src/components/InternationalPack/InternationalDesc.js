@@ -13,13 +13,13 @@ function InternationalDesc() {
         <FadeUpOnScroll>
           <div className="pt-8 flex flex-col items-center md:flex-row gap-8">
             <p className="font-open font-normal text-base text-center md:text-left text-slate-900">
-            Did you know that Halal Correct France is the Halal organization with the most international approvals in France?
+              Did you know that Halal Correct Germany is the Halal organization with the most international approvals in France?
               <br />
               <br />
-              Halal Correct France is accredited and recognized by many international Islamic authorities such us SFDA, EIAC and MOIAT.  
+              Halal Correct Germany is accredited and recognized by many international Islamic authorities such us SFDA, EIAC and MOIAT.
               <br />
               <br />
-              
+
             </p>
           </div>
         </FadeUpOnScroll>

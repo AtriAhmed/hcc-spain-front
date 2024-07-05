@@ -22,7 +22,7 @@ function Navbar({ location }) {
       <div className="w-full max-w-7xl flex items-center justify-between m-auto py-4 px-3 lg:px-20">
         <Link to="/">
           <h2 className="uppercase font-poppins font-bold text-xl lg:text-3xl text-center text-white transition-all duration-300">
-            HALAL CORRECT FRANCE
+            HALAL CORRECT GERMANY
           </h2>
         </Link>
         <button
@@ -69,13 +69,13 @@ function Navbar({ location }) {
             />
           </li>
         </ul>
-        <select defaultValue={i18n.language} onChange={onChangeLang}>
+        {/* <select defaultValue={i18n.language} onChange={onChangeLang}>
           {LANGUAGES.map(({ code, label }) => (
             <option key={code} value={code}>
               {label}
             </option>
           ))}
-        </select>
+        </select> */}
         <Link
           to="/contact/apply"
           className="font-bold px-5 py-2 border-2 border-white rounded-full hidden min-[950px]:block font-open text-sm text-white uppercase hover:bg-white hover:text-[#9dbc98] transition duration-500"

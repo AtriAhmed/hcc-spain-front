@@ -46,25 +46,25 @@ export default function ViewCertificateCmp({ show, hide, toview }) {
           <div className="w-[793px] h-[1122px] border-black border p-[50px] flex flex-col justify-between">
             <header className="text-[12px] border-b-2 border-black flex justify-between pb-2">
               <div className="">
-                <div>Total Quality HCC France Certification</div>
-                <div>PO. 59200 Tourcoing, France</div>
+                <div>Total Quality HCC Germany Certification</div>
+                <div>PO. 46047 Oberhausen, Germany</div>
                 {/* <div>KvK registration: 27329597</div> */}
-                <div>Tel: +33 661 142 787 
+                <div>Tel: +49 208 8802 7110
                   {/* fax: +31(071)52 35 771 */}
-                  </div>
-                <div>e-mail: france@halalcorrect.com</div>
-                <div>website: www.hcceastafrica.com</div>
+                </div>
+                <div>e-mail: germany@halalcorrect.com</div>
+                <div>website: www.halalcorrect.de</div>
               </div>
               <div className="flex justify-center items-center flex-col">
                 <div className="text-[#30ccbb] text-base">
                   مؤسسة الأمانة الإسلامية لمراقبة اللحوم والأغذية
                 </div>
-                <div className="text-xl">HCC France Certification</div>
+                <div className="text-xl">HCC Germany Certification</div>
               </div>
               <div className="flex items-center">
                 <img
                   src={logo2}
-                  alt="HCC France logo"
+                  alt="HCC Germany logo"
                   className="w-full max-w-[135px]"
                 />
               </div>
@@ -94,7 +94,7 @@ export default function ViewCertificateCmp({ show, hide, toview }) {
                   </span>
                 </div>
                 <div className="text-center">
-                  We "Total Quality HCC France Certification" hereby declare,
+                  We "Total Quality HCC Germany Certification" hereby declare,
                   that the below mentioned products have been produced according
                   to the Islamic Rities and certified by the rules of Halal
                   Correct Certification.
@@ -173,7 +173,7 @@ export default function ViewCertificateCmp({ show, hide, toview }) {
                 <div className="">
                   <div>
                     Certified products are subjects for continous conformity
-                    assurance by HCC France
+                    assurance by HCC Germany
                   </div>
                 </div>
                 <div className="grid grid-cols-12">
@@ -208,7 +208,7 @@ export default function ViewCertificateCmp({ show, hide, toview }) {
                 <div className="col-span-4 flex flex-col items-center">
                   <div>الهيئة الخاصة بالتدقيق والمراقبة</div>
                   <div className="text-center">
-                    Chairman of the Foundation HCC France Certification
+                    Chairman of the Foundation HCC Germany Certification
                     MR. Abdulfatteh Ali-Salah
                   </div>
                 </div>
@@ -241,13 +241,13 @@ export default function ViewCertificateCmp({ show, hide, toview }) {
                 </div>
                 <div>
                   It is not allowed to use this Halal certification by
-                  shops/restaurants without permission of HCC France.
+                  shops/restaurants without permission of HCC Germany.
                 </div>
               </div>
               <div className="text-center w-full">
-                HCC France Certification is member of World Halal
+                HCC Germany Certification is member of World Halal
                 Food Council-WHFC <br></br>And accredited by
-                MUI-JAKIM-MUIS-ESMA-GAC:Copyright 2018 - HCC France
+                MUI-JAKIM-MUIS-ESMA-GAC:Copyright 2018 - HCC Germany
                 Certification ©
               </div>
             </footer>
@@ -264,25 +264,25 @@ export default function ViewCertificateCmp({ show, hide, toview }) {
             >
               <header className="text-[12px] border-b-2 border-black flex justify-between pb-2">
                 <div className="">
-                <div>Total Quality HCC France Certification</div>
-                <div>PO. 59200 Tourcoing, France</div>
-                {/* <div>KvK registration: 27329597</div> */}
-                <div>Tel: +33 6 61 14 27 87 
-                  {/* fax: +31(071)52 35 771 */}
+                  <div>Total Quality HCC Germany Certification</div>
+                  <div>PO. 46047 Oberhausen, Germany</div>
+                  {/* <div>KvK registration: 27329597</div> */}
+                  <div>Tel: +33 6 61 14 27 87
+                    {/* fax: +31(071)52 35 771 */}
                   </div>
-                <div>e-mail: france@halalcorrect.com</div>
-                <div>website: www.hcceastafrica.com</div>
+                  <div>e-mail: germany@halalcorrect.com</div>
+                  <div>website: www.halalcorrect.de</div>
                 </div>
                 <div className="flex justify-center items-center flex-col">
                   <div className="text-[#30ccbb] text-base">
                     مؤسسة الأمانة الإسلامية لمراقبة اللحوم والأغذية
                   </div>
-                  <div className="text-xl">Halal Correct France Certification</div>
+                  <div className="text-xl">Halal Correct Germany Certification</div>
                 </div>
                 <div className="flex items-center">
                   <img
                     src={logo2}
-                    alt="HCC France Logo"
+                    alt="HCC Germany Logo"
                     className="w-full max-w-[135px]"
                   />
                 </div>
@@ -314,11 +314,11 @@ export default function ViewCertificateCmp({ show, hide, toview }) {
                     </span>
                   </div>
                   <div className="text-center">
-                    We "Total Quality HCC EAST AFRICAN HALAL
-CONFIRMATION CENTER LIMITED" hereby
+                    We "Total Quality Halal Correct GermanyN HALAL
+                    CONFIRMATION CENTER LIMITED" hereby
                     declare, that the below mentioned products have been
                     produced according to the Islamic Rities and certified by
-                    the rules of HCC France Certification.
+                    the rules of HCC Germany Certification.
                   </div>
                 </section>
                 <section className="max-w-[550px] mx-auto flex flex-col gap-2">
@@ -396,7 +396,7 @@ CONFIRMATION CENTER LIMITED" hereby
                   <div className="">
                     <div>
                       Certified products are subjects for continous conformity
-                      assurance by HCC France
+                      assurance by HCC Germany
                     </div>
                   </div>
                   <div className="grid grid-cols-12">
@@ -431,7 +431,7 @@ CONFIRMATION CENTER LIMITED" hereby
                   <div className="col-span-4 flex flex-col items-center">
                     <div>الهيئة الخاصة بالتدقيق والمراقبة</div>
                     <div className="text-center">
-                      Chairman of the Foundation HCC France Certification
+                      Chairman of the Foundation HCC Germany Certification
                       Mr. Hussein Mukter Haji Mohamed
                     </div>
                   </div>
@@ -465,13 +465,13 @@ CONFIRMATION CENTER LIMITED" hereby
                   </div>
                   <div>
                     It is not allowed to use this Halal certification by
-                    shops/restaurants without permission of HCC France.
+                    shops/restaurants without permission of HCC Germany.
                   </div>
                 </div>
                 <div className="text-center w-full">
-                  HCC France Certification is member of World Halal
+                  HCC Germany Certification is member of World Halal
                   Food Council-WHFC <br></br>And accredited by
-                  MUI-JAKIM-MUIS-ESMA-GAC:Copyright 2018 - HCC France
+                  MUI-JAKIM-MUIS-ESMA-GAC:Copyright 2018 - HCC Germany
                   Certification ©
                 </div>
               </footer>

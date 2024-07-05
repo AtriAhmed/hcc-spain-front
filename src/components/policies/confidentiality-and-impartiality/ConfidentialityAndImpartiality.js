@@ -16,8 +16,8 @@ export default function ConfidentialityAndImpartiality() {
             <div className="pt-3">
               <div className="font-bold">1. OBJECTIVE :</div>
               <div className="text-justify">
-              This procedure is prepared to determine the confidentiality and
-                impartiality methods related with HALAL CORRECT FRANCE Halal
+                This procedure is prepared to determine the confidentiality and
+                impartiality methods related with HALAL CORRECT GERMANY Halal
                 Certification activities.
               </div>
             </div>
@@ -26,8 +26,8 @@ export default function ConfidentialityAndImpartiality() {
             <div className="pt-3">
               <span className="font-bold">2. SCOPE :</span>
               <div className="text-justify">
-              This procedure involves, the services that are carried out and
-                personnel who takes part in those services within HALAL CORRECT FRANCE
+                This procedure involves, the services that are carried out and
+                personnel who takes part in those services within HALAL CORRECT GERMANY
                 Halal Certification.
               </div>
             </div>
@@ -36,7 +36,7 @@ export default function ConfidentialityAndImpartiality() {
             <div className="pt-3">
               <div className="font-bold">3. RESPONSIBLE AUTHORITIES</div>
               <div className="text-justify">
-              All of the personnel take role in Halal Certification
+                All of the personnel take role in Halal Certification
                 Activities.
               </div>
             </div>
@@ -45,11 +45,11 @@ export default function ConfidentialityAndImpartiality() {
             <div className="pt-3">
               <div className="font-bold">4. DEFINITIONS</div>
               <div>
-                <span className="font-semibold">HALAL CORRECT FRANCE :</span> Halal
+                <span className="font-semibold">HALAL CORRECT GERMANY :</span> Halal
                 Certification Body<br></br>
                 <span className="font-semibold">HCTS :</span> Halal
                 Certification Technical Specialist<br></br>
-                <span className="font-semibold">QDMS :</span> HALAL CORRECT FRANCE
+                <span className="font-semibold">QDMS :</span> HALAL CORRECT GERMANY
                 Quality Documentation Management System
               </div>
             </div>
@@ -60,7 +60,7 @@ export default function ConfidentialityAndImpartiality() {
               <div className="font-bold">5.1 MANAGEMENT OF CONFIDENTIALITY</div>
               <div className="text-justify">
                 All the documents/records that are related with the activities
-                in HALAL CORRECT FRANCE Halal Certification are accepted as
+                in HALAL CORRECT GERMANY Halal Certification are accepted as
                 confidential. And these are mentioned below:
               </div>
               <div className="mt-2 sm:ml-20 text-justify">
@@ -87,7 +87,7 @@ export default function ConfidentialityAndImpartiality() {
                 All personnel who take part in halal certification activities,
                 the personnel who take part in decision-making, experts,
                 commission members etc. are responsible to provide the
-                confidentiality and impartiality according to the HALAL CORRECT FRANCE
+                confidentiality and impartiality according to the HALAL CORRECT GERMANY
                 Personnel Regulations and Commitment of Confidentiality,
                 Independence and Impartiality which they have signed. After
                 signing the Confidentiality, Independence and Impartiality
@@ -96,7 +96,7 @@ export default function ConfidentialityAndImpartiality() {
                 certification process.
               </div>
               <div className="my-4 text-justify">
-                Commiment members who will have duties within the HALAL CORRECT FRANCE
+                Commiment members who will have duties within the HALAL CORRECT GERMANY
                 commitees can be appointed after signing Confidentiality
                 Commitment of Committee Members.
               </div>
@@ -112,20 +112,20 @@ export default function ConfidentialityAndImpartiality() {
             <div className="pt-3">
               <div className="font-bold">5.2 MANAGEMENT OF IMPARTIALITY</div>
               <div className="text-justify">
-                HALAL CORRECT FRANCE top management has a “Principles of corporate
+                HALAL CORRECT GERMANY top management has a “Principles of corporate
                 service and declaration of top management” in order to provide
                 the impartiality of the activities about halal certification
-                services within HALAL CORRECT FRANCE. In accordance with this
+                services within HALAL CORRECT GERMANY. In accordance with this
                 declaration, the departments act in the ways mentioned below.
               </div>
               <div className="text-justify my-4 sm:ml-20">
                 - An organizational structure has been established to ensure
-                that the Halal Certification services provided by HALAL CORRECT FRANCE
+                that the Halal Certification services provided by HALAL CORRECT GERMANY
                 are carried out in line with the principles of independence,
                 impartiality and honesty.
               </div>
               <div className="text-justify my-4 sm:ml-20">
-                - The HALAL CORRECT FRANCE Board of Directors has given statements and
+                - The HALAL CORRECT GERMANY Board of Directors has given statements and
                 instructions that the service will be provided in line with the
                 principles of impartiality, independence and confidentiality.
               </div>
@@ -135,7 +135,7 @@ export default function ConfidentialityAndImpartiality() {
                 equally and in a balanced manner; in order to determine the
                 issues that may affect/ affect the impartiality and
                 confidentaility of the service provided for the halal
-                certificate given by the HALAL CORRECT FRANCE, to identify conflicts of
+                certificate given by the HALAL CORRECT GERMANY, to identify conflicts of
                 interest and assessing their risks and to take and implement
                 measures,
               </div>
@@ -144,7 +144,7 @@ export default function ConfidentialityAndImpartiality() {
                 information about all services provided, the decisions taken by
                 the committee are not complied with and are not adequately
                 implemented; after detecting inappropriate situations, the
-                committee was authorized to inform the HALAL CORRECT FRANCE General
+                committee was authorized to inform the HALAL CORRECT GERMANY General
                 Manager and the Halal Accreditation Body.
               </div>
               <br />

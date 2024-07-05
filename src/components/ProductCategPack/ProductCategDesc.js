@@ -13,10 +13,10 @@ function ProductCategDesc() {
         <FadeUpOnScroll>
           <div className="pt-8 flex flex-col items-center md:flex-row gap-8">
             <p className="font-open text-base text-center md:text-left text-slate-900 font-semibold">
-            Halal Correct France is the partner with a strong global network that has more than 20 years of experience in serving producers and suppliers in the Halal market.
+              Halal Correct Germany is the partner with a strong global network that has more than 20 years of experience in serving producers and suppliers in the Halal market.
               <br />
               <br />
-              Halal Correct France currently certifies the following products:
+              Halal Correct Germany currently certifies the following products:
             </p>
           </div>
         </FadeUpOnScroll>

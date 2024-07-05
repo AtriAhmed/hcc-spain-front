@@ -34,6 +34,6 @@ const procedures = [
     text: "Food certification help consumers make an easy decision to purchase the products. Halal certification states that the product is allowed to be consumed based on Islamic rules.",
   },
   {
-    text: "An application system for a Halal Certificate has been established by Halal correct France Certification. The completion of the audit program is based on the size, scope, products, processes, level of the management system and the results of previous audits of the organization.",
+    text: "An application system for a Halal Certificate has been established by Halal correct Germany Certification. The completion of the audit program is based on the size, scope, products, processes, level of the management system and the results of previous audits of the organization.",
   },
 ]

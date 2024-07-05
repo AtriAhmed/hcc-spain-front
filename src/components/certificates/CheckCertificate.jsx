@@ -37,7 +37,7 @@ export default function CheckCertificate({ location, params }) {
           <div className=" p-[50px] flex flex-col justify-between">
             <header className="grid grid-cols-12 text-[12px] border-b-2 border-black pb-2">
               <div className="col-span-12 sm:col-span-4">
-                <div>Total Quality Halal correct France Certification(TQHCC)</div>
+                <div>Total Quality Halal correct Germany Certification(TQHCC)</div>
                 <div>PO. Box 179, 2300 AD Leiden, the Netherlands, C.C.</div>
                 <div>KvK registration: 27329597</div>
                 <div>Tel: +31(071)52 35 770 fax: +31(071)52 35 771</div>
@@ -48,12 +48,12 @@ export default function CheckCertificate({ location, params }) {
                 <div className="text-[#30ccbb] text-base">
                   مؤسسة الأمانة الإسلامية لمراقبة اللحوم والأغذية
                 </div>
-                <div className="text-xl">Halal correct France Certification</div>
+                <div className="text-xl">Halal correct Germany Certification</div>
               </div>
               <div className="col-span-12 sm:col-span-4 flex items-center justify-center sm:justify-end">
                 <img
                   src={logo2}
-                  alt="halal correct france logo"
+                  alt="halal correct germany logo"
                   className="w-full max-w-[135px]"
                 />
               </div>
@@ -83,7 +83,7 @@ export default function CheckCertificate({ location, params }) {
                   </span>
                 </div>
                 <div className="text-center">
-                  We "Total Quality Halal correct France Certification" hereby declare,
+                  We "Total Quality Halal correct Germany Certification" hereby declare,
                   that the below mentioned products have been produced according
                   to the Islamic Rities and certified by the rules of Halal
                   Correct Certification.
@@ -162,7 +162,7 @@ export default function CheckCertificate({ location, params }) {
                 <div className="">
                   <div>
                     Certified products are subjects for continous conformity
-                    assurance by Halal correct France
+                    assurance by Halal correct Germany
                   </div>
                 </div>
                 <div className="grid grid-cols-12">
@@ -202,13 +202,13 @@ export default function CheckCertificate({ location, params }) {
                 </div>
                 <div>
                   It is not allowed to use this Halal certification by
-                  shops/restaurants without permission of Halal correct France.
+                  shops/restaurants without permission of Halal correct Germany.
                 </div>
               </div>
               <div className="text-center w-full">
-                Halal correct France Certification (TQHCC) is member of World Halal
+                Halal correct Germany Certification (TQHCC) is member of World Halal
                 Food Council-WHFC <br></br>And accredited by
-                MUI-JAKIM-MUIS-ESMA-GAC:Copyright 2018 - Halal correct France
+                MUI-JAKIM-MUIS-ESMA-GAC:Copyright 2018 - Halal correct Germany
                 Certification ©
               </div>
             </footer>

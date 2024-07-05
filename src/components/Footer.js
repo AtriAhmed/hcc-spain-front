@@ -16,48 +16,44 @@ function Footer() {
         <div className="px-8 lg:px-20 py-10 border border-[#9dbc98] rounded-lg grid grid-cols-12 gap-6 relative before:border-4 before:border-[#9dbc98] before:rounded-xl before:absolute before:inset-[-7px] before:z-[-1]">
           <section className="col-span-12 sm:col-span-6 lg:col-span-3">
             <h3 className="pb-4 font-poppins font-semibold text-xl text-[#9dbc98] uppercase">
-            HALAL CORRECT FRANCE CERTIFICATION
+              Halal Correct Germany CERTIFICATION
             </h3>
             <ul className="font-poppins font-light text-sm">
               <li>
                 <span className="font-semibold uppercase">P.O: </span>
-                <span className=" text-sm">59200 Tourcoing, France</span>
+                <span className=" text-sm">46047 Oberhausen, Germany</span>
               </li>
               <li>
                 <span className="font-semibold">ADDRESS: </span>
-                <span className="text-sm">445 Bd Gambetta</span>
+                <span className="text-sm">Centroallee 273-277</span>
               </li>
               <li>
                 <span className="font-semibold">Phone: </span>
                 <a
-                  href="tel:+33661142787"
+                  href="tel:+4920888027110"
                   className="text-blue-500 hover:text-blue-700 transition duration-300 text-sm"
                 >
-                  +33 6 61 14 27 87
+                  +49 208 8802 7110
                 </a>
               </li>
+
               <li className="flex gap-2">
                 <div className="font-semibold">Email: </div>
                 <div className="">
-                <a
-                  href="mailto:france@halalcorrect.com"
-                  className="text-blue-500 hover:text-blue-700 transition duration-300 text-sm"
-                >
-                 france@halalcorrect.com<br />
-                </a>
-                {/* <a href="mailto:kenya@hcceastafrica.com"
-                className="text-blue-500 hover:text-blue-700 transition duration-300 text-sm"
-                >
-                 kenya@hcceastafrica.com
-                </a> */}
+                  <a
+                    href="mailto:germany@halalcorrect.com"
+                    className="text-blue-500 hover:text-blue-700 transition duration-300 text-sm"
+                  >
+                    germany@halalcorrect.com<br />
+                  </a>
                 </div>
               </li>
               <li>
                 <span className="font-semibold">SCOPE: </span>
-               <span className="text-sm"> Halal inspection and Halal Certification</span>
+                <span className="text-sm"> Halal inspection and Halal Certification</span>
               </li>
             </ul>
-            
+
           </section>
           <section className="col-span-12 sm:col-span-6 lg:col-span-3">
             <h3 className="pb-4 font-poppins font-semibold text-xl text-[#9dbc98] uppercase">
@@ -94,14 +90,14 @@ function Footer() {
           <section className="flex items-center justify-center col-span-12 sm:col-span-6 lg:col-span-3">
             <img
               src={logo2}
-              alt="HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED logo"
+              alt="Halal Correct GermanyN HALAL CONFIRMATION CENTER LIMITED logo"
               className="w-full max-w-[300px]"
             />
           </section>
         </div>
         <p className="max-w-[600px] py-10 mx-auto font-poppins font-light text-lg text-[#9dbc98] text-center">
           © Copyright{" "}
-          <span className="font-semibold">Halal Correct France Certification.</span>{" "}
+          <span className="font-semibold">Halal Correct Germany Certification.</span>{" "}
           All Rights Reserved Powered by CODA-TECH
         </p>
       </div>

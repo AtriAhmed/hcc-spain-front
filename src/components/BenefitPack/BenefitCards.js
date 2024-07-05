@@ -24,6 +24,6 @@ const benefits = [
     text: "At the 'wanting companies' the desire to offer good quality, to meet the Halal standards and to obtain a certificate stems from the inner desire of the management and employees. At the 'must-have companies', on the other hand, this is more or less enforced by the customers. A number of companies simply do not do business with non-Halal certified suppliers.",
   },
   {
-    text: "Excellent quality is not only the main focus for Halal correct France certified suppliers. For most of the cases it can be the main focus; however, quality and certification are not inextricably linked. Obtaining a certificate is sometimes compared to obtaining a school diploma: someone has the necessary knowledge, skills and insight. But just after obtaining the diploma, the person has to prove again and again that he continues to deliver the right performance.",
+    text: "Excellent quality is not only the main focus for Halal correct Germany certified suppliers. For most of the cases it can be the main focus; however, quality and certification are not inextricably linked. Obtaining a certificate is sometimes compared to obtaining a school diploma: someone has the necessary knowledge, skills and insight. But just after obtaining the diploma, the person has to prove again and again that he continues to deliver the right performance.",
   },
 ]

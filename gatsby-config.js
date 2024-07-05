@@ -12,10 +12,10 @@ require("dotenv").config({
 })
 module.exports = {
   siteMetadata: {
-    title: `HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED`,
-    description: `HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED Certification provides certification of manufacturers and suppliers of halal products. With our experience of many years, HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED Certification has a reputation for being a unique, professional,and expert organization in the Netherlands and Europe.`,
-    author: `HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED`,
-    siteUrl: `https://hcceastafrica.com`,
+    title: `Halal Correct GermanyN HALAL CONFIRMATION CENTER LIMITED`,
+    description: `Halal Correct GermanyN HALAL CONFIRMATION CENTER LIMITED Certification provides certification of manufacturers and suppliers of halal products. With our experience of many years, Halal Correct GermanyN HALAL CONFIRMATION CENTER LIMITED Certification has a reputation for being a unique, professional,and expert organization in the Netherlands and Europe.`,
+    author: `Halal Correct GermanyN HALAL CONFIRMATION CENTER LIMITED`,
+    siteUrl: `https://halalcorrect.de`,
   },
   plugins: [
     "gatsby-plugin-sitemap",
@@ -33,11 +33,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED`,
-        short_name: `HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED`,
+        name: `Halal Correct GermanyN HALAL CONFIRMATION CENTER LIMITED`,
+        short_name: `Halal Correct GermanyN HALAL CONFIRMATION CENTER LIMITED`,
         start_url: `/`,
         description:
-          "HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED provides certification of manufacturers and suppliers of halal products. With our experience of many years, HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED Certification has a reputation for being a unique, professional,and expert organization in the Netherlands and Europe.",
+          "Halal Correct GermanyN HALAL CONFIRMATION CENTER LIMITED provides certification of manufacturers and suppliers of halal products. With our experience of many years, Halal Correct GermanyN HALAL CONFIRMATION CENTER LIMITED Certification has a reputation for being a unique, professional,and expert organization in the Netherlands and Europe.",
         background_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/logo2.png`, // This path is relative to the root of the site.

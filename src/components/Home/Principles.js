@@ -9,7 +9,7 @@ function Principles() {
         <FadeUpOnScroll>
           <section className="p-8 bg-[#9dbc98] backdrop-blur-sm rounded-xl max-w-[600px] flex flex-col gap-3 mx-auto lg:mx-0">
             <h4 className="font-poppins font-semibold text-2xl text-black ">
-            Corporate social responsibility principles of Halal correct France:
+              Corporate social responsibility principles of Halal correct Germany:
             </h4>
             <p className="font-open italic text-gray-800">
               We apply these CSR principles With every activity and decision we
