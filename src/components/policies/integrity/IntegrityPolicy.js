@@ -12,15 +12,15 @@ function IntegrityPolicy() {
         </FadeUpOnScroll>
         <FadeUpOnScroll>
           <p className="pt-6 font-open font-normal text-base text-center md:text-left text-slate-900">
-          We do it all for the halal consumer, according to Halal correct France's
-            motto. Employees at Halal correct France contribute to this philosophy,
+            We do it all for the halal consumer, according to Halal Correct Certification- Group's
+            motto. Employees at Halal correct Germany contribute to this philosophy,
             which is something to be proud of. The four additional work concepts
-            that Halal correct France has particularly named as being the cornerstone
-            of Halal correct France are "Confidence in workmanship," "Consciously
+            that Halal correct Germany has particularly named as being the cornerstone
+            of Halal correct Germany are "Confidence in workmanship," "Consciously
             ethical," "Improving and learning continuously," and "Objective
-            approach." Halal correct France must be trustworthy to consumers. In many
-            ways, Halal consumers depend on the Halal review. The Halal correct France
-            organization must be moral as a result. This calls for Halal correct France
+            approach." Halal correct Germany must be trustworthy to consumers. In many
+            ways, Halal consumers depend on the Halal review. The Halal correct Germany
+            organization must be moral as a result. This calls for Halal correct Germany
             to conduct its business with integrity and dependability and to
             treat its customers fairly and respectfully.
           </p>
@@ -29,9 +29,9 @@ function IntegrityPolicy() {
               Integrity and impartiality:
               <br />
               <br />
-              Halal correct France Certification (Halal correct France Certification)
+              Halal correct Germany Certification (Halal correct Germany Certification)
               guarantees its impartiality policy and confidentiality with
-              respect to the delivery of all our services. The Halal correct France
+              respect to the delivery of all our services. The Halal correct Germany
               Certification managers and auditors are thoroughly screened and
               trained to ensure their integrity, impartiality, and
               confidentiality. The Executive Board and employees of Halal
@@ -49,7 +49,7 @@ function IntegrityPolicy() {
               Commission to guarantee Impartiality and Confidentiality:
               <br />
               <br />
-              The Halal correct France Certification Foundation is supervised by an
+              Halal Correct Germany is supervised by an
               independent committee of balanced representation of interested
               stakeholders in the sector who test and guarantee the impartiality
               and confidentiality of the organization.

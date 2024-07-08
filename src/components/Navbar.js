@@ -4,16 +4,25 @@ import { Link } from "gatsby"
 import React from "react"
 import { useUIToolsContext } from "../contexts/UIToolsProvider"
 import Dropdown from "../lib/Dropdown"
+import { LANGUAGES } from "../constants"
+import { useTranslation } from "react-i18next"
 
 function Navbar({ location }) {
-  const { setMobileNavbarOpen } = useUIToolsContext()
+  const { setMobileNavbarOpen } = useUIToolsContext();
+
+  const { i18n, t } = useTranslation()
+
+  const onChangeLang = (e) => {
+    const lang_code = e.target.value;
+    i18n.changeLanguage(lang_code);
+  }
 
   return (
     <div className="fixed z-[100] w-full bg-[rgba(0,0,0,0.5)]">
       <div className="w-full max-w-7xl flex items-center justify-between m-auto py-4 px-3 lg:px-20">
         <Link to="/">
           <h2 className="uppercase font-poppins font-bold text-xl lg:text-3xl text-center text-white transition-all duration-300">
-            HALAL CORRECT FRANCE
+            HALAL CORRECT GERMANY
           </h2>
         </Link>
         <button
@@ -24,11 +33,10 @@ function Navbar({ location }) {
         </button>
         <ul className="hidden min-[950px]:flex gap-4 text-sm list-none">
           <li
-            className={`py-2 font-open transition duration-500 ${
-              location?.pathname === "/"
-                ? "text-[#9dbc98] font-bold"
-                : "font-medium text-white hover:text-[#9dbc98]"
-            }`}
+            className={`py-2 font-open transition duration-500 ${location?.pathname === "/"
+              ? "text-[#9dbc98] font-bold"
+              : "font-medium text-white hover:text-[#9dbc98]"
+              }`}
           >
             <Link to="/">Home</Link>
           </li>
@@ -61,11 +69,18 @@ function Navbar({ location }) {
             />
           </li>
         </ul>
+        {/* <select defaultValue={i18n.language} onChange={onChangeLang}>
+          {LANGUAGES.map(({ code, label }) => (
+            <option key={code} value={code}>
+              {label}
+            </option>
+          ))}
+        </select> */}
         <Link
           to="/contact/apply"
           className="font-bold px-5 py-2 border-2 border-white rounded-full hidden min-[950px]:block font-open text-sm text-white uppercase hover:bg-white hover:text-[#9dbc98] transition duration-500"
         >
-          apply now
+          {t('apply now')}
         </Link>
       </div>
     </div>

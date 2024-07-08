@@ -1,5 +1,5 @@
 import React from "react"
-import CertificationProc from "../../components/CertificationProceduresPack/CertificationProc"
+import CertificationProc from "../../components/certification-procedures/CertificationProc"
 import Partnership from "../../components/Partnership"
 import Seo from "../../components/seo"
 import procedureImg from "../../images/certification_procedure_1.png"

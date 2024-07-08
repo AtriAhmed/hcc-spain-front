@@ -1,7 +1,7 @@
 {
   "name": "halal-correct",
   "private": true,
-  "description": "HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED Certification provides certification of manufacturers and suppliers of halal products. With our experience of many years, HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED Certification has a reputation for being a unique, professional,and expert organization in the Netherlands and Europe.",
+  "description": "Halal Correct GermanyN HALAL CONFIRMATION CENTER LIMITED Certification provides certification of manufacturers and suppliers of halal products. With our experience of many years, Halal Correct GermanyN HALAL CONFIRMATION CENTER LIMITED Certification has a reputation for being a unique, professional,and expert organization in the Netherlands and Europe.",
   "version": "0.1.0",
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -25,11 +25,14 @@
     "gatsby-plugin-sitemap": "^6.4.0",
     "gatsby-source-filesystem": "^5.4.0",
     "gatsby-transformer-sharp": "^5.4.0",
+    "i18next": "^23.11.5",
+    "i18next-http-backend": "^2.5.2",
     "js-file-download": "^0.4.12",
     "react": "^18.2.0",
     "react-animate-on-scroll": "^2.1.7",
     "react-animation-on-scroll": "^5.1.0",
     "react-dom": "^18.2.0",
+    "react-i18next": "^14.1.2",
     "react-loading": "^2.0.3",
     "react-multi-email": "^1.0.6",
     "react-qr-code": "^2.0.12",
@@ -64,7 +67,7 @@
     "halal",
     "halal business",
     "halal products",
-    "HCC EAST AFRICAN HALAL CONFIRMATION CENTER LIMITED"
+    "Halal Correct GermanyN HALAL CONFIRMATION CENTER LIMITED"
   ],
   "license": "0BSD",
   "scripts": {

@@ -1,9 +1,9 @@
 import React from "react"
 import HalalProducer from "../../components/HalalProducer"
-import BasedOn from "../../components/MeaningPack/BasedOn"
-import MeaningDesc from "../../components/MeaningPack/MeaningDesc"
-import MeaningFeatures from "../../components/MeaningPack/MeaningFeatures"
-import MeaningTabs from "../../components/MeaningPack/MeaningTabs"
+import BasedOn from "../../components/meaning/BasedOn"
+import MeaningDesc from "../../components/meaning/MeaningDesc"
+import MeaningFeatures from "../../components/meaning/MeaningFeatures"
+import MeaningTabs from "../../components/meaning/MeaningTabs"
 import Partnership from "../../components/Partnership"
 import Seo from "../../components/seo"
 

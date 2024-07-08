@@ -1,7 +1,7 @@
 import React from "react"
 import HalalProducer from "../../components/HalalProducer"
 import Seo from "../../components/seo"
-import VisionDesc from "../../components/VisionPack/VisionDesc"
+import VisionDesc from "../../components/vision/VisionDesc"
 import vision1 from "../../images/vision_1.png"
 import FadeUpOnScroll from "../../lib/FadeUpOnScroll"
 

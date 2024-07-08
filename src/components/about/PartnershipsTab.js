@@ -17,7 +17,7 @@ function PartnershipsTab() {
       <div className="w-full px-4 md:px-8 py-10 max-w-7xl mx-auto">
         <FadeUpOnScroll>
           <h3 className="font-poppins font-bold  text-3xl md:text-4xl text-center md:text-left text-[#9dbc98] capitalize transition-all duration-1000 ">
-          Halal correct France Certification has drawn up a number of principles:
+            Halal correct Germany Certification has drawn up a number of principles:
           </h3>
         </FadeUpOnScroll>
         <FadeUpOnScroll className="pt-8">
@@ -59,8 +59,8 @@ const data = [
     value: "tab1",
     desc: (
       <>
-      <div className="font-semibold">Halal correct France is a member of halal correct certification-Group :</div>
-      The Halal Correct Certification Foundation (TQ HCC) is accredited and recognized by many international Islamic authorities and is supervised by the independent Islamic Council for Fatwa and Research in the Netherlands (The Islamic Board for Fatwa & Research in the Netherlands – IBFR). The Islamic Board for Fatwa & Research represents the four largest Islamic law schools and maintains close contact with relevant Islamic institutions in Europe and worldwide. Food technology; Foundation TQ HCC makes use of the expertise of specialized food agencies such as Eurofins Food & Feed Testing (International) and Scienta Nova in the Netherlands for research and laboratory services.
+        <div className="font-semibold">Halal correct Germany is a member of halal correct certification-Group :</div>
+        The Halal Correct Certification Foundation (TQ HCC) holds accreditation and recognition from numerous international Islamic authorities and operates under the supervision of the independent Islamic Council for Fatwa and Research in the Netherlands (IBFR). The IBFR represents the four major Islamic law schools and maintains strong connections with pertinent Islamic institutions globally. Additionally, TQ HCC collaborates with specialized food agencies like Eurofins Food & Feed Testing (International) and Scienta Nova in the Netherlands for research and laboratory services in the field of food technology.
       </>
     ),
   },
@@ -69,7 +69,7 @@ const data = [
     value: "tab2",
     desc: (
       <>
-        Halal correct France Certification works in compliance with the internationally
+        Halal correct Germany Certification works in compliance with the internationally
         recognized halal guidelines based on the quality management system ISO
         9001:2015/ EC 17065:2012 and EC 19011:2011. To provide additional
         transparency and halal guarantee, it is our goal to obtain a broad

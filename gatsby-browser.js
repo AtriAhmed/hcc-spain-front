@@ -16,6 +16,7 @@ import "animate.css";
 import axios from "axios"
 import AdminPrivateRoute from "./src/components/auth/AdminPrivateRoute"
 import AuthProvider from "./src/contexts/AuthProvider"
+import "./src/i18n";
 
 export function onClientEntry() {
   /* Prevents fontawesome auto css insertion */
