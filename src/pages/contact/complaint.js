@@ -1,5 +1,5 @@
 import React from "react"
-import Complaint from "../../components/ContactPack/Complaint"
+import Complaint from "../../components/contact/Complaint"
 import Seo from "../../components/seo"
 
 function index() {

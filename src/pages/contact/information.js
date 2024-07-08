@@ -1,5 +1,5 @@
 import React from "react"
-import RequestInformation from "../../components/ContactPack/RequestInformation"
+import RequestInformation from "../../components/contact/RequestInformation"
 import Seo from "../../components/seo"
 
 function index() {

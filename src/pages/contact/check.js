@@ -1,5 +1,5 @@
 import React from "react"
-import CertificateCheck from "../../components/ContactPack/CertificateCheck"
+import CertificateCheck from "../../components/contact/CertificateCheck"
 import Seo from "../../components/seo"
 
 function index() {

@@ -60,19 +60,19 @@ export default function RegulationFee() {
               <div>
                 Each client has different manufacturing location. The distance
                 is counted according to the location of the Head office of Halal
-                Correct in the Netherlands.
+                Correct in Germany.
               </div>
               <div>
-                There are many costumers located outside of the Netherlands;
+                There are also costumers located outside of Germany;
                 however, it does not mean that the price would be much higher.
                 Other several components would affect the charged fee.
                 Therefore, the location is considered as one of the factors
-                affecting the fee due to Halal correct Germany spending on transport to
+                affecting the fee due to Halal Correct Germany spending on transport to
                 reach the company, accommodation, days of audit, and auditor
                 fee.
               </div>
               <div>
-                The accessible location from the client in the Netherlands much
+                The accessible location from the client in in Germany much
                 easier rather than the client located in Norway, as an example.
                 Then it will increase the traveling cost and other mentioned
                 component above.

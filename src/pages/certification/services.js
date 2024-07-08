@@ -2,9 +2,9 @@ import React from "react"
 import HalalProducer from "../../components/HalalProducer"
 import Partnership from "../../components/Partnership"
 import Seo from "../../components/seo"
-import AuditingServices from "../../components/ServicesPack/AuditingServices"
-import QuickScan from "../../components/ServicesPack/QuickScan"
-import TrainingService from "../../components/ServicesPack/TrainingService"
+import AuditingServices from "../../components/services/AuditingServices"
+import QuickScan from "../../components/services/QuickScan"
+import TrainingService from "../../components/services/TrainingService"
 import FadeUpOnScroll from "../../lib/FadeUpOnScroll"
 
 function index() {

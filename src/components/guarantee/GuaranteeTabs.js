@@ -59,7 +59,7 @@ const data = [
     value: "tab1",
     desc: (
       <>
-        Halal correct Germany logo is registered at Benelux office for Intellectual
+        Halal correct Germany logo is registered at the European office for Intellectual
         Property. Any kinds of use for our logo need to be communicated with us.
         The third parties is allowed to use the logo only if Halal correct Germany has
         given its written consent.

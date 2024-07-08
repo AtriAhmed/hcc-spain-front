@@ -1,8 +1,8 @@
 import React from "react"
 import HalalProducer from "../../components/HalalProducer"
 import Partnership from "../../components/Partnership"
-import CategoriesList from "../../components/ProductCategPack/CategoriesList"
-import ProductCategDesc from "../../components/ProductCategPack/ProductCategDesc"
+import CategoriesList from "../../components/products-categories/CategoriesList"
+import ProductCategDesc from "../../components/products-categories/ProductCategDesc"
 import Seo from "../../components/seo"
 
 function index({ serverData }) {

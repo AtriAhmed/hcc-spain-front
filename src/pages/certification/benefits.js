@@ -1,5 +1,5 @@
 import React from "react"
-import BenefitDesc from "../../components/BenefitPack/BenefitDesc"
+import BenefitDesc from "../../components/benefits/BenefitDesc"
 import HalalProducer from "../../components/HalalProducer"
 import Partnership from "../../components/Partnership"
 import Seo from "../../components/seo"

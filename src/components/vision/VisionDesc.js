@@ -18,7 +18,7 @@ function VisionDesc() {
         <FadeUpOnScroll>
           <div className="pb-8 pt-4 flex flex-col items-center md:flex-row gap-8">
             <p className="font-open font-normal text-base text-center md:text-left text-slate-900">
-              We firmly believe in ensuring that individuals have access to trustworthy halal products, not only in France but also across Europe and globally. That's why we are dedicated to constantly enhancing our own quality management system. To achieve this goal, we are expanding our operations on an international scale and striving for greater international accreditation.
+              We firmly believe in ensuring that individuals have access to trustworthy halal products, not only in Germany but also across Europe and globally. That's why we are dedicated to constantly enhancing our own quality management system. To achieve this goal, we are expanding our operations on an international scale and striving for greater international accreditation.
             </p>
           </div>
         </FadeUpOnScroll>

@@ -66,7 +66,7 @@ function BenefitDesc() {
               <br />A recognized and legal halal certificate is only issued by
               admitted and specialized halal certification bodies. Halal correct Germany
               has been accredited by several Halal Accreditation Bodies located
-              in some countries for instance EIAC, JAKIM, MUI, and MUIS,
+              in some countries for instance EIAC and GSO countries, HAK, JAKIM, MUI, and MUIS,
               resulting a great performance for halal correct germany to continuou their
               vision and mission to help muslim community worldwide. The
               certificate gained from some accreditation bodies is updated

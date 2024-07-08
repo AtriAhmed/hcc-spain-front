@@ -24,10 +24,7 @@ function AnimalWalefare() {
               slaughterhouses to ensure that the Tayyib (health) element of
               halal is carried out properly. This will provide safe and
               high-quality meat and it safeguards the standards for animal
-              welfare. Halal correct Germany Certification is also part of the committee
-              for slaughtering without the use of stunning or anesthetics, which
-              was established by the Dutch government to safeguard the animal
-              welfare during halal slaughtering.
+              welfare.
             </p>
           </div>
         </FadeUpOnScroll>

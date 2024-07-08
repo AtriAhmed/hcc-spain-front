@@ -1,6 +1,6 @@
 import React from "react"
 import HalalProducer from "../../components/HalalProducer"
-import InternationalDesc from "../../components/InternationalPack/InternationalDesc"
+import InternationalDesc from "../../components/international/InternationalDesc"
 import Partnership from "../../components/Partnership"
 import Seo from "../../components/seo"
 

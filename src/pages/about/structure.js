@@ -1,7 +1,7 @@
 import React from "react"
 import HalalProducer from "../../components/HalalProducer"
 import Seo from "../../components/seo"
-import Structure from "../../components/StructurePack.js/Structure"
+import Structure from "../../components/structure/Structure"
 import structure1 from "../../images/structure_1.jpg"
 import FadeUpOnScroll from "../../lib/FadeUpOnScroll"
 
@@ -14,7 +14,7 @@ function structure() {
       <FadeUpOnScroll>
         <div className="max-w-5xl mx-auto py-10">
           <div className="flex justify-center text-4xl text-blue-400 font-medium">Main structure organization</div>
-        <img src={structure1} alt="Structure" className="mx-auto py-10" />
+          <img src={structure1} alt="Structure" className="mx-auto py-10" />
         </div>
       </FadeUpOnScroll>
     </div>
