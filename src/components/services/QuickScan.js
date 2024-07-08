@@ -8,8 +8,8 @@ function QuickScan() {
         <FadeUpOnScroll>
           <div className="pt-8 flex flex-col items-center md:flex-row gap-8">
             <p className="font-open font-normal text-base text-center md:text-left text-slate-900">
-            We believe that people have the right to consume reliable halal
-              products, in France as well as in Europe and the rest of
+              We believe that people have the right to consume reliable halal
+              products, in Germany as well as in Europe and the rest of
               the world.
               <br />
               <br />

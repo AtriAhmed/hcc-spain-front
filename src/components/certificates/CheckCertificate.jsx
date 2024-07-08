@@ -38,7 +38,7 @@ export default function CheckCertificate({ location, params }) {
             <header className="grid grid-cols-12 text-[12px] border-b-2 border-black pb-2">
               <div className="col-span-12 sm:col-span-4">
                 <div>Total Quality Halal correct Germany Certification(TQHCC)</div>
-                <div>PO. Box 179, 2300 AD Leiden, the Netherlands, C.C.</div>
+                <div>PO. Box 179, 2300 AD Leiden, Germany, C.C.</div>
                 <div>KvK registration: 27329597</div>
                 <div>Tel: +31(071)52 35 770 fax: +31(071)52 35 771</div>
                 <div>e-mail: info@halalcorrect.com</div>

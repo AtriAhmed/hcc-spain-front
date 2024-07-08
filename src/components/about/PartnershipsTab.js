@@ -60,7 +60,7 @@ const data = [
     desc: (
       <>
         <div className="font-semibold">Halal correct Germany is a member of halal correct certification-Group :</div>
-        The Halal Correct Certification Foundation (TQ HCC) holds accreditation and recognition from numerous international Islamic authorities and operates under the supervision of the independent Islamic Council for Fatwa and Research in the Netherlands (IBFR). The IBFR represents the four major Islamic law schools and maintains strong connections with pertinent Islamic institutions globally. Additionally, TQ HCC collaborates with specialized food agencies like Eurofins Food & Feed Testing (International) and Scienta Nova in the Netherlands for research and laboratory services in the field of food technology.
+        The Halal Correct Certification Foundation (TQ HCC) holds accreditation and recognition from numerous international Islamic authorities and operates under the supervision of the independent Islamic Council for Fatwa and Research in Germany (IBFR). The IBFR represents the four major Islamic law schools and maintains strong connections with pertinent Islamic institutions globally. Additionally, TQ HCC collaborates with specialized food agencies like Eurofins Food & Feed Testing (International) and Scienta Nova in Germany for research and laboratory services in the field of food technology.
       </>
     ),
   },

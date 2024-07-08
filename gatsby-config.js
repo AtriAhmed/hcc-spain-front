@@ -13,7 +13,7 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: `Halal Correct GermanyN HALAL CONFIRMATION CENTER LIMITED`,
-    description: `Halal Correct GermanyN HALAL CONFIRMATION CENTER LIMITED Certification provides certification of manufacturers and suppliers of halal products. With our experience of many years, Halal Correct GermanyN HALAL CONFIRMATION CENTER LIMITED Certification has a reputation for being a unique, professional,and expert organization in the Netherlands and Europe.`,
+    description: `Halal Correct GermanyN HALAL CONFIRMATION CENTER LIMITED Certification provides certification of manufacturers and suppliers of halal products. With our experience of many years, Halal Correct GermanyN HALAL CONFIRMATION CENTER LIMITED Certification has a reputation for being a unique, professional,and expert organization in Germany and Europe.`,
     author: `Halal Correct GermanyN HALAL CONFIRMATION CENTER LIMITED`,
     siteUrl: `https://halalcorrect.de`,
   },
@@ -37,7 +37,7 @@ module.exports = {
         short_name: `Halal Correct GermanyN HALAL CONFIRMATION CENTER LIMITED`,
         start_url: `/`,
         description:
-          "Halal Correct GermanyN HALAL CONFIRMATION CENTER LIMITED provides certification of manufacturers and suppliers of halal products. With our experience of many years, Halal Correct GermanyN HALAL CONFIRMATION CENTER LIMITED Certification has a reputation for being a unique, professional,and expert organization in the Netherlands and Europe.",
+          "Halal Correct GermanyN HALAL CONFIRMATION CENTER LIMITED provides certification of manufacturers and suppliers of halal products. With our experience of many years, Halal Correct GermanyN HALAL CONFIRMATION CENTER LIMITED Certification has a reputation for being a unique, professional,and expert organization in Germany and Europe.",
         background_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/logo2.png`, // This path is relative to the root of the site.
