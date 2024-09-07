@@ -13,7 +13,7 @@ function WhoAreWe() {
         <FadeUpOnScroll>
           <div className="pt-8 flex flex-col gap-4">
             <p className="font-open font-normal text-base text-center md:text-left text-slate-900">
-              Halal Correct Germany is a proud member of the Halal Correct Certification Group. We specialize in providing certification services to manufacturers and suppliers of halal products.
+              Halal Correct Germany is a proud member of the Halal Correct Certification-Group. We specialize in providing certification services to manufacturers and suppliers of halal products.
             </p>
             <p className="font-open font-normal text-base text-center md:text-left text-slate-900">
               With years of experience, Halal Correct Germany has earned a reputation as a professional and expert organization in Germany and across Europe.

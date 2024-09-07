@@ -12,7 +12,7 @@ function IntegrityPolicy() {
         </FadeUpOnScroll>
         <FadeUpOnScroll>
           <p className="pt-6 font-open font-normal text-base text-center md:text-left text-slate-900">
-            We do it all for the halal consumer, according to Halal Correct Certification- Group's
+            We do it all for the halal consumer, according to Halal Correct Certification-Group's
             motto. Employees at Halal correct Germany contribute to this philosophy,
             which is something to be proud of. The four additional work concepts
             that Halal correct Germany has particularly named as being the cornerstone

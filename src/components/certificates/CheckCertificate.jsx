@@ -53,7 +53,7 @@ export default function CheckCertificate({ location, params }) {
               <div className="col-span-12 sm:col-span-4 flex items-center justify-center sm:justify-end">
                 <img
                   src={logo2}
-                  alt="halal correct germany logo"
+                  alt="Halal Correct germany logo"
                   className="w-full max-w-[135px]"
                 />
               </div>

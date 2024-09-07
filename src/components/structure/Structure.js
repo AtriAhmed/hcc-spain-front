@@ -13,7 +13,7 @@ function Structure() {
         <FadeUpOnScroll>
           <div className="pt-8 flex flex-col items-center md:flex-row gap-8">
             <p className="font-open font-normal text-base text-center md:text-left text-slate-900">
-              Mr. A. Ali-Salah and Mr. T. Maatoug are the founders of Halal Correct Germany, a proud member of the Halal Correct Certification Group and a leading force in the Halal food market in Europe.
+              Mr. A. Ali-Salah and Mr. T. Maatoug are the founders of Halal Correct Germany, a proud member of the Halal Correct Certification-Group and a leading force in the Halal food market in Europe.
               <br />
               <br /> Our departments work diligently each day to fulfill the organizational goals, aiming to make Halal food widely accessible. The organizational chart below provides a simplified overview of our departments. The blue lines indicate external departments.
               <br />

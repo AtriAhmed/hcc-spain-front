@@ -4,7 +4,7 @@ import FadeUpOnScroll from "../../lib/FadeUpOnScroll"
 
 function Principles() {
   return (
-    <div className="w-full py-20 bg-[url(./images/Team.jpeg)] bg-fixed bg-no-repeat bg-cover bg-[100%_70%]">
+    <div className="w-full py-20 bg-[url(./images/Team.jpg)] bg-fixed bg-no-repeat bg-cover bg-[100%_70%]">
       <div className="w-full h-full px-4 md:px-8 max-w-7xl mx-auto bg-center flex items-center">
         <FadeUpOnScroll>
           <section className="p-8 bg-[#9dbc98] backdrop-blur-sm rounded-xl max-w-[600px] flex flex-col gap-3 mx-auto lg:mx-0">

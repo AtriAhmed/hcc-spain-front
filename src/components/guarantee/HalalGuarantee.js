@@ -23,7 +23,7 @@ function HalalGuarantee() {
             expertise and other relevant training.
             <br />
             <br />
-            The Halal correct Certification-group of which Halal Correct Germany is a part, places great store on working in compliance with the
+            The Halal correct Certification-Group of which Halal Correct Germany is a part, places great store on working in compliance with the
             core values and the foundation of the Islamic nutrition regulations
             when it comes to halal certification. “الرجوع إلى الأصل”.
             <br />
