@@ -1,5 +1,5 @@
 import axios from 'axios';
-import  React,{useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Swal from 'sweetalert2';
 import ReactLoading from "react-loading"
 
@@ -8,7 +8,7 @@ export default function EditUserCmp(props) {
     const [userInput, setUser] = useState({
         name: '',
         email: '',
-        role_as: '0',
+        role: '0',
         password: '',
     });
 
@@ -17,7 +17,7 @@ export default function EditUserCmp(props) {
 
     useEffect(() => {
         if (props.toedit) {
-            setUser({...userInput,name:props.toedit.name,email:props.toedit.email,role_as:props.toedit.role_as});
+            setUser({ ...userInput, name: props.toedit.name, email: props.toedit.email, role: props.toedit.role });
             setLoading(false);
         }
 
@@ -33,7 +33,7 @@ export default function EditUserCmp(props) {
         const data = {
             name: userInput.name,
             email: userInput.email,
-            role_as: userInput.role_as,
+            role: userInput.role,
             password: userInput.password,
         };
         axios.put(`/api/update-user/${props.toedit.id}`, data).then(res => {
@@ -75,11 +75,11 @@ export default function EditUserCmp(props) {
                     <span className='text-red-600'>{errors.password}</span>
                 </div>
                 <div>
-                <label htmlFor="role" className="block mb-2 text-sm font-medium text-gray-900">Role</label>
-                <select id="role" name='role_as' onChange={handleInput} value={userInput.role_as} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
-                    <option value="1">Admin</option>
-                    <option value="0">User</option>
-                </select>
+                    <label htmlFor="role" className="block mb-2 text-sm font-medium text-gray-900">Role</label>
+                    <select id="role" name='role' onChange={handleInput} value={userInput.role} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
+                        <option value="1">Admin</option>
+                        <option value="0">User</option>
+                    </select>
                 </div>
                 <button type="submit" className="self-center w-[50%] bg-blue-500 hover:bg-blue-700 rounded-full py-3 text-white font-bold">Edit User</button>
 

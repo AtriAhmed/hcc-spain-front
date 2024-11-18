@@ -68,6 +68,14 @@ function Navbar({ location }) {
               active={location?.pathname.indexOf("/contact") === 0}
             />
           </li>
+          <li
+            className={`py-2 font-open font-normal transition duration-500 ${location?.pathname === "/blog"
+              ? "text-primary"
+              : "text-white hover:text-primary"
+              }`}
+          >
+            <Link to="/blog">Blog</Link>
+          </li>
         </ul>
         {/* <select defaultValue={i18n.language} onChange={onChangeLang}>
           {LANGUAGES.map(({ code, label }) => (

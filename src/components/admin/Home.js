@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className='max-w-7xl mx-auto p-5'>
       <div className='grid grid-cols-12 gap-4'>
-        {user.role_as == 1 ? <>
+        {user.role == 1 ? <>
           <Link className='col-span-4 shadow-lg rounded-lg p-6 flex flex-col items-center justify-center' to='/admin/users'><UsersIcon className="block h-10 w-10 flex-start" aria-hidden="true" /> Users</Link>
           <Link className='col-span-4 shadow-lg rounded-lg p-6 flex flex-col items-center justify-center' to='/admin/users-requests'><UserPlusIcon className="block h-10 w-10 flex-start" aria-hidden="true" /> Users Requests</Link>
         </> : <></>}

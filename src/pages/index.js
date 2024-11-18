@@ -10,6 +10,7 @@ import FadeUpOnScroll from "../lib/FadeUpOnScroll"
 import DivsSection from "../components/home/DivsSection"
 import SatisfiedCustomers from "../components/home/SatisfiedCustomers"
 import Map from "../components/Map"
+import BlogSection from "../components/home/BlogSection"
 
 function IndexPage() {
   return (
@@ -18,6 +19,7 @@ function IndexPage() {
       <Principles />
       <DivsSection />
       <Partnership />
+      <BlogSection />
       <Procedures />
       <PrinciplesTab />
       <HalalProducer />
