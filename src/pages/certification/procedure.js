@@ -12,7 +12,7 @@ function index() {
 
       <CertificationProc />
       <FadeUpOnScroll>
-        <img src={procedureImg} alt="procedure" className="mx-auto py-10" />
+        <img src={procedureImg} alt="procedimiento" className="mx-auto py-10" />
       </FadeUpOnScroll>
       <Partnership />
     </div>
