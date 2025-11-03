@@ -22,4 +22,4 @@ function index() {
 
 export default index
 
-export const Head = () => <Seo title="Locations" />
+export const Head = () => <Seo title="Nuestras ubicaciones" />
