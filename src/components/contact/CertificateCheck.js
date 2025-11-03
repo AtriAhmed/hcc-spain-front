@@ -70,17 +70,17 @@ function CertificateCheck() {
       !questionVal.length ||
       !usedInVal.length
     ) {
-      setError("All fields are required")
+      setError("Todos los campos son obligatorios")
       return
     }
 
     if (!file) {
-      setError("Please select a file")
+      setError("Por favor selecciona un archivo")
       return
     }
 
     if (!validator.isEmail(emailVal)) {
-      setError("Please enter a valid email")
+      setError("Por favor ingrese un email válido")
       return
     }
 
@@ -98,20 +98,18 @@ function CertificateCheck() {
       )
       setSent(true)
     } catch (err) {
-      setError("There has been an error, please try again")
+      setError("Ha ocurrido un error, por favor intente nuevamente")
     }
     setLoading(false)
   }
 
-  useEffect(() => {
-
-  }, [file])
+  useEffect(() => {}, [file])
 
   if (sent)
     return (
       <div className="w-full max-w-[500px] px-10 py-28 rounded-lg bg-[#9dbc98] flex flex-col items-center justify-center">
         <h3 className="mb-6 font-open font-light text-3xl md:text-4xl text-center text-white">
-          Your request has been sent
+          Su solicitud ha sido enviada
         </h3>
         <CircleCheck width={125} height={125} fill="white" />
         <Link
@@ -122,7 +120,7 @@ function CertificateCheck() {
             icon={faArrowLeft}
             className="mr-2 ml-[-20px] text-[#9dbc98]"
           />
-          Home
+          Inicio
         </Link>
       </div>
     )
@@ -134,7 +132,7 @@ function CertificateCheck() {
     >
       <section className="w-full md:w-1/2 bg-white p-10 rounded-t-xl md:rounded-l-xl md:rounded-tr-none">
         <h1 className="px-2 py-6 font-open font-normal text-2xl md:text-3xl text-center capitalize text-[#9dbc98]">
-          Halal certificate check
+          Comprobación del certificado Halal
         </h1>
         <div className="w-full flex flex-col gap-6 font-open font-bold text-base text-slate-900 ">
           <input
@@ -142,7 +140,7 @@ function CertificateCheck() {
             name="company"
             value={company}
             onChange={e => setCompany(e.target.value)}
-            placeholder="Your Company Name"
+            placeholder="Nombre de tu empresa"
             className="px-2 py-2 border-b border-slate-500 placeholder-slate-500 bg-transparent outline-none"
             required
             autoFocus
@@ -152,7 +150,7 @@ function CertificateCheck() {
             name="name"
             value={name}
             onChange={e => setName(e.target.value)}
-            placeholder="Your Name"
+            placeholder="Tu nombre"
             className="px-2 py-2 border-b border-slate-500 placeholder-slate-500 bg-transparent outline-none"
             required
           />
@@ -161,7 +159,7 @@ function CertificateCheck() {
             name="email"
             value={email}
             onChange={e => setEmail(e.target.value)}
-            placeholder="Your Email"
+            placeholder="Tu correo electrónico"
             className="px-2 py-2 border-b border-slate-500 placeholder-slate-500 bg-transparent outline-none"
             required
           />
@@ -170,7 +168,7 @@ function CertificateCheck() {
             name="position"
             value={position}
             onChange={e => setPosition(e.target.value)}
-            placeholder="Your Position"
+            placeholder="Tu puesto"
             className="px-2 py-2 border-b border-slate-500 placeholder-slate-500 bg-transparent outline-none"
             required
           />
@@ -183,12 +181,12 @@ function CertificateCheck() {
             name="country"
             value={country}
             onChange={e => setCountry(e.target.value)}
-            placeholder="Your Country"
+            placeholder="Tu país"
             className="px-2 py-1 border-b border-slate-100 placeholder-slate-100 bg-transparent outline-none"
             required
           />
           <p className="pt-1 mb-[-20px] text-slate-900">
-            Your question about halal certificate check:
+            Tu pregunta sobre la comprobación del certificado Halal:
           </p>
           <input
             type="text"
@@ -200,7 +198,7 @@ function CertificateCheck() {
             required
           />
           <p className="pt-1 mb-[-20px] text-slate-900">
-            Where is the certificate found or used?
+            ¿Dónde te encuentras o utilizas el certificado?
           </p>
           <input
             type="text"
@@ -212,8 +210,8 @@ function CertificateCheck() {
             required
           />
           <p className="px-2 pt-1">
-            Upload halal certificates or relevant documents regarding halal
-            certificate check
+            Carga certificados Halal o documentos relevantes para la
+            comprobación del certificado Halal
           </p>
           <div className="mx-2 relative z-[50] flex max-[450px]:flex-col gap-3 items-center">
             <label
@@ -222,9 +220,9 @@ function CertificateCheck() {
               tabIndex={0}
             >
               <FontAwesomeIcon icon={faUpload} />
-              Choose file
+              Seleccionar archivo
             </label>
-            <p>{file?.name || "No files selected"}</p>
+            <p>{file?.name || "No se han seleccionado archivos"}</p>
           </div>
           <input
             type="file"
@@ -233,7 +231,7 @@ function CertificateCheck() {
             onChange={e => {
               if (!e.target.files.length) return
               if (e.target.files[0].size > 1024 * 1024 * 100) {
-                setError("Document should be less than 100MB")
+                setError("El documento debe ser menor a 100MB")
                 return
               }
               setError("")
@@ -254,13 +252,14 @@ function CertificateCheck() {
             </div>
           )}
           <div
-            className={`${!error ? "mt-4" : ""
-              } mb-8 flex flex-col sm:flex-row gap-4 font-semibold`}
+            className={`${
+              !error ? "mt-4" : ""
+            } mb-8 flex flex-col sm:flex-row gap-4 font-semibold`}
           >
             <div className="w-full sm:w-1/2 relative">
               <input
                 type="submit"
-                value="Send"
+                value="Enviar"
                 className="w-full px-3 py-2 rounded-2xl text-slate-900 bg-gradient-to-br from-green-200 to-green-400 cursor-pointer hover:filter hover:saturate-[200%] transition duration-300"
               />
               {loading && (
@@ -282,7 +281,7 @@ function CertificateCheck() {
                 icon={faArrowLeft}
                 className="mr-2 ml-[-20px] text-slate-600"
               />
-              Back
+              Atrás
             </Link>
           </div>
         </div>

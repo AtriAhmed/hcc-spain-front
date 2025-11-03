@@ -12,4 +12,4 @@ function index() {
 
 export default index
 
-export const Head = () => <Seo title="Certificate check" />
+export const Head = () => <Seo title="Comprobación del certificado Halal" />
