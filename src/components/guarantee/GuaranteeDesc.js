@@ -7,31 +7,34 @@ function GuaranteeDesc() {
       <div className="w-full px-8 py-10 max-w-7xl mx-auto">
         <FadeUpOnScroll>
           <h1 className="font-poppins font-bold text-3xl md:text-4xl text-center md:text-left text-[#9dbc98] capitalize transition-all duration-1000 ">
-            Halal correct Germany Quality guarantee:
+            Garantía de calidad de Halal correct Spain:
           </h1>
         </FadeUpOnScroll>
         <FadeUpOnScroll>
           <div className="pt-8 flex flex-col items-center md:flex-row gap-8">
             <p className="font-open font-normal text-base text-center md:text-left text-slate-900">
-              The guarantee for quality and continuity plays a pivotal concern
-              at Halal correct Germany system. We use a structural procedure to select,
-              train and authorize our auditor and Islamic Affair Expert to do
-              the audit. We also focus on investing our team to help us reach
-              our goals in the future.
+              La garantía de calidad y continuidad es una prioridad en el
+              sistema Halal correct Spain. Utilizamos un procedimiento
+              estructurado para seleccionar, capacitar y autorizar a nuestro
+              auditor y experto en asuntos islámicos para realizar la auditoría.
+              También nos centramos en invertir en nuestro equipo para que nos
+              ayude a alcanzar nuestros objetivos futuros.
               <br />
               <br />
-              The Halal correct Germany Certification activities are according to ISO
-              17065, ISO 17021:1-2012 and Gulf standard 2055:2-2021 to ensure
-              the quality and services we provide for our clients. This is why
-              Halal correct Germany Certification will always be striving to improve its
-              own quality management.
+              Las actividades de Certificación Halal Correct Spain se rigen por
+              las normas ISO 17065, ISO 17021:1-2012 y la norma del Golfo
+              2055:2-2021 para garantizar la calidad y los servicios que
+              ofrecemos a nuestros clientes. Por ello, La Certificación Halal
+              Correct Spain nos esforzamos constantemente por mejorar nuestra
+              propia gestión de calidad.
               <br />
               <br />
-              Our lead auditors are continuously working through traineeships to
-              develop and to train different auditors for different scope
-              application areas, so our auditors with the right knowledge will
-              be more widely employable. All auditors are in possession of ISO
-              19011 quality standard (auditing and audit techniques).
+              Nuestros auditores principales realizan prácticas continuamente
+              para desarrollar y capacitar a diferentes auditores en diferentes
+              áreas de aplicación, de modo que nuestros auditores con los
+              conocimientos adecuados tengan una mayor empleabilidad. Todos los
+              auditores poseen la norma de calidad ISO 19011 (auditoría y
+              técnicas de auditoría).
             </p>
           </div>
         </FadeUpOnScroll>

@@ -7,57 +7,59 @@ function HalalGuarantee() {
       <div className="w-full px-8 py-10 max-w-7xl mx-auto">
         <FadeUpOnScroll>
           <h3 className="font-poppins font-bold text-3xl md:text-4xl text-center md:text-left text-[#9dbc98] capitalize transition-all duration-1000 ">
-            The Halal Guarantee:
+            Garantía Halal:
           </h3>
         </FadeUpOnScroll>
         <FadeUpOnScroll>
           <p className="pt-6 font-open font-normal text-base text-center md:text-left text-slate-900">
-            If you find out our logo on a product in the market it means that
-            the product has been halal certified by us. This assurance comes
-            through a various process of certification and inspection from the
-            beginning to end production lines.
+            Si encuentra nuestro logotipo en un producto en el mercado,
+            significa que cuenta con nuestra certificación Halal. Esta garantía
+            se obtiene mediante diversos procesos de certificación e inspección
+            desde el inicio hasta el final de la línea de producción.
             <br />
             <br />
-            We select, train and authorize the auditor and Islamic Affair Expert
-            based on their audit experiences, educational background, category
-            expertise and other relevant training.
+            Seleccionamos, capacitamos y autorizamos al auditor y al experto en
+            asuntos islámicos en función de su experiencia en auditorías,
+            formación académica, experiencia en la categoría y otra formación
+            relevante.
             <br />
             <br />
-            The Halal correct Certification-Group of which Halal Correct Germany is a part, places great store on working in compliance with the
-            core values and the foundation of the Islamic nutrition regulations
-            when it comes to halal certification. “الرجوع إلى الأصل”.
+            El Grupo de Certificación Halal Correct, del que forma parte Halal
+            Correct Spain, prioriza el cumplimiento de los valores fundamentales
+            y los fundamentos de las normas nutricionales islámicas en materia
+            de certificación Halal. “الرجوع إلى الأصل”.
             <br />
             <br />
-            That is why we have summarized our guidelines in 7 standards which
-            we can guarantee to the Muslim consumer. When you opt for Halal
-            Correct, you are choosing the following seven stars/Guarantees of
-            Halal correct Germany:
+            Por eso, hemos resumido nuestras directrices en 7 estándares que
+            garantizamos al consumidor musulmán. Al optar por Halal Correct,
+            elige las siguientes siete estrellas/Garantías de Halal Correct
+            Spain:
           </p>
           <ul className="px-8 pt-6 font-open font-normal text-base list-disc">
-            <li>Guarantee that animal welfare is safeguarded.</li>
+            <li>Garantía de protección del bienestar animal.</li>
             <li>
-              Guarantee that the animal is 100% healthy and alive during
-              slaughtering.
+              Garantizamos que el animal está 100 % sano y vivo durante el
+              sacrificio.
             </li>
             <li>
-              Guarantee that we do not allow shooting guns and no anesthesia by
+              Garantizamos que no se permiten armas de fuego ni anestesia con
               gas.
             </li>
             <li>
-              Guarantee that all animals are slaughtered by hand in accordance
-              with Islamic custom and by Muslims.
+              Garantizamos que todos los animales son sacrificados a mano, de
+              acuerdo con la costumbre islámica y por musulmanes.
             </li>
             <li>
-              Guarantee that the halal production is always completely separated
-              and executed in pig-free areas.
+              Garantizamos que la producción halal siempre está completamente
+              separada y se realiza en zonas libres de cerdos.
             </li>
             <li>
-              Guarantee that all ingredients and additives are screened and
-              approved for halal dignity.
+              Garantizamos que todos los ingredientes y aditivos son examinados
+              y aprobados para garantizar su dignidad halal.
             </li>
             <li>
-              Guarantee that we permanently and consistently monitor the entire
-              chain from slaughter to packaging.
+              Garantizamos que monitoreamos de forma permanente y consistente
+              toda la cadena, desde el sacrificio hasta el envasado.
             </li>
           </ul>
         </FadeUpOnScroll>

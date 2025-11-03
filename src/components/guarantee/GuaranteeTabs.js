@@ -17,7 +17,8 @@ function GuaranteeTabs() {
       <div className="w-full px-4 md:px-8 py-10 max-w-7xl mx-auto">
         <FadeUpOnScroll>
           <h3 className="font-poppins font-bold  text-3xl md:text-4xl text-center md:text-left text-[#9dbc98] capitalize transition-all duration-1000 ">
-            Halal correct Germany Certification has drawn up a number of principles:
+            La Certificación Halal Correct Spain ha establecido una serie de
+            principios:
           </h3>
         </FadeUpOnScroll>
         <FadeUpOnScroll className="pt-8">
@@ -59,16 +60,16 @@ const data = [
     value: "tab1",
     desc: (
       <>
-        Halal correct Germany logo is registered at the European office for Intellectual
-        Property. Any kinds of use for our logo need to be communicated with us.
-        The third parties is allowed to use the logo only if Halal correct Germany has
-        given its written consent.
+        El logotipo de Halal correct Spain está registrado en la Oficina Europea
+        de Propiedad Intelectual. Cualquier uso de nuestro logotipo debe ser
+        comunicado a nosotros. Terceros solo pueden usar el logotipo con el
+        consentimiento por escrito de Halal correct Spain.
         <br />
         <br />
-        The use of the logo on packaging is only allowed for clients who have a
-        contract with Halal correct Germany Certification and who were given written
-        consent which includes a description of where, how, and for which
-        product groups the logo can be used.
+        El uso del logotipo en envases solo está permitido para clientes que
+        tengan un contrato con La Certificación Halal Correct Spain y que hayan
+        obtenido el consentimiento por escrito que incluya una descripción de
+        dónde, cómo y para qué grupos de productos se puede utilizar.
       </>
     ),
   },
@@ -77,17 +78,19 @@ const data = [
     value: "tab2",
     desc: (
       <>
-        The issuance of halal certificates can be done after all certification
-        procedure have been passed by the company/client. The contract also
-        needs to be signed before the certification begins. The member of the
-        Executive Board and the chairman of the Sharia/religious council will be
-        two authorized parties who will sign and validate the contract.
+        La emisión de certificados halal se puede realizar una vez que la
+        empresa/cliente haya superado todos los procedimientos de certificación.
+        El contrato también debe firmarse antes del inicio de la certificación.
+        El miembro del Comité Ejecutivo y el presidente del consejo
+        sharia/religioso serán las dos partes autorizadas que firmarán y
+        validarán el contrato.
         <br />
         <br />
-        The Halal correct Germany certificates are intended for the clients and their
-        customers to guarantee the dignity of the halal products. It is strictly
-        prohibited to use the Halal correct Germany certificates as proof of halal
-        dignity in restaurants and in shops/retail branch.
+        Los certificados Halal correct Spain están destinados a los clientes y a
+        sus consumidores para garantizar la dignidad de los productos halal.
+        Está estrictamente prohibido utilizar los certificados Halal correct
+        Spain como prueba de la dignidad halal en restaurantes, tiendas y
+        establecimientos minoristas.
       </>
     ),
   },

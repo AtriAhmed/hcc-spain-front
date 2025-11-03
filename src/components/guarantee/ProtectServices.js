@@ -7,23 +7,24 @@ function ProtectServices() {
       <div className="w-full px-8 py-10 max-w-7xl mx-auto">
         <FadeUpOnScroll>
           <h3 className="font-poppins font-bold text-3xl md:text-4xl text-center md:text-left text-[#9dbc98] capitalize transition-all duration-1000 ">
-            How we protect our services:
+            Cómo protegemos nuestros servicios:
           </h3>
         </FadeUpOnScroll>
         <FadeUpOnScroll>
           <ul className="px-8 pt-6 font-open font-normal text-base list-disc">
             <li>
-              Our customer relationship management handles any questions as soon
-              as possible within 24 hours.
+              Nuestro equipo de gestión de relaciones con el cliente responde a
+              cualquier consulta lo antes posible en un plazo de 24 horas.
             </li>
             <li>
-              Spread and maintain the network with the international
-              authorities.
+              Ampliamos y mantenemos la red con las autoridades internacionales.
             </li>
-            <li>Apply halal audit standard during the certification.</li>
             <li>
-              Join national and international halal and food safety conferences
-              or workshop.
+              Aplicamos el estándar de auditoría halal durante la certificación.
+            </li>
+            <li>
+              Participamos en conferencias o talleres nacionales e
+              internacionales sobre halal y seguridad alimentaria.
             </li>
           </ul>
         </FadeUpOnScroll>

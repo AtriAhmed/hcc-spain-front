@@ -28,7 +28,7 @@ export default index
 
 export const Head = () => (
   <Seo
-    title="Halal guarantee"
-    description="We use a structural procedure to select, train and authorize our auditor and Islamic Affair Expert to do the audit."
+    title="Garantía Halal"
+    description="Seleccionamos, capacitamos y autorizamos al auditor y al experto en asuntos islámicos en función de su experiencia en auditorías, formación académica, experiencia en la categoría y otra formación relevante."
   />
 )
