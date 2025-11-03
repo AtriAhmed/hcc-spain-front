@@ -13,7 +13,7 @@ function vision() {
       <FadeUpOnScroll>
         <img
           src={vision1}
-          alt="vision"
+          alt="visión"
           className="w-full max-w-[600px] m-auto py-10"
         />
       </FadeUpOnScroll>
@@ -24,4 +24,4 @@ function vision() {
 
 export default vision
 
-export const Head = () => <Seo title="Vision" />
+export const Head = () => <Seo title="Visión" />
