@@ -16,7 +16,7 @@ function Partnership() {
       <div className="w-full px-8 py-16 max-w-w1300 mx-auto">
         <FadeUpOnScroll>
           <h3 className="capitalize font-poppins font-bold text-3xl md:text-4xl text-center md:text-left text-primary  transition-all duration-1000 ">
-            Accreditation and partnership:
+            Acreditación y colaboración:
           </h3>
         </FadeUpOnScroll>
         <FadeUpOnScroll>
@@ -68,5 +68,5 @@ const slides = [
   },
   {
     src: hcc,
-  }
+  },
 ]

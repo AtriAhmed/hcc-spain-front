@@ -8,20 +8,20 @@ import { LANGUAGES } from "../constants"
 import { useTranslation } from "react-i18next"
 
 function Navbar({ location }) {
-  const { setMobileNavbarOpen } = useUIToolsContext();
+  const { setMobileNavbarOpen } = useUIToolsContext()
 
   const { i18n, t } = useTranslation()
 
-  const onChangeLang = (e) => {
-    const lang_code = e.target.value;
-    i18n.changeLanguage(lang_code);
+  const onChangeLang = e => {
+    const lang_code = e.target.value
+    i18n.changeLanguage(lang_code)
   }
 
   return (
-    <div className="fixed z-[100] w-full bg-[rgba(0,0,0,0.5)]">
-      <div className="w-full max-w-7xl flex items-center justify-between m-auto py-4 px-3 lg:px-20">
+    <div className="z-[100] fixed w-full bg-[rgba(0,0,0,0.5)]">
+      <div className="flex justify-between items-center w-full max-w-7xl m-auto px-3 lg:px-20 py-4">
         <Link to="/">
-          <h2 className="uppercase font-poppins font-bold text-xl lg:text-3xl text-center text-white transition-all duration-300">
+          <h2 className="font-poppins font-bold text-white text-xl lg:text-3xl text-center uppercase transition-all duration-300">
             HALAL CORRECT GERMANY
           </h2>
         </Link>
@@ -33,12 +33,13 @@ function Navbar({ location }) {
         </button>
         <ul className="hidden min-[950px]:flex gap-4 text-sm list-none">
           <li
-            className={`py-2 font-open transition duration-500 ${location?.pathname === "/"
-              ? "text-[#9dbc98] font-bold"
-              : "font-medium text-white hover:text-[#9dbc98]"
-              }`}
+            className={`py-2 font-open transition duration-500 ${
+              location?.pathname === "/"
+                ? "text-[#9dbc98] font-bold"
+                : "font-medium text-white hover:text-[#9dbc98]"
+            }`}
           >
-            <Link to="/">Home</Link>
+            <Link to="/">Inicio</Link>
           </li>
           <li>
             <Dropdown
@@ -69,10 +70,11 @@ function Navbar({ location }) {
             />
           </li>
           <li
-            className={`py-2 font-open font-normal transition duration-500 ${location?.pathname === "/blog"
-              ? "text-primary"
-              : "text-white hover:text-primary"
-              }`}
+            className={`py-2 font-open font-normal transition duration-500 ${
+              location?.pathname === "/blog"
+                ? "text-primary"
+                : "text-white hover:text-primary"
+            }`}
           >
             <Link to="/blog">Blog</Link>
           </li>
@@ -86,9 +88,9 @@ function Navbar({ location }) {
         </select> */}
         <Link
           to="/contact/apply"
-          className="font-bold px-5 py-2 border-2 border-white rounded-full hidden min-[950px]:block font-open text-sm text-white uppercase hover:bg-white hover:text-[#9dbc98] transition duration-500"
+          className="hidden min-[950px]:block px-5 py-2 border-2 border-white rounded-full hover:bg-white font-open font-bold text-white hover:text-[#9dbc98] text-sm uppercase transition duration-500"
         >
-          {t('apply now')}
+          Solicitar ahora
         </Link>
       </div>
     </div>
@@ -98,100 +100,100 @@ function Navbar({ location }) {
 export default Navbar
 
 const aboutItems = {
-  title: "about us",
+  title: "Sobre nosotros",
   items: [
     {
-      text: "Who are we?",
+      text: "¿Quiénes somos?",
       path: "/about",
     },
     {
-      text: "Company structure",
+      text: "Estructura de la empresa",
       path: "/about/structure",
     },
     {
-      text: "Vision, mission and core values",
+      text: "Visión, misión y valores fundamentales",
       path: "/about/vision",
     },
     {
-      text: "International approval",
+      text: "Aprobación internacional",
       path: "/about/international-approval",
     },
     {
-      text: "What does halal mean?",
+      text: "¿Qué significa Halal?",
       path: "/about/halal-meaning",
     },
     {
-      text: "Locations",
+      text: "Ubicaciones",
       path: "/about/locations",
     },
   ],
 }
 
 const certificationItems = {
-  title: "certification",
+  title: "Certificación",
   items: [
     {
-      text: "Certification procedure",
+      text: "Procedimiento de certificación",
       path: "/certification/procedure",
     },
     {
-      text: "Product categories",
+      text: "Categorías de productos",
       path: "/certification/categories",
     },
     {
-      text: "Our services",
+      text: "Nuestros servicios",
       path: "/certification/services",
     },
     {
-      text: "Auditing and training",
+      text: "Auditoría y capacitación",
       path: "/certification/auditing",
     },
     {
-      text: "Benefits of our certification",
+      text: "Beneficios de nuestra certificación",
       path: "/certification/benefits",
     },
   ],
 }
 
 const policiesItems = {
-  title: "policies",
+  title: "Políticas",
   items: [
     {
-      text: "Halal guarantee",
+      text: "Garantía Halal",
       path: "/policies/guarantee",
     },
     {
-      text: "Integrity policy",
+      text: "Política de integridad",
       path: "/policies/integrity",
     },
     {
-      text: "Fee Regulation",
+      text: "Regulación de tarifas",
       path: "/policies/fee-regulation",
     },
     {
-      text: "Confidentiality And Impartiality",
+      text: "Confidencialidad e imparcialidad",
       path: "/policies/confidentiality-and-impartiality/",
     },
   ],
 }
 
 const contactItems = {
-  title: "contact",
+  title: "Contacto",
   items: [
     {
-      text: "Request for information",
+      text: "Solicitud de información",
       path: "/contact/information",
     },
     {
-      text: "Feedback",
+      text: "Comentarios",
       path: "/contact/feedback",
     },
     {
-      text: "Complaint",
+      text: "Quejas",
       path: "/contact/complaint",
     },
     {
-      text: "Halal certificate check",
+      text: "Comprobación del certificado Halal",
       path: "/contact/check",
     },
   ],

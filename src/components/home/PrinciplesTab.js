@@ -17,7 +17,8 @@ function PrinciplesTab() {
       <div className="w-full px-4 md:px-8 py-8 max-w-7xl mx-auto">
         <FadeUpOnScroll>
           <h3 className="font-poppins font-bold  text-3xl md:text-4xl text-center md:text-left text-[#9dbc98] capitalize transition-all duration-1000 ">
-            Halal correct Germany Certification has drawn up a number of principles:
+            La Certificación Halal Correct Spain ha establecido una serie de
+            principios:
           </h3>
         </FadeUpOnScroll>
         <FadeUpOnScroll className="py-8">
@@ -55,78 +56,79 @@ export default PrinciplesTab
 
 const data = [
   {
-    label: "Conscious integrity",
+    label: "Integridad consciente",
     value: "tab1",
     desc: (
       <>
-        our organization approach toward our consumers is by showing our
-        expertise, reliability an honest working environment. We translate these
-        manners to our “conscious integrity” which we expect could be a tool and
-        guidance during day-to-day working practice.
+        El enfoque de nuestra organización hacia los consumidores se basa en
+        mostrar nuestra experiencia, fiabilidad y un entorno de trabajo honesto.
+        Traducimos estos principios en nuestra "integridad consciente", que
+        esperamos que sea una herramienta y una guía en el trabajo diario.
         <br />
         <br />
-        Moreover, an important principle is also to build up an awareness for
-        everyone in the organization to be responsible for their act.
+        Además, un principio importante es concienciar a todos en la
+        organización sobre la responsabilidad de sus actos.
       </>
     ),
   },
   {
-    label: "Objective approach",
+    label: "Enfoque objetivo",
     value: "tab2",
     desc: (
       <>
-        It is essential to get dominant information out in the open, which will
-        result in a transparent decision-forming process. Good information leads
-        to a minimum number of decisions.
+        Es fundamental difundir la información dominante, lo que resultará en un
+        proceso de toma de decisiones transparente. Una buena información
+        permite tomar la menor cantidad de decisiones posible.
         <br />
         <br />
-        This entails asking the right questions, allowing the other party to
-        speak his mind, and then asking more questions. Every time and in all
-        situations. Agreements that follow from such communication always create
-        bilateral obligations; there is no such thing as a unilateral agreement.
-        Both parties are responsible and accountable when the agreement is
-        (un)realistic.
+        Esto implica hacer las preguntas correctas, permitir que la otra parte
+        exprese su opinión y, a continuación, hacer más preguntas. En todo
+        momento y situación, los acuerdos resultantes de dicha comunicación
+        siempre generan obligaciones bilaterales; no existen los acuerdos
+        unilaterales. Ambas partes son responsables cuando el acuerdo es poco
+        realista.
       </>
     ),
   },
 
   {
-    label: "Trust in professionalism and expertise",
+    label: "Confianza en el profesionalismo y la experiencia",
     value: "tab3",
     desc: (
       <>
-        This means that using and respecting that professionalism is a
-        number-one priority. Professionalism results in hard information, based
-        on "evidence". The opinion of the professional matters, but the
-        substantiation by the professional is what counts.
+        Esto significa que ejercer y respetar ese profesionalismo es la máxima
+        prioridad. El profesionalismo se traduce en información sólida, basada
+        en pruebas. La opinión del profesional es importante, pero su
+        fundamentación es lo que cuenta.
         <br />
         <br />
-        The tasks performed by Halal correct Germany Certification are complex and
-        require professionalism and expertise from the auditors and inspectors.
-        This, in turn, requires a good way of working together (please note
-        these two words: “working” and “together”!) and active participation in
-        common issues and challenges. And this professionalism must constantly
-        be updated, maintained, and strengthened. This is the natural attitude
-        of each professional, and we employ our staff because of their
-        professionalism and expertise.
+        Las tareas que realiza La Certificación Halal Correct Spain son
+        complejas y requieren profesionalismo y experiencia por parte de los
+        auditores e inspectores. Esto, a su vez, requiere una buena colaboración
+        (¡ten en cuenta estas dos palabras: &quot;colaborar&quot; y
+        &quot;juntos&quot;!) y una participación activa en los problemas y
+        desafíos comunes. Y este profesionalismo debe actualizarse, mantenerse y
+        fortalecerse constantemente. Esta es la actitud natural de cada
+        profesional, y contratamos a nuestro personal por su profesionalismo y
+        experiencia.
       </>
     ),
   },
 
   {
-    label: "Improvement and continuous learning",
+    label: "Mejora y aprendizaje continuo",
     value: "tab4",
     desc: (
       <>
-        Halal correct Germany is an organisational challenge, but also a very personal
-        one. It is an intrinsic (essential) part of the primary process.
-        Improvement is necessary as each experience shows that whatever we do
-        can be done more effectively and efficiently. <br />
-        <br /> Learning is the superlative of improvement, and it is necessary
-        because our environment is in constant flux and we have to keep
-        adjusting ourselves.
+        Halal Correct Spain es un reto organizativo, pero también muy personal.
+        Es una parte intrínseca (esencial) del proceso primario. La mejora es
+        necesaria, ya que cada experiencia demuestra que todo lo que hacemos
+        puede hacerse de forma más eficaz y eficiente.
+        <br />
+        <br />
+        El aprendizaje es la clave de la mejora, y es necesario porque nuestro
+        entorno está en constante evolución y debemos adaptarnos constantemente.
       </>
     ),
   },
 ]
-

@@ -9,22 +9,21 @@ function Principles() {
         <FadeUpOnScroll>
           <section className="p-8 bg-[#9dbc98] backdrop-blur-sm rounded-xl max-w-[600px] flex flex-col gap-3 mx-auto lg:mx-0">
             <h4 className="font-poppins font-semibold text-2xl text-black ">
-              Corporate social responsibility principles of Halal correct Germany:
+              Principios de responsabilidad social empresarial de Halal Correct
+              Spain:
             </h4>
             <p className="font-open italic text-gray-800">
-              We apply these CSR principles With every activity and decision we
-              make.
+              Aplicamos estos principios de RSE en cada actividad y decisión que
+              tomamos.
             </p>
             <ul className="font-open font-normal list-none text-gray-900 flex flex-col gap-2">
-              <Li>
-                Accountability (taking responsibility and accountability).
-              </Li>
-              <Li>Transparency.</Li>
-              <Li>Ethical behavior.</Li>
-              <Li>Respect for stakeholder interests.</Li>
-              <Li>Respect for laws and regulations.</Li>
-              <Li>Respect for international (behavioral) standards.</Li>
-              <Li>Respect for human rights.</Li>
+              <Li>Responsabilidad (asumir la responsabilidad).</Li>
+              <Li>Transparencia.</Li>
+              <Li>Comportamiento ético.</Li>
+              <Li>Respeto a los intereses de las partes involucradas.</Li>
+              <Li>Respeto a las leyes y regulaciones.</Li>
+              <Li>Respeto a las normas internacionales (de comportamiento).</Li>
+              <Li>Respeto a los derechos humanos.</Li>
             </ul>
           </section>
         </FadeUpOnScroll>

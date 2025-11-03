@@ -8,12 +8,12 @@ function SatisfiedCustomers() {
       <div className="w-full max-w-w1300 mx-auto px-8 ">
         <FadeUpOnScroll>
           <h3 className="font-poppins font-bold text-3xl md:text-4xl text-center md:text-left text-primary capitalize transition-all duration-1000 ">
-            Some of our satisfied customers:
+            Algunos de nuestros clientes satisfechos:
           </h3>
         </FadeUpOnScroll>
       </div>
       <FadeUpOnScroll>
-        <img src={satisfied} alt="Satisfied customers" className="py-6" />
+        <img src={satisfied} alt="Clientes satisfechos" className="py-6" />
       </FadeUpOnScroll>
     </div>
   )

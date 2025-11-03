@@ -9,7 +9,7 @@ function Procedures() {
       <div className="w-full px-8 py-8 max-w-7xl mx-auto">
         <FadeUpOnScroll>
           <h3 className="font-poppins font-bold text-3xl md:text-4xl text-center md:text-left text-[#9dbc98] capitalize transition-all duration-1000 ">
-            Halal procedure:
+            Procedimiento Halal:
           </h3>
         </FadeUpOnScroll>
         <div className="py-8 grid grid-cols-1 md:grid-cols-3 gap-10">
@@ -28,12 +28,12 @@ export default Procedures
 
 const procedures = [
   {
-    text: "Muslims around the world find difficulties to know how their food is produced and where it comes from. That is why, Halal Certification helps Muslims around the world to identify these products by istablishing a system that checks if the products meet their halal requirements.",
+    text: "A los musulmanes de todo el mundo les resulta difícil saber cómo se producen sus alimentos y de dónde provienen. Por eso, la Certificación Halal ayuda a los musulmanes de todo el mundo a identificar estos productos mediante el establecimiento de un sistema que verifica si cumplen con los requisitos halal.",
   },
   {
-    text: "Food certification help consumers make an easy decision to purchase the products. Halal certification states that the product is allowed to be consumed based on Islamic rules.",
+    text: "La certificación alimentaria facilita la decisión de compra de productos por parte de los consumidores. La certificación Halal garantiza que el producto puede consumirse según las normas islámicas.",
   },
   {
-    text: "An application system for a Halal Certificate has been established by Halal correct Germany Certification. The completion of the audit program is based on the size, scope, products, processes, level of the management system and the results of previous audits of the organization.",
+    text: "La Certificación Halal Correct Spain ha establecido un sistema de solicitud para obtener un Certificado Halal. La finalización del programa de auditoría se basa en el tamaño, el alcance, los productos, los procesos, el nivel del sistema de gestión y los resultados de auditorías previas de la organización.",
   },
 ]

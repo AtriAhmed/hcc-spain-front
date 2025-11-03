@@ -16,19 +16,19 @@ function Footer() {
         <div className="px-8 lg:px-20 py-10 border border-[#9dbc98] rounded-lg grid grid-cols-12 gap-6 relative before:border-4 before:border-[#9dbc98] before:rounded-xl before:absolute before:inset-[-7px] before:z-[-1]">
           <section className="col-span-12 sm:col-span-6 lg:col-span-3">
             <h3 className="pb-4 font-poppins font-semibold text-xl text-[#9dbc98] uppercase">
-              Halal Correct Germany CERTIFICATION
+              CERTIFICACIÓN Halal Correct Spain
             </h3>
             <ul className="font-poppins font-light text-sm">
               <li>
                 <span className="font-semibold uppercase">P.O: </span>
-                <span className=" text-sm">46047 Oberhausen, Germany</span>
+                <span className=" text-sm">46047 Oberhausen, Alemania</span>
               </li>
               <li>
-                <span className="font-semibold">ADDRESS: </span>
+                <span className="font-semibold">DIRECCIÓN: </span>
                 <span className="text-sm">Centroallee 273-277</span>
               </li>
               <li>
-                <span className="font-semibold">Phone: </span>
+                <span className="font-semibold">Teléfono: </span>
                 <a
                   href="tel:+4920888027110"
                   className="text-blue-500 hover:text-blue-700 transition duration-300 text-sm"
@@ -38,26 +38,29 @@ function Footer() {
               </li>
 
               <li className="flex gap-2">
-                <div className="font-semibold">Email: </div>
+                <div className="font-semibold">Correo electrónico: </div>
                 <div className="">
                   <a
                     href="mailto:germany@halalcorrect.com"
                     className="text-blue-500 hover:text-blue-700 transition duration-300 text-sm"
                   >
-                    germany@halalcorrect.com<br />
+                    germany@halalcorrect.com
+                    <br />
                   </a>
                 </div>
               </li>
               <li>
-                <span className="font-semibold">SCOPE: </span>
-                <span className="text-sm"> Halal inspection and Halal Certification</span>
+                <span className="font-semibold">ALCANCE: </span>
+                <span className="text-sm">
+                  {" "}
+                  Inspección y certificación Halal
+                </span>
               </li>
             </ul>
-
           </section>
           <section className="col-span-12 sm:col-span-6 lg:col-span-3">
             <h3 className="pb-4 font-poppins font-semibold text-xl text-[#9dbc98] uppercase">
-              Useful Links
+              Enlaces útiles
             </h3>
             <ul className=" font-poppins font-normal text-sm">
               {usefulLinks.map(element => (
@@ -73,7 +76,7 @@ function Footer() {
           </section>
           <section className="col-span-12 sm:col-span-6 lg:col-span-3">
             <h3 className="pb-4 font-poppins font-semibold text-xl text-[#9dbc98] uppercase">
-              Contact us
+              Contáctanos
             </h3>
             <ul className=" font-poppins font-normal text-sm">
               {contactLinks.map(element => (
@@ -97,8 +100,10 @@ function Footer() {
         </div>
         <p className="max-w-[600px] py-10 mx-auto font-poppins font-light text-lg text-[#9dbc98] text-center">
           © Copyright{" "}
-          <span className="font-semibold">Halal Correct Germany Certification.</span>{" "}
-          All Rights Reserved Powered by CODA-TECH
+          <span className="font-semibold">
+            CERTIFICACIÓN Halal Correct Spain.
+          </span>{" "}
+          Todos los derechos reservados. Desarrollado por CODA-TECH
         </p>
       </div>
     </div>
@@ -109,45 +114,45 @@ export default Footer
 
 const usefulLinks = [
   {
-    text: "Home",
+    text: "Inicio",
     path: "/",
   },
   {
-    text: "Who are we?",
+    text: "¿Quiénes somos?",
     path: "/about/",
   },
   {
-    text: "Company structure",
+    text: "Estructura de la empresa",
     path: "/about/structure",
   },
   {
-    text: "Our services",
+    text: "Nuestros servicios",
     path: "/certification/services",
   },
   {
-    text: "Meaning of halal",
+    text: "Significado de Halal",
     path: "/about/halal-meaning",
   },
 ]
 const contactLinks = [
   {
-    text: "Apply",
+    text: "Solicitud",
     path: "/contact/apply",
   },
   {
-    text: "Request for information",
+    text: "Solicitud de información",
     path: "/contact/information",
   },
   {
-    text: "Feedback",
+    text: "Comentarios",
     path: "/contact/feedback",
   },
   {
-    text: "Complaint",
+    text: "Quejas",
     path: "/contact/complaint",
   },
   {
-    text: "Halal certificate check",
+    text: "Verificación del certificado Halal",
     path: "/contact/check",
   },
 ]
