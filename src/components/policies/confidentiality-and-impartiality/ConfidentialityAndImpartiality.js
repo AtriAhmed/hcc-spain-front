@@ -7,145 +7,153 @@ export default function ConfidentialityAndImpartiality() {
       <div className="w-full px-8 py-10 max-w-7xl mx-auto">
         <AnimationOnScroll animateIn="animate__fadeInUp" duration={2}>
           <h1 className="font-poppins font-bold text-3xl md:text-4xl text-center md:text-left text-[#9dbc98] capitalize transition-all duration-1000 ">
-            Confidentiality And Impartiality:
+            Confidencialidad e imparcialidad:
           </h1>
         </AnimationOnScroll>
 
         <ul className="sm:px-8 pt-6 font-open font-normal text-base list-disc">
           <AnimationOnScroll animateIn="animate__fadeInUp" duration={2}>
             <div className="pt-3">
-              <div className="font-bold">1. OBJECTIVE :</div>
+              <div className="font-bold">1. OBJETIVO:</div>
               <div className="text-justify">
-                This procedure is prepared to determine the confidentiality and
-                impartiality methods related with HALAL CORRECT GERMANY Halal
-                Certification activities.
+                Este procedimiento se ha elaborado para determinar los métodos
+                de confidencialidad e imparcialidad relacionados con las
+                actividades de certificación Halal de HALAL CORRECT SPAIN.
               </div>
             </div>
           </AnimationOnScroll>
           <AnimationOnScroll animateIn="animate__fadeInUp" duration={2}>
             <div className="pt-3">
-              <span className="font-bold">2. SCOPE :</span>
+              <span className="font-bold">2. ALCANCE:</span>
               <div className="text-justify">
-                This procedure involves, the services that are carried out and
-                personnel who takes part in those services within HALAL CORRECT GERMANY
-                Halal Certification.
+                Este procedimiento abarca los servicios que se prestan y el
+                personal que participa en dichos servicios dentro de la
+                certificación Halal de HALAL CORRECT SPAIN.
               </div>
             </div>
           </AnimationOnScroll>
           <AnimationOnScroll animateIn="animate__fadeInUp" duration={2}>
             <div className="pt-3">
-              <div className="font-bold">3. RESPONSIBLE AUTHORITIES</div>
+              <div className="font-bold">3. AUTORIDADES RESPONSABLES</div>
               <div className="text-justify">
-                All of the personnel take role in Halal Certification
-                Activities.
+                Todo el personal participa en las actividades de certificación
+                Halal.
               </div>
             </div>
           </AnimationOnScroll>
           <AnimationOnScroll animateIn="animate__fadeInUp" duration={2}>
             <div className="pt-3">
-              <div className="font-bold">4. DEFINITIONS</div>
+              <div className="font-bold">4. DEFINICIONES</div>
               <div>
-                <span className="font-semibold">HALAL CORRECT GERMANY :</span> Halal
-                Certification Body<br></br>
-                <span className="font-semibold">HCTS :</span> Halal
-                Certification Technical Specialist<br></br>
-                <span className="font-semibold">QDMS :</span> HALAL CORRECT GERMANY
-                Quality Documentation Management System
+                <span className="font-semibold">HALAL CORRECT SPAIN:</span>{" "}
+                Organismo de certificación Halal
+                <br />
+                <span className="font-semibold">HCTS :</span> Especialista
+                técnico en certificación Halal
+                <br />
+                <span className="font-semibold">QDMS :</span> Sistema de gestión
+                de la documentación de calidad de HALAL CORRECT SPAIN
               </div>
             </div>
           </AnimationOnScroll>
           <AnimationOnScroll animateIn="animate__fadeInUp" duration={2}>
             <div className="pt-3">
-              <div className="font-bold">5. IMPLEMENTATION</div>
-              <div className="font-bold">5.1 MANAGEMENT OF CONFIDENTIALITY</div>
+              <div className="font-bold">5. IMPLEMENTACIÓN</div>
+              <div className="font-bold">
+                5.1 GESTIÓN DE LA CONFIDENCIALIDAD
+              </div>
               <div className="text-justify">
-                All the documents/records that are related with the activities
-                in HALAL CORRECT GERMANY Halal Certification are accepted as
-                confidential. And these are mentioned below:
+                Todos los documentos/registros relacionados con las actividades
+                de certificación Halal de HALAL CORRECT SPAIN se consideran
+                confidenciales. Estos se mencionan a continuación:
               </div>
               <div className="mt-2 sm:ml-20 text-justify">
-                - From the application of conformity assessment till the result
-                of application of the establishment (customer), all documents of
-                analysis reports, test reports, e-mails and other knowledge
-                including soft copy of documents, records.
+                - Desde la solicitud de la evaluación de la conformidad hasta el
+                resultado de la solicitud del establecimiento (cliente), todos
+                los documentos, incluyendo informes de análisis, informes de
+                pruebas, correos electrónicos y demás información, incluyendo
+                copias digitales de documentos y registros.
               </div>
               <div className="sm:ml-20 text-justify">
-                - Information about the personnel who take part in Halal
-                Certification Audits
+                - Información sobre el personal que participa en las auditorías
+                de certificación Halal.
               </div>
               <div className="sm:ml-20 mb-2 text-justify">
-                - All documents in about the establishment (customer) after
-                halal certification audit.
+                - Todos los documentos del establecimiento (cliente) tras la
+                auditoría de certificación Halal.
               </div>
               <div className="my-4 text-justify">
-                The personnel who take part in the conformity assessment process
-                including the head of department are responsible to provide the
-                confidentiality. Archive responsible is responsible to provide
-                the confidentiality of the documents in the archive.
+                El personal que participa en el proceso de evaluación de la
+                conformidad, incluido el jefe de departamento, es responsable de
+                garantizar la confidencialidad. El responsable del archivo es
+                responsable de garantizar la confidencialidad de los documentos
+                archivados.
               </div>
               <div className="my-4 text-justify">
-                All personnel who take part in halal certification activities,
-                the personnel who take part in decision-making, experts,
-                commission members etc. are responsible to provide the
-                confidentiality and impartiality according to the HALAL CORRECT GERMANY
-                Personnel Regulations and Commitment of Confidentiality,
-                Independence and Impartiality which they have signed. After
-                signing the Confidentiality, Independence and Impartiality
-                contract, personnel contract, contract, personnel can reach the
-                document of establishment or be appointed in the halal
-                certification process.
+                Todo el personal que participa en las actividades de
+                certificación Halal, el personal que participa en la toma de
+                decisiones, los expertos, los miembros de la comisión, etc., es
+                responsable de garantizar la confidencialidad e imparcialidad de
+                acuerdo con el Reglamento de Personal de HALAL CORRECT SPAIN y
+                el Compromiso de Confidencialidad, Independencia e Imparcialidad
+                que ha firmado. Tras la firma del contrato de confidencialidad,
+                independencia e imparcialidad, el personal puede acceder al
+                documento del establecimiento o ser designado para el proceso de
+                certificación Halal.
               </div>
               <div className="my-4 text-justify">
-                Commiment members who will have duties within the HALAL CORRECT GERMANY
-                commitees can be appointed after signing Confidentiality
-                Commitment of Committee Members.
+                Los miembros del Comité que desempeñarán funciones en los
+                comités de HALAL CORRECT SPAIN podrán ser designados tras la
+                firma del Compromiso de Confidencialidad de los Miembros del
+                Comité.
               </div>
               <div className="my-4 text-justify">
-                If the persons who signs the Commitment/Agreement of
-                Confidentiality, Independence, Impartiality, do not obey the
-                rules, a regal process will be begun against them by the related
-                department.
+                Si los firmantes del Compromiso/Acuerdo de Confidencialidad,
+                Independencia e Imparcialidad no cumplen las normas, el
+                departamento correspondiente iniciará un proceso judicial en su
+                contra.
               </div>
             </div>
           </AnimationOnScroll>
           <AnimationOnScroll animateIn="animate__fadeInUp" duration={2}>
             <div className="pt-3">
-              <div className="font-bold">5.2 MANAGEMENT OF IMPARTIALITY</div>
+              <div className="font-bold">5.2 GESTIÓN DE LA IMPARCIALIDAD</div>
               <div className="text-justify">
-                HALAL CORRECT GERMANY top management has a “Principles of corporate
-                service and declaration of top management” in order to provide
-                the impartiality of the activities about halal certification
-                services within HALAL CORRECT GERMANY. In accordance with this
-                declaration, the departments act in the ways mentioned below.
+                La alta dirección de HALAL CORRECT SPAIN cuenta con unos
+                &quot;Principios de servicio corporativo y una declaración de la
+                alta dirección&quot; para garantizar la imparcialidad de las
+                actividades relacionadas con los servicios de certificación
+                halal dentro de HALAL CORRECT SPAIN. De conformidad con esta
+                declaración, los departamentos actúan de la siguiente manera:
               </div>
               <div className="text-justify my-4 sm:ml-20">
-                - An organizational structure has been established to ensure
-                that the Halal Certification services provided by HALAL CORRECT GERMANY
-                are carried out in line with the principles of independence,
-                impartiality and honesty.
+                - Se ha establecido una estructura organizativa para garantizar
+                que los servicios de certificación halal prestados por HALAL
+                CORRECT SPAIN se lleven a cabo de conformidad con los principios
+                de independencia, imparcialidad y honestidad.
               </div>
               <div className="text-justify my-4 sm:ml-20">
-                - The HALAL CORRECT GERMANY Board of Directors has given statements and
-                instructions that the service will be provided in line with the
-                principles of impartiality, independence and confidentiality.
+                - La Junta Directiva de HALAL CORRECT SPAIN ha declarado e
+                instruido que el servicio se prestará conforme a los principios
+                de imparcialidad, independencia y confidencialidad.
               </div>
               <div className="text-justify my-4 sm:ml-20">
-                - Members of the “Impartiality Committee” have been appointed
-                and authorized so that the relevant parties will be represented
-                equally and in a balanced manner; in order to determine the
-                issues that may affect/ affect the impartiality and
-                confidentaility of the service provided for the halal
-                certificate given by the HALAL CORRECT GERMANY, to identify conflicts of
-                interest and assessing their risks and to take and implement
-                measures,
+                - Se han nombrado y autorizado miembros del Comité de
+                Imparcialidad para que las partes interesadas estén
+                representadas de forma equitativa y equilibrada; con el fin de
+                determinar los problemas que puedan afectar la imparcialidad y
+                confidencialidad del servicio prestado para el certificado halal
+                emitido por HALAL CORRECT SPAIN, tanto para identificar
+                conflictos de intereses y evaluar sus riesgos, como para adoptar
+                e implementar medidas.
               </div>
               <div className="text-jusify my-4 sm:ml-20">
-                - In the event that the impartiality committee cannot access
-                information about all services provided, the decisions taken by
-                the committee are not complied with and are not adequately
-                implemented; after detecting inappropriate situations, the
-                committee was authorized to inform the HALAL CORRECT GERMANY General
-                Manager and the Halal Accreditation Body.
+                - En caso de que el comité de imparcialidad no pueda acceder a
+                la información sobre todos los servicios prestados, las
+                decisiones tomadas por el comité no se cumplan ni se implementen
+                adecuadamente; tras detectar situaciones inapropiadas, el comité
+                fue autorizado a informar al Director General de HALAL CORRECT
+                SPAIN y al Organismo de Acreditación Halal.
               </div>
               <br />
             </div>

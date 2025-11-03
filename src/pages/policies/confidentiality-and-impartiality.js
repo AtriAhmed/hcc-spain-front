@@ -14,4 +14,4 @@ function index() {
 
 export default index
 
-export const Head = () => <Seo title="Confidentiality And Impartiality" />
+export const Head = () => <Seo title="Confidencialidad e imparcialidad:" />
