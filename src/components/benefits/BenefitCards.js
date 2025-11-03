@@ -18,12 +18,12 @@ export default BenefitCards
 
 const benefits = [
   {
-    text: "In a number of cases, the company itself see the certificate only as formality on a paper. however, there are a lot of industries analyse it as a starting point to reach more global market and target more added value for the product characteristics. the company which understands the meaning of its halal certificate.",
+    text: "En muchos casos, la propia empresa considera el certificado solo como una formalidad. Sin embargo, muchas industrias lo analizan como punto de partida para alcanzar un mercado más global y buscar un mayor valor añadido para las características del producto. La empresa que comprende el significado de su certificado halal.",
   },
   {
-    text: "At the 'wanting companies' the desire to offer good quality, to meet the Halal standards and to obtain a certificate stems from the inner desire of the management and employees. At the 'must-have companies', on the other hand, this is more or less enforced by the customers. A number of companies simply do not do business with non-Halal certified suppliers.",
+    text: "En las empresas que buscan productos halal, el deseo de ofrecer buena calidad, cumplir con los estándares halal y obtener un certificado surge del deseo interno de la dirección y los empleados. En cambio, en las empresas que buscan productos imprescindibles, esto es más o menos impuesto por los clientes. Muchas empresas simplemente no hacen negocios con proveedores sin certificación halal.",
   },
   {
-    text: "Excellent quality is not only the main focus for Halal correct Germany certified suppliers. For most of the cases it can be the main focus; however, quality and certification are not inextricably linked. Obtaining a certificate is sometimes compared to obtaining a school diploma: someone has the necessary knowledge, skills and insight. But just after obtaining the diploma, the person has to prove again and again that he continues to deliver the right performance.",
+    text: "La excelente calidad no solo es la prioridad para los proveedores con Certificación Halal Correct Spain. En la mayoría de los casos, puede ser el objetivo principal; sin embargo, la calidad y la certificación no están inextricablemente ligadas. Obtener un certificado a veces se compara con obtener un diploma escolar: alguien posee los conocimientos, las habilidades y la visión necesarios. Pero justo después de obtener el diploma, la persona debe demostrar una y otra vez que continúa ofreciendo un rendimiento adecuado.",
   },
 ]

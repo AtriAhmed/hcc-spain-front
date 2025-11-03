@@ -8,36 +8,39 @@ function BenefitDesc() {
       <div className="w-full px-8 py-10 max-w-w1300 mx-auto">
         <FadeUpOnScroll>
           <h1 className="font-poppins font-bold text-3xl md:text-4xl text-center md:text-left text-primary capitalize transition-all duration-1000 ">
-            The added value of certification by Halal correct Germany:
+            El valor añadido de La Certificación Halal Correct Spain:
           </h1>
         </FadeUpOnScroll>
         <FadeUpOnScroll>
           <div className="pt-8 flex flex-col items-center md:flex-row gap-8">
             <p className="font-open font-normal text-base text-center md:text-left text-slate-900">
-              Halal certification is only issued by a trusted and legally halal
-              certification body. Halal correct Germany has been recognized nationally
-              and internationally for its halal certification services. We work
-              with more than hundred clients every year!
+              La certificación Halal solo la emite un organismo de certificación
+              halal de confianza y legalmente reconocido. Halal correct Spain ha
+              sido reconocido nacional e internacionalmente por sus servicios de
+              certificación halal. ¡Trabajamos con más de cien clientes cada
+              año!
               <br />
               <br />
-              processes, procedures, work instructions, responsibilities and
-              information flows become the main concern in our system.
+              Los procesos, procedimientos, instrucciones de trabajo,
+              responsabilidades y flujos de información son la principal
+              preocupación de nuestro sistema.
               <br />
               <br />
-              Additionally, there are procedures in place to check whether work
-              is also carried out according to the standards. We apply an update
-              and newest standard to our reference in order to deliver the best
-              quality for out consumers.
+              Además, contamos con procedimientos para verificar que el trabajo
+              se realiza de acuerdo con las normas. Aplicamos las normas más
+              recientes y actualizadas a nuestra referencia para ofrecer la
+              mejor calidad a nuestros consumidores.
               <br />
               <br />
-              If a customer works according to Halal correct Germany standards, this
-              means that a well-functioning quality system is in place and that
-              Halal standards are also met. But it does not always guarantee
-              that work is done according to the standards. This requires
-              discipline from employees and managers. This is an essential fact
-              and it is important to consider it carefully. This is done by
-              performing certification audits and frequent inspections by
-              skilled and trained Halal correct Germany employees.
+              Si un cliente trabaja según las normas Halal correct Spain,
+              significa que cuenta con un sistema de calidad que funciona
+              correctamente y que también cumple con las normas Halal. Sin
+              embargo, esto no siempre garantiza que el trabajo se realice de
+              acuerdo con las normas. Esto requiere disciplina por parte de
+              empleados y gerentes. Este es un hecho esencial y es importante
+              considerarlo cuidadosamente. Esto se logra mediante auditorías de
+              certificación e inspecciones frecuentes realizadas por empleados
+              cualificados y capacitados de Halal correct Spain.
             </p>
           </div>
         </FadeUpOnScroll>
@@ -45,33 +48,35 @@ function BenefitDesc() {
         <FadeUpOnScroll>
           <div className="pt-8 flex flex-col items-center md:flex-row gap-8">
             <p className="font-open font-normal text-base text-center md:text-left text-slate-900">
-              Of course, a Halal correct Germany certificate has a certain value! The
-              main advantage is that the organization proves to the outside
-              world that it complies with the standards set by Halal correct Germany. In
-              order to obtain the certificate, we have examined it for
-              Halalworthiness and quality. This was done on the basis of
-              objective standards. In addition, the organization has spent quite
-              some time dealing with the requirements for obtaining the
-              certificate. Halal awareness among employees has grown.
+              Por supuesto, una Certificación Halal Correct Spain tiene un valor
+              incalculable. La principal ventaja es que la organización
+              demuestra al mundo exterior que cumple con los estándares
+              establecidos por Halal correct Spain. Para obtener el certificado,
+              hemos examinado su idoneidad y calidad Halal, basándonos en
+              estándares objetivos. Además, la organización ha dedicado bastante
+              tiempo a gestionar los requisitos para obtenerlo. La
+              concienciación Halal entre los empleados ha aumentado.
               <br />
               <br />
-              Delivering a halal concept to our clients seems to be a point of
-              attention. In the end, they try to develop their quality assurance
-              standard system at their company by developing a halal procedure
-              which becomes one of the certification indicators. Halal procedure
-              leads the company to possess recognition from Halal correct Germany that
-              those companies concern about their end product image around a
-              halal market.
+              Ofrecer un concepto halal a nuestros clientes parece ser una
+              prioridad. Finalmente, intentan desarrollar su sistema de garantía
+              de calidad mediante el desarrollo de un procedimiento halal que se
+              convierte en uno de los indicadores de certificación. Este
+              procedimiento permite a la empresa obtener el reconocimiento de
+              Halal correct Spain, ya que estas empresas se preocupan por la
+              imagen de su producto final en el mercado halal.
               <br />
-              <br />A recognized and legal halal certificate is only issued by
-              admitted and specialized halal certification bodies. Halal correct Germany
-              has been accredited by several Halal Accreditation Bodies located
-              in some countries for instance EIAC and GSO countries, HAK, JAKIM, MUI, and MUIS,
-              resulting a great performance for Halal Correct germany to continuou their
-              vision and mission to help muslim community worldwide. The
-              certificate gained from some accreditation bodies is updated
-              regularly to depict that our organizations standards is well
-              preserved and always improved.
+              <br />
+              Un certificado halal reconocido y legal solo lo emiten organismos
+              de certificación halal reconocidos y especializados. Halal correct
+              Spain ha sido acreditada por varios organismos de acreditación
+              Halal en varios países, como EIAC y GSO, HAK, JAKIM, MUI y MUIS.
+              Esto ha resultado en un excelente desempeño para Halal correct
+              Spain, que continúa con su visión y misión de ayudar a la
+              comunidad musulmana mundial. El certificado obtenido por estos
+              organismos de acreditación se actualiza periódicamente para
+              demostrar que los estándares de nuestra organización se mantienen
+              y mejoran constantemente.
             </p>
           </div>
         </FadeUpOnScroll>
