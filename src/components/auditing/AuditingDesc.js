@@ -7,31 +7,33 @@ function AuditingDesc() {
       <div className="w-full px-8 py-10 max-w-7xl mx-auto">
         <FadeUpOnScroll>
           <h1 className="font-poppins font-bold text-3xl md:text-4xl text-center md:text-left text-[#9dbc98] capitalize transition-all duration-1000 ">
-            Auditing and training:
+            Auditoría y capacitación:
           </h1>
         </FadeUpOnScroll>
         <FadeUpOnScroll>
           <div className="pt-8 flex flex-col items-center md:flex-row gap-8">
             <p className="font-open font-normal text-base text-center md:text-left text-slate-900">
-            The organization team is an expertise on their field. We set a
-              high concern on our recruitment. They are selected based on their
-              competency and experiences according to GSO-2055:2021 clause 7.
-              Most of them have a background on food technology and food
-              microbiology field.
+              Nuestro equipo organizativo es experto en su campo. Priorizamos la
+              contratación. Seleccionamos a nuestros auditores por su
+              competencia y experiencia, de acuerdo con la cláusula 7 de la
+              norma GSO-2055:2021. La mayoría cuenta con formación en tecnología
+              alimentaria y microbiología alimentaria.
               <br />
               <br />
-              To improve and to always have an updated skills and knowledge,
-              each year we send our qualified auditor to participate in
-              International Halal Food training for instance the training
-              program held by EIAC related to UEA.S 2055-1, UAE.S. 933, GSO
-              2055-1, GSO 993, OIC / SMIIIC 1 and animal welfare.
+              Para mejorar y mantener siempre actualizadas sus habilidades y
+              conocimientos, cada año enviamos a nuestros auditores cualificados
+              a participar en capacitaciones internacionales sobre alimentos
+              Halal, como el programa de capacitación impartido por EIAC en
+              relación con las normas UEA.S 2055-1, UAE.S. 933, GSO 2055- 1, GSO
+              993, OIC/SMIIIC 1 y bienestar animal.
               <br />
               <br />
-              Our lead auditors are continuously working through traineeships to
-              develop and to train different auditors for different scope
-              application areas, so our auditors with the right knowledge will
-              be more widely employable. All auditors are in possession of ISO
-              19011 quality standard (auditing and audit techniques).
+              Nuestros auditores principales realizan prácticas continuamente
+              para desarrollar y capacitar a diferentes auditores en diferentes
+              áreas de aplicación, de modo que los auditores con los
+              conocimientos adecuados tengan una mayor empleabilidad. Todos los
+              auditores poseen la norma de calidad ISO 19011 (auditoría y
+              técnicas de auditoría).
             </p>
           </div>
         </FadeUpOnScroll>
