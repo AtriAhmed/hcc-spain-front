@@ -8,208 +8,237 @@ export default function RegulationFee() {
       <div className="w-full px-8 py-10 max-w-7xl mx-auto">
         <ScrollAnimation animateIn="animate__fadeInUp">
           <h1 className="font-poppins font-bold text-3xl md:text-4xl text-center md:text-left text-[#9dbc98] capitalize transition-all duration-1000 ">
-            Fee Regulation:
+            Regulación de Tarifas:
           </h1>
         </ScrollAnimation>
         <ScrollAnimation animateIn="animate__fadeInUp" delay={1} duration={2}>
           <p className="pt-6 font-open font-normal text-base text-center md:text-left text-slate-900">
-            <span className="font-bold">Introduction :</span> Halal Correct Germany is highly recognized certification body and already accredited by several accreditation/approval body such as Emirates International Accreditation Center (EIAC), Saudi Food and Drug Authority (SFDA) and Ministry of Industry & Advanced Technology (MOIAT). The recognition allows Halal Correct Germany to broaden its certification services through many companies around Germany and Europe. To provide a brief explanation how the costumers of Halal Correct Germany will deal with the certification cost, Halal Correct Germany creates this fee regulation system. This description is expected can make the certification processes and procedures as transparent as possible. Therefore, to start the certification process, it is important to deal with several components mentioned below by Halal Correct Germany to decide an estimated certification price.
+            <span className="font-bold">Introducción:</span> Halal Correct Spain
+            es un organismo de certificación altamente reconocido y ya está
+            acreditado por varios organismos de acreditación/aprobación, como el
+            Centro Internacional de Acreditación de los Emiratos (EIAC), la
+            Autoridad Saudí de Alimentos y Medicamentos (SFDA) y el Ministerio
+            de Industria y Tecnología Avanzada (MOIAT). Este reconocimiento te
+            permite ampliar tus servicios de certificación a través de numerosas
+            empresas en Alemania y Europa. Para explicar brevemente cómo los
+            clientes de Halal Correct Spain gestionarán el costo de la
+            certificación, Halal Correct Spain ha creado este sistema de
+            regulación de tarifas. Esta descripción busca maximizar la
+            transparencia de los procesos y procedimientos de certificación. Por
+            lo tanto, para iniciar el proceso de certificación, es importante
+            considerar los componentes que Halal Correct Spain menciona a
+            continuación para determinar un precio estimado.
           </p>
           <ul className="px-8 pt-6 font-open font-normal text-base list-disc">
             <li>
-              Price component of Halal correct Germany :
+              Componentes del precio de Halal Correct Spain:
               <br />
               <br />
               <div className="grid grid-cols-12 divide-y">
-                <div className="col-span-6 font-bold p-2">Components</div>
+                <div className="col-span-6 font-bold p-2">Componentes</div>
                 <div className="col-span-6 font-bold p-2 !border-t-0">
-                  Price
+                  Precio
                 </div>
                 <div className="col-span-6 p-2">
-                  <div>- Administration fee</div>
-                  <div>- Local/International process of certification</div>
+                  <div>- Gastos de administración</div>
+                  <div>- Proceso de certificación local/internacional</div>
                 </div>
-                <div className="col-span-6 p-2">€250-€500</div>
+                <div className="col-span-6 p-2">250-500 €</div>
                 <div className="col-span-6 p-2">
-                  <div>-site and size of the company</div>
-                  <div>-category of scope</div>
-                  -Number of certified products/<div>-Risk of the company</div>
+                  <div>- Ubicación y tamaño de la empresa</div>
+                  <div>- Categoría del alcance</div>
+                  <div>- Número de productos certificados</div>
+                  <div>- Riesgo de la empresa</div>
                 </div>
-                <div className="col-span-6 p-2">€1450-€4500</div>
+                <div className="col-span-6 p-2">1450-4500 €</div>
                 <div className="col-span-6 p-2">
-                  - Location (Traveling cost/time) (point 3)
+                  - Ubicación (Costo/tiempo de desplazamiento) (punto 3)
                 </div>
-                <div className="col-span-6 p-2">Depending on the travel distance</div>
+                <div className="col-span-6 p-2">
+                  Dependiendo de la distancia del desplazamiento
+                </div>
                 <div className="col-span-6 p-2">
                   <div>
-                    - Extension of certified products raw
-                    material/screening products
+                    - Extensión de la materia prima/productos de cribado de
+                    productos certificados
                   </div>
-                  <div>- Annex separation</div>
+                  <div>- Separación de anexos</div>
                 </div>
-                <div className="col-span-6 p-2">€50-€150</div>
-                <div className="col-span-6 p-2">- Inspection fee</div>
-                <div className="col-span-6 p-2">€60 per hour</div>
+                <div className="col-span-6 p-2">50-150 €</div>
+                <div className="col-span-6 p-2">- Gastos de inspección</div>
+                <div className="col-span-6 p-2">60 € por hora</div>
               </div>
               <br />
               <br />
             </li>
             <div className="pt-3">
-              <span className="font-bold">1. Location (Traveling cost)</span>
+              <span className="font-bold">
+                1. Ubicación (Costo de desplazamiento)
+              </span>
               <br />
               <div>
-                Each client has different manufacturing location. The distance
-                is counted according to the location of the Head office of Halal
-                Correct in Germany.
+                Cada cliente tiene una ubicación de fabricación diferente. La
+                distancia se calcula según la ubicación de la sede de Halal
+                Correct Spain.
               </div>
               <div>
-                There are also costumers located outside of Germany;
-                however, it does not mean that the price would be much higher.
-                Other several components would affect the charged fee.
-                Therefore, the location is considered as one of the factors
-                affecting the fee due to Halal Correct Germany spending on transport to
-                reach the company, accommodation, days of audit, and auditor
-                fee.
+                También hay clientes ubicados fuera de Alemania; sin embargo,
+                esto no implica que el precio sea mucho mayor. Otros componentes
+                influyen en la tarifa que se cobra. Por lo tanto, la ubicación
+                se considera uno de los factores que afectan la tarifa debido a
+                los gastos de Halal Correct Spain en transporte para llegar a la
+                empresa, alojamiento, días de auditoría y honorarios del
+                auditor.
               </div>
               <div>
-                The accessible location from the client in in Germany much
-                easier rather than the client located in Norway, as an example.
-                Then it will increase the traveling cost and other mentioned
-                component above.
-              </div>
-              <br />
-            </div>
-            <div className="pt-3">
-              <span className="font-bold">2. Site & size of the company</span>
-              <br />
-              <div>
-                Some companies have more than one manufacturer or production
-                sites. If this is the case, it means that there will be the need
-                to spend more time on carrying out the audit. This also applies
-                if the company has much bigger size, usually
-                multinational/international companies.
-              </div>
-
-              <br />
-            </div>
-            <div className="pt-3">
-              <span className="font-bold">3. Category of scope</span>
-
-              <br />
-              <div>
-                There are 5 categories of products certified by Halal Correct GermanyN HALAL CONFIRMATION CENTER LIMITED;
-                category CI (Processing of perishable animal products), CII
-                (Processing of perishable plant products), CIII (Processing of
-                perishable animal and plant products (mixed products), CIV
-                (processing of ambient stable products), CV (Animal
-                slaughtering), K Production of (Bio) chemical. It is possible
-                that category CV and CI would take much more fee because there
-                might be a following activities after the audit. Meat processed
-                products and animal slaughtering might need further inspection
-                meaning that it would not only take one or two days common
-                audit. Animal slaughtering also needs a slaughterman and
-                supervisor during its activities. The report should be filled in
-                and reviewed to make sure all halal requirement has been met. In
-                addition, several company intend to certify per batch
-                production; this type of certification has to be charged
-                differently (every batch).
-              </div>
-              <br />
-            </div>
-            <div className="pt-3">
-              <span className="font-bold">4. Inspection fee</span>
-
-              <br />
-              <div>
-                Halal correct Germany can have a highly risk company which usually needs
-                further inspection. The inspection is needed to monitor the
-                company to make sure they still apply halal procedure after the
-                certification process.
+                Por ejemplo, un cliente que se encuentra en Alemania tiene mucho
+                más fácil acceso que uno que se encuentra en Noruega. Esto
+                incrementará los costos de viaje y otros componentes mencionados
+                anteriormente.
               </div>
               <br />
             </div>
             <div className="pt-3">
               <span className="font-bold">
-                5. Number of certified product/raw material/screening products
+                2. Ubicación y tamaño de la empresa
               </span>
+              <br />
+              <div>
+                Algunas empresas tienen más de un fabricante o planta de
+                producción. En este caso, se requiere más tiempo para realizar
+                la auditoría. Esto también aplica a empresas de mayor tamaño,
+                generalmente multinacionales/internacionales.
+              </div>
+
+              <br />
+            </div>
+            <div className="pt-3">
+              <span className="font-bold">3. Categoría de alcance</span>
 
               <br />
               <div>
-                After the applicant sends the source screening and application
-                form, Halal correct Germany will review and screen the products and raw
-                materials. Generally, the applicant is asked to forward the
-                specification of raw materials, flowchart (if it is needed), and
-                Halal certificate of raw materials.
+                Hay 5 categorías de productos certificados por Halal Correct
+                Spain HALAL CONFIRMATION CENTER LIMITED: Categoría CI
+                (Procesamiento de productos animales perecederos), CII
+                (Procesamiento de productos vegetales perecederos), CIII
+                (Procesamiento de productos animales y vegetales perecederos
+                (productos mixtos), CIV (Procesamiento de productos estables a
+                temperatura ambiente), CV (Sacrificio de animales), K
+                (Producción de (bio)químicos). Es posible que las categorías CV
+                y CI tengan una tarifa mucho mayor debido a que podrían existir
+                actividades posteriores a la auditoría. Los productos cárnicos
+                procesados y el sacrificio de animales podrían requerir una
+                inspección adicional, lo que significa que no solo tomaría una
+                auditoría común de uno o dos días. El sacrificio de animales
+                también requiere un matador y un supervisor durante sus
+                actividades. El informe debe completarse y revisarse para
+                garantizar que se cumplan todos los requisitos halal. Además,
+                varias empresas pretenden certificar la producción por lote;
+                este tipo de certificación tiene un costo diferente (para cada
+                lote).
               </div>
               <br />
             </div>
             <div className="pt-3">
-              <span className="font-bold">6. Risk of the company</span>
+              <span className="font-bold">4. Tarifa de inspección</span>
+
               <br />
               <div>
-                There are low risk, medium risk and high risk of companies. High
-                risk company would normally take much more effort and time to
-                review and to audit. It has animal/pork raw materials or it has
-                alcoholic products in the company. The complexity of the company
-                might affect the certification process.
+                Halal correct Spain puede tener empresas de alto riesgo que
+                generalmente requieren una inspección adicional. La inspección
+                es necesaria para supervisar a la empresa y garantizar que aún
+                aplique el procedimiento halal después del proceso de
+                certificación.
               </div>
               <br />
             </div>
             <div className="pt-3">
               <span className="font-bold">
-                7. Local/International process of certification
+                5. Número de productos/materias primas/productos de cribado
+                certificados
               </span>
+
               <br />
               <div>
-                For the certified products within the country, the complexity is
-                less than an export product; especially to export the product to
-                Gulf country. The company usually needs a special letter/support
-                for specific country when they intend to send their products.
-                This letter of support will be provided by Halal correct Germany.
+                Tras enviar el formulario de solicitud y la verificación de
+                origen, Halal correct Spain revisará y verificará los productos
+                y las materias primas. Generalmente, se les pide al solicitante
+                que envíe la especificación de las materias primas, el diagrama
+                de flujo (si es necesario) y el certificado Halal de las
+                materias primas.
               </div>
               <br />
             </div>
             <div className="pt-3">
-              <span className="font-bold">8. Administration fee</span>
+              <span className="font-bold">6. Riesgo de la empresa</span>
               <br />
               <div>
-                Other administrative work has to be done by administration
-                assistant; therefore, there will be a specific fee for this
-                activity. Administration work is a part of internal process. The
-                specific fee shall be made for their activity to support the
-                cost from the beginning until the issuance of the certificate.
+                Existen empresas de riesgo bajo, medio y alto. Las empresas de
+                alto riesgo suelen requerir mucho más esfuerzo, además de mayor
+                tiempo para la revisión y auditoría. Utilizan materias primas
+                animales/porcinas o productos alcohólicos. La complejidad de la
+                empresa podría afectar el proceso de certificación.
               </div>
               <br />
             </div>
             <div className="pt-3">
               <span className="font-bold">
-                9. Extension of certified products
+                7. Proceso de certificación local/internacional
               </span>
               <br />
-
               <div>
-                After the audit, company sometimes requests to any changes on
-                their issued certificate. Common request is adding a new raw
-                material/product to its halal certificate. Others might be the
-                approval to use new raw materials on halal certified product.
-                When the client asks to add a new raw material/product to its
-                halal certificate, a new certificate will be printed out. This
-                activity fall for different charge also.
+                Para los productos certificados dentro del país, la complejidad
+                es menor que para los productos de exportación, especialmente
+                para exportar el producto a países del Golfo. La empresa
+                generalmente necesita una carta/documento de respaldo especial
+                para el país específico al que desea enviar sus productos. Esta
+                carta de respaldo será proporcionada por Halal correct Spain.
               </div>
               <br />
             </div>
             <div className="pt-3">
-              <span className="font-bold">10. Annexseparation</span>
+              <span className="font-bold">8. Costos administrativos</span>
+              <br />
+              <div>
+                El asistente administrativo deberá realizar otros trámites
+                administrativos. Por lo tanto, se aplicará una tarifa específica
+                para esta actividad. El trabajo administrativo forma parte del
+                proceso interno. Se aplicará una tarifa específica para cubrir
+                los costos desde el inicio hasta la emisión del certificado.
+              </div>
+              <br />
+            </div>
+            <div className="pt-3">
+              <span className="font-bold">
+                9. Extensión de productos certificados
+              </span>
               <br />
 
               <div>
-                Generally, one client would have one certificate and all halal
-                certified products will be mentioned on annex page; however,
-                other companies might differ. The request from their costumer
-                ask to mention one product only in one annex. It means that if
-                the costumers of Halal correct Germany own around 10 Halal certified
-                products, there will be around 10 pages of annex shall be made.
-                The price of certification is affected by this request.
+                Tras la auditoría, la empresa suele solicitar cambios en el
+                certificado emitido. Una solicitud común es añadir una nueva
+                materia prima o producto a su certificado halal. Otras
+                solicitudes pueden ser la aprobación para usar nuevas materias
+                primas en productos con certificación halal. Cuando el cliente
+                solicita añadir una nueva materia prima o producto a su
+                certificado halal, se imprime un nuevo certificado. Esta
+                actividad también tiene un costo diferente.
+              </div>
+              <br />
+            </div>
+            <div className="pt-3">
+              <span className="font-bold">10. Separación de anexos</span>
+              <br />
+
+              <div>
+                Generalmente, un cliente tiene un certificado y todos los
+                productos con certificación halal se mencionan en la página del
+                anexo; sin embargo, otras empresas pueden hacerlo diferente. La
+                solicitud del cliente exige mencionar solo un producto en un
+                anexo. Esto significa que si los clientes de Halal correct Spain
+                poseen alrededor de 10 productos con certificación halal, se
+                deben crear aproximadamente 10 páginas de anexos. El precio de
+                la certificación se ve afectado por esta solicitud.
               </div>
               <br />
             </div>

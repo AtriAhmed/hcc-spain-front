@@ -13,4 +13,4 @@ function index() {
 
 export default index
 
-export const Head = () => <Seo title="Fee Regulation" />
+export const Head = () => <Seo title="Regulación de Tarifas:" />
