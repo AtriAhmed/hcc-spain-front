@@ -18,7 +18,7 @@ function Complaint() {
   const [sent, setSent] = useState(false)
 
   function sendRequest(data) {
-    return axios.post('/api/create-complaint',data)
+    return axios.post("/api/create-complaint", data)
   }
 
   async function handleSubmit(e) {
@@ -31,12 +31,12 @@ function Complaint() {
     const enquiryVal = enquiry.trim()
 
     if (!nameVal.length || !emailVal.length || !enquiryVal.length) {
-      setError("All fields are required")
+      setError("Todos los campos son obligatorios")
       return
     }
 
     if (!validator.isEmail(emailVal)) {
-      setError("Please enter a valid email")
+      setError("Por favor ingrese un email válido")
       return
     }
 
@@ -45,14 +45,14 @@ function Complaint() {
     const data = {
       name: nameVal,
       email: emailVal,
-      complaint:enquiryVal,
-  }
+      complaint: enquiryVal,
+    }
 
     try {
       await sendRequest(data)
       setSent(true)
     } catch (err) {
-      setError("There has been an error, please try again")
+      setError("Ha ocurrido un error, por favor intente nuevamente")
     }
     setLoading(false)
   }
@@ -61,7 +61,7 @@ function Complaint() {
     return (
       <div className="w-full max-w-[500px] px-10 py-28 rounded-lg bg-[#9dbc98] flex flex-col items-center justify-center">
         <h3 className="mb-6 font-open font-light text-3xl md:text-4xl text-center text-white">
-          Your complaint has been sent
+          Su queja ha sido enviada
         </h3>
         <CircleCheck width={125} height={125} fill="white" />
         <Link
@@ -72,7 +72,7 @@ function Complaint() {
             icon={faArrowLeft}
             className="mr-2 ml-[-20px] text-[#9dbc98]"
           />
-          Home
+          Inicio
         </Link>
       </div>
     )
@@ -80,7 +80,7 @@ function Complaint() {
   return (
     <div className="w-full max-w-[500px] px-6 sm:px-10 py-10 rounded-lg bg-[#9dbc98]">
       <h1 className="px-2 py-10 font-open font-light text-3xl md:text-4xl text-center uppercase text-white">
-        Complaint
+        Queja
       </h1>
       <form
         className="w-full flex flex-col gap-4 font-open font-bold text-base text-white"
@@ -90,7 +90,7 @@ function Complaint() {
           type="text"
           value={name}
           onChange={e => setName(e.target.value)}
-          placeholder="Your Name"
+          placeholder="Tu nombre"
           className="px-2 py-1 border-b border-slate-100 placeholder-slate-100 bg-transparent outline-none"
           required
           autoFocus
@@ -99,7 +99,7 @@ function Complaint() {
           type="email"
           value={email}
           onChange={e => setEmail(e.target.value)}
-          placeholder="Your Email"
+          placeholder="Tu correo electrónico"
           className="px-2 py-1 border-b border-slate-100 placeholder-slate-100 bg-transparent outline-none"
           required
         />
@@ -107,13 +107,13 @@ function Complaint() {
           type="text"
           value={enquiry}
           onChange={e => setEnquiry(e.target.value)}
-          placeholder="Please explain the nature of your complaint"
+          placeholder="Por favor, explica el motivo de tu queja"
           rows="4"
           className="px-2 py-1 border-b border-slate-100 placeholder-slate-100 bg-[rgb(255,255,255,.1)] outline-none resize-none"
           required
         />
         <p className="font-bold text-black">
-          To read more,{" "}
+          Para más información,{" "}
           <a
             href={`${process.env.GATSBY_APP_URL}ES-003 Appeals and complaints handling procedure.pdf`}
             target="_blank"
@@ -121,7 +121,7 @@ function Complaint() {
             className="text-blue-600 hover:text-sky-100 underline"
           >
             {" "}
-            click here
+            haz clic aquí
           </a>
         </p>
         {error && (
@@ -144,7 +144,7 @@ function Complaint() {
           <div className="w-full sm:w-1/2 relative">
             <input
               type="submit"
-              value="Send"
+              value="Enviar"
               className="w-full px-3 py-2 rounded-2xl text-slate-900 bg-gradient-to-br from-green-200 to-green-400 cursor-pointer hover:filter hover:saturate-[200%] transition duration-300"
             />
             {loading && (
@@ -166,7 +166,7 @@ function Complaint() {
               icon={faArrowLeft}
               className="mr-2 ml-[-20px] text-slate-600"
             />
-            Back
+            Volver
           </Link>
         </div>
       </form>

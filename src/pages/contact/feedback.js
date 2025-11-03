@@ -12,4 +12,4 @@ function index() {
 
 export default index
 
-export const Head = () => <Seo title="Feedback" />
+export const Head = () => <Seo title="Comentarios" />
