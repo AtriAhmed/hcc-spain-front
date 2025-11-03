@@ -37,6 +37,7 @@
     "react-multi-email": "^1.0.6",
     "react-qr-code": "^2.0.12",
     "react-scroll-parallax": "^3.3.2",
+    "react-select": "^5.10.2",
     "react-sortable-hoc": "^2.0.0",
     "react-to-print": "^2.14.15",
     "react-toastify": "^10.0.6",

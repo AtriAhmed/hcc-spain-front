@@ -196,5 +196,9 @@ const contactItems = {
       text: "Comprobación del certificado Halal",
       path: "/contact/check",
     },
+    {
+      text: "Solicitud en Arabia Saudita",
+      path: "/contact/saudi-apply",
+    },
   ],
 }
