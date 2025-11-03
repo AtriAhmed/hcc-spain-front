@@ -20,7 +20,7 @@ export default index
 
 export const Head = () => (
   <Seo
-    title="Auditing and training"
-    description="Our lead auditors are continuously working through traineeships to develop and to train different auditors for different scope application areas, so our auditors with the right knowledge will be more widely employable."
+    title="Auditoría y capacitación:"
+    description="Nuestros auditores principales realizan prácticas continuamente para desarrollar y capacitar a diferentes auditores en diferentes áreas de aplicación, de modo que los auditores con los conocimientos adecuados tengan una mayor empleabilidad."
   />
 )
