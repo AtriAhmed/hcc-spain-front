@@ -14,7 +14,8 @@ function MeaningTabs() {
       <div className="w-full px-8 py-10 max-w-7xl mx-auto">
         <FadeUpOnScroll>
           <h3 className="font-poppins font-bold  text-3xl md:text-4xl text-center md:text-left text-[#9dbc98] capitalize transition-all duration-1000 ">
-            Halal correct Germany Certification has drawn up a number of principles
+            La Certificación Halal Correct Spain ha establecido una serie de
+            principios.
           </h3>
         </FadeUpOnScroll>
         <FadeUpOnScroll className="pt-8">
@@ -47,37 +48,36 @@ export default MeaningTabs
 
 const data = [
   {
-    label: "What are email numbers?",
+    label: "¿Qué son los números E?",
     value: "tab1",
     desc: (
       <>
-        An e-number is a number that is assigned to a certain additive or
-        excipient in foods. It indicates that the substance is allowed in the
-        EU. E numbers are included in the Commodities Act.
+        Un número E es un número que se asigna a un aditivo o excipiente en los
+        alimentos. Indica que la sustancia está permitida en la UE. Los números
+        E están incluidos en la Ley de Productos Básicos.
         <br />
         <br />
-        The producer is obliged to state these additives on the label. Producers
-        can put the number and/or name of the substance on the packaging. Many
-        additions also have different names. This makes it very difficult for a
-        consumer to understand what is inside.
+        El productor está obligado a indicar estos aditivos en la etiqueta. Los
+        productores pueden incluir el número o el nombre de la sustancia en el
+        envase. Muchos aditivos también tienen nombres diferentes, lo que
+        dificulta mucho que el consumidor comprenda su contenido.
       </>
     ),
   },
   {
-    label: "Is stunning of animals during slaughter halal?",
+    label: "¿Es halal el aturdimiento de animales durante el sacrificio?",
     value: "tab2",
     desc: (
       <>
-        The basis of Islamic slaughter is that the animal is slaughtered without
-        any form of stunning. Islamic scholars indicate, however, that an
-        anesthetic is allowed to a certain extent and in special cases, namely
-        when there is impotence or when the quality or animal welfare is at
-        stake.
+        La base del sacrificio islámico es que el animal se sacrifica sin
+        aturdimiento. Sin embargo, los eruditos islámicos indican que la
+        anestesia está permitida hasta cierto punto y en casos especiales, como
+        cuando hay impotencia o cuando la calidad o el bienestar animal están en
+        riesgo.
         <br />
         <br />
-        In all cases, the anesthesia should be reversible. There must be a
-        guarantee that the animal will continue to live after the stunning and
-        will not die.
+        En todos los casos, la anestesia debe ser reversible. Debe garantizarse
+        que el animal seguirá vivo después del aturdimiento y no morirá.
       </>
     ),
   },

@@ -7,27 +7,28 @@ function MeaningFeatures() {
       <div className="w-full px-8 py-10 max-w-7xl mx-auto">
         <FadeUpOnScroll>
           <h3 className="font-poppins font-bold text-3xl md:text-4xl text-center md:text-left text-[#9dbc98] capitalize transition-all duration-1000 ">
-            What are the important features of halal slaughter?
+            ¿Cuáles son las características importantes del sacrificio halal?
           </h3>
         </FadeUpOnScroll>
         <FadeUpOnScroll>
           <p className="pt-6 font-open font-normal text-base text-center md:text-left text-slate-900">
-            The main conditions of halal slaughter are:
+            Las principales condiciones del sacrificio halal son:
           </p>
           <ul className="px-8 pt-6 font-open font-normal text-base list-disc">
             <li>
-              The animal must be originally clean. The animal must comply with
-              universal and moral health values.
+              El animal debe estar inicialmente limpio. El animal debe cumplir
+              con los valores universales y morales de salud.
             </li>
             <li>
-              The animal must be treated humanely. Also, the animal must be
-              alive during the slaughter and the name of Allah (God, the Creator
-              of the universe) must be mentioned over the animal.
+              El animal debe ser tratado con humanidad. Además, debe estar vivo
+              durante el sacrificio y el nombre de Alá (Dios, Creador del
+              universo) debe mencionarse sobre él.
             </li>
             <li>
-              The animal is slaughtered through a cut on the neck by an Islamic
-              skilled butcher. The animal should also be given sufficient time
-              to bleed out before continuing processing.
+              El animal es sacrificado mediante un corte en el cuello por un
+              carnicero islámico experto. También debe darse tiempo suficiente
+              para que el animal se desangre antes de continuar con el
+              procesamiento.
             </li>
           </ul>
         </FadeUpOnScroll>

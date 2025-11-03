@@ -7,27 +7,27 @@ function BasedOn() {
       <div className="w-full px-8 py-10 max-w-7xl mx-auto">
         <FadeUpOnScroll>
           <h3 className="font-poppins font-bold text-3xl md:text-4xl text-center md:text-left text-[#9dbc98] capitalize transition-all duration-1000 ">
-            These religious precepts regarding food are based on:
+            Estos preceptos religiosos sobre la alimentación se basan en:
           </h3>
         </FadeUpOnScroll>
         <FadeUpOnScroll>
           <ul className="px-8 pt-6 font-open font-normal text-base list-disc">
-            <li>The Quran (the holy book of the Muslims).</li>
+            <li>El Corán (el libro sagrado de los musulmanes).</li>
             <li>
-              The Sunnah (the tradition and way of life of the Prophet
-              Muhammad).
+              La Sunna (la tradición y el estilo de vida del profeta Mahoma).
             </li>
-            <li>The Consensus of the Muslim Community.</li>
+            <li>El consenso de la comunidad musulmana.</li>
             <li>
-              Analogy, based on the primary sources of Islam as explained by
-              recognized Islamic scholars
+              Analogía basada en las fuentes primarias del islam, según lo
+              explicado por reconocidos eruditos islámicos.
             </li>
           </ul>
           <p className="pt-6 font-open font-normal text-base text-center md:text-left text-slate-900">
-            In daily life, food is a necessary part and thus these dietary laws
-            also play an important role in the life of the Muslim. Halal is also
-            an identity of conscious living. Halal therefore stands for quality,
-            hygiene and lifestyle. (source: Ikeethalal.nl).
+            En la vida diaria, la comida es una parte esencial y, por lo tanto,
+            estas leyes dietéticas también desempeñan un papel importante en la
+            vida del musulmán. Halal es también una identidad de vida
+            consciente. Halal es sinónimo de calidad, higiene y estilo de vida.
+            (Fuente: Ikeethalal.nl).
           </p>
         </FadeUpOnScroll>
       </div>
