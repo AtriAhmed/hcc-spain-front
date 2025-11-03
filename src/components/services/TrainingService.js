@@ -7,28 +7,28 @@ function TrainingService() {
       <div className="w-full px-8 pb-10 pt-4 max-w-7xl mx-auto">
         <FadeUpOnScroll>
           <h3 className="font-poppins font-bold text-3xl md:text-4xl text-center md:text-left text-[#9dbc98] capitalize transition-all duration-1000 ">
-            Customized training:
+            Formación personalizada:
           </h3>
         </FadeUpOnScroll>
         <FadeUpOnScroll>
           <div className="pt-8 flex flex-col items-center md:flex-row gap-8">
             <p className="font-open font-normal text-base text-center md:text-left text-slate-900">
-              Right now, you can discover the QMS Solutions that meet all your
-              training needs.
+              Descubre ahora mismo las soluciones de SGC que satisfacen todas
+              sus necesidades de formación.
               <br />
               <br />
-              As skills are the prerequisite for good performance, along with
-              staff involvement at all levels, Halal correct Germany Certification has
-              developed a wide range of customized training courses so it can
-              share and pass on its knowledge to the personnel in each specific
-              company.
+              Dado que las habilidades son un requisito previo para un buen
+              desempeño, junto con la participación del personal a todos los
+              niveles, La Certificación Halal Correct Spain ha desarrollado una
+              amplia gama de cursos de formación personalizados para compartir y
+              transmitir sus conocimientos al personal de cada empresa.
               <br />
               <br />
-              Our range of training courses can be implemented on your premises
-              and they are adaptable to your needs and your context (duration,
-              schedule, level of difficulty, number of participants, etc.). We
-              can also come up with fully customized training courses in
-              accordance with your specifications.
+              Nuestra gama de cursos de formación se puede implementar en tus
+              instalaciones y se adapta a tus necesidades y contexto (duración,
+              horario, nivel de dificultad, número de participantes, etc.).
+              También podemos diseñar cursos de formación totalmente
+              personalizados según tus especificaciones.
             </p>
           </div>
         </FadeUpOnScroll>

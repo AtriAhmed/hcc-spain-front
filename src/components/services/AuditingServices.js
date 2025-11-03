@@ -7,37 +7,44 @@ function AuditingServices() {
       <div className="w-full px-8 pb-10 max-w-7xl mx-auto">
         <FadeUpOnScroll>
           <h3 className="font-poppins font-bold text-3xl md:text-4xl text-center md:text-left text-[#9dbc98] capitalize transition-all duration-1000 ">
-            Auditing services:
+            Servicios de auditoría:
           </h3>
         </FadeUpOnScroll>
         <FadeUpOnScroll>
           <div className="pt-8 flex flex-col items-center md:flex-row gap-8">
             <p className="font-open font-normal text-base text-center md:text-left text-slate-900">
-            We intervene as a third-audit auditor to evaluate your systems and issue the requisite certification.
+              Intervenimos como auditor externo para evaluar tus sistemas y
+              emitir la certificación necesaria.
               <br />
               <br />
-              Our certified auditors do their work professionally, acting impartially, and applying their know-how.
-The diverse nature of our audits and our auditors’ capacity to adapt themselves to your specific
-context makes them a key success factor for getting ahead of the curve.
+              Nuestros auditores certificados realizan su trabajo con
+              profesionalidad, imparcialidad y aplicando sus conocimientos. La
+              diversidad de nuestras auditorías y la capacidad de nuestros
+              auditores para adaptarse a tu contexto específico las convierten
+              en un factor clave para el éxito y nos posicionamos a la
+              vanguardia.
               <br />
               <br />
-              Our auditors rely on standardized method principles (ISO 19011):
+              Nuestros auditores se basan en los principios de métodos
+              estandarizados (ISO 19011):
             </p>
           </div>
         </FadeUpOnScroll>
         <FadeUpOnScroll>
           <ul className="pt-4 font-open font-normal list-none text-slate-900">
-            <Li>✔ A qualified, experienced auditor</Li>
-            <Li>✔ A rigorous method</Li>
+            <Li>Un auditor cualificado y con experiencia</Li>
+            <Li>Un método riguroso</Li>
             <Li>
-            ✔ The auditor’s independence in relation to the activities audited
+              Independencia del auditor en relación con las actividades
+              auditadas
             </Li>
-            <Li>✔ Transparency throughout the audit</Li>
-            <Li>✔ Objectivity: the audit is based on tangible proof</Li>
+            <Li>Transparencia durante toda la auditoría</Li>
+            <Li>Objetividad: la auditoría se basa en pruebas tangibles</Li>
             <Li>
-            ✔ Reliable feedback on observations (closing meeting, audit report)
+              Retroalimentación fiable sobre las observaciones (reunión de
+              cierre, informe de auditoría)
             </Li>
-            <Li>✔ The information is kept confidential.</Li>
+            <Li>La información se mantiene confidencial.</Li>
           </ul>
         </FadeUpOnScroll>
       </div>

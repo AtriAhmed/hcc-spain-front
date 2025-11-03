@@ -14,7 +14,7 @@ function index() {
 
       <FadeUpOnScroll>
         <h3 className="w-full px-8 pt-10 max-w-7xl mx-auto font-poppins font-bold text-3xl md:text-4xl text-center md:text-left text-[#9dbc98] capitalize transition-all duration-1000 ">
-          Vision, mission and core values:
+          Visión, misión y valores fundamentales:
         </h3>
       </FadeUpOnScroll>
       <QuickScan />

@@ -8,27 +8,27 @@ function QuickScan() {
         <FadeUpOnScroll>
           <div className="pt-8 flex flex-col items-center md:flex-row gap-8">
             <p className="font-open font-normal text-base text-center md:text-left text-slate-900">
-              We believe that people have the right to consume reliable halal
-              products, in Germany as well as in Europe and the rest of
-              the world.
+              Creemos que las personas tienen derecho a consumir productos halal
+              fiables, tanto en Alemania como en Europa y el resto del mundo.
               <br />
               <br />
-              That is why we are committed to continuously improve our own
-              quality management system. To achieve this, we are working more
-              and more on an international level and we increasingly aim for
-              international accreditation.We are there…
+              Por eso, nos comprometemos a mejorar continuamente nuestro sistema
+              de gestión de calidad. Para lograrlo, trabajamos cada vez más a
+              nivel internacional y aspiramos día a día por la acreditación
+              internacional. Estamos ahí…
               <br />
               <br />
-              Our services for performing diagnostics and quick analysis of your
-              processes, procedures and raw materials enable rapid verification
-              of your chain so that we can implement an action plan and propose
-              suitable solutions to any shortcomings you are facing.
+              Nuestros servicios de diagnóstico y análisis rápido de tus
+              procesos, procedimientos y materias primas permiten una
+              verificación rápida de tu cadena de suministro para que podamos
+              implementar un plan de acción y proponer soluciones adecuadas a
+              cualquier deficiencia que pueda encontrar.
               <br />
               <br />
-              We have developed and optimized tools that enable very fast
-              analysis of your process/system, whilst at the same time
-              fulfilling the requirements of national and international
-              standards.
+              Hemos desarrollado y optimizado herramientas que permiten un
+              análisis muy rápido de tu proceso/sistema, cumpliendo al mismo
+              tiempo con los requisitos de las normas nacionales e
+              internacionales.
             </p>
           </div>
         </FadeUpOnScroll>
