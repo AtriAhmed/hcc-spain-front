@@ -7,18 +7,30 @@ function Structure() {
       <div className="w-full px-8 py-10 max-w-7xl mx-auto">
         <FadeUpOnScroll>
           <h3 className="font-poppins font-bold text-3xl md:text-4xl text-center md:text-left text-[#9dbc98] capitalize transition-all duration-1000 ">
-            Company structure:
+            Estructura de la empresa:
           </h3>
         </FadeUpOnScroll>
         <FadeUpOnScroll>
           <div className="pt-8 flex flex-col items-center md:flex-row gap-8">
             <p className="font-open font-normal text-base text-center md:text-left text-slate-900">
-              Mr. A. Ali-Salah and Mr. T. Maatoug are the founders of Halal Correct Germany, a proud member of the Halal Correct Certification-Group and a leading force in the Halal food market in Europe.
+              El Sr. A. Ali-Salah y el Sr. T. Maatoug son los fundadores de
+              Halal Correct Spain, un miembro orgulloso del Grupo de
+              Certificación Halal Correct y una empresa líder en el mercado de
+              alimentos Halal en Europa.
               <br />
-              <br /> Our departments work diligently each day to fulfill the organizational goals, aiming to make Halal food widely accessible. The organizational chart below provides a simplified overview of our departments. The blue lines indicate external departments.
+              <br /> Nuestros departamentos trabajan a diario para cumplir los
+              objetivos de la organización, con el objetivo de que los alimentos
+              Halal sean accesibles para todos. El organigrama a continuación
+              ofrece una visión general simplificada de nuestros departamentos.
+              Las líneas azules indican los departamentos externos.
               <br />
               <br />
-              Our departments work daily on achieving the organizational goals, with the purpose to make Halal food accessible to everyone. The organization chart below shows a simple representation of the departments in the organization. The blue lines represent external departments.
+              Nuestros departamentos trabajan a diario para alcanzar los
+              objetivos de la organización, con el objetivo de que los alimentos
+              Halal sean accesibles para todos. El organigrama a continuación
+              muestra una representación simple de los departamentos de la
+              organización. Las líneas azules representan los departamentos
+              externos.
             </p>
           </div>
         </FadeUpOnScroll>

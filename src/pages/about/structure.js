@@ -13,8 +13,10 @@ function structure() {
       <HalalProducer />
       <FadeUpOnScroll>
         <div className="max-w-5xl mx-auto py-10">
-          <div className="flex justify-center text-4xl text-blue-400 font-medium">Main structure organization</div>
-          <img src={structure1} alt="Structure" className="mx-auto py-10" />
+          <div className="flex justify-center text-4xl text-blue-400 font-medium">
+            Estructura principal de la organización
+          </div>
+          <img src={structure1} alt="Estructura" className="mx-auto py-10" />
         </div>
       </FadeUpOnScroll>
     </div>
@@ -23,4 +25,4 @@ function structure() {
 
 export default structure
 
-export const Head = () => <Seo title="Company structure" />
+export const Head = () => <Seo title="Estructura de la empresa" />
