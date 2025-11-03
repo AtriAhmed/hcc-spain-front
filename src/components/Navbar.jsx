@@ -22,7 +22,7 @@ function Navbar({ location }) {
       <div className="flex justify-between items-center w-full max-w-7xl m-auto px-3 lg:px-20 py-4">
         <Link to="/">
           <h2 className="font-poppins font-bold text-white text-xl lg:text-3xl text-center uppercase transition-all duration-300">
-            HALAL CORRECT GERMANY
+            HALAL CORRECT SPAIN
           </h2>
         </Link>
         <button

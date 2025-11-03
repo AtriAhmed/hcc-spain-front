@@ -17,7 +17,8 @@ function PartnershipsTab() {
       <div className="w-full px-4 md:px-8 py-10 max-w-7xl mx-auto">
         <FadeUpOnScroll>
           <h3 className="font-poppins font-bold  text-3xl md:text-4xl text-center md:text-left text-[#9dbc98] capitalize transition-all duration-1000 ">
-            Halal correct Germany Certification has drawn up a number of principles:
+            La Certificación Halal Correct Spain ha establecido una serie de
+            principios:
           </h3>
         </FadeUpOnScroll>
         <FadeUpOnScroll className="pt-8">
@@ -55,25 +56,37 @@ export default PartnershipsTab
 
 const data = [
   {
-    label: "Accreditation and partnerships",
+    label: "Acreditación y colaboración:",
     value: "tab1",
     desc: (
       <>
-        <div className="font-semibold">Halal correct Germany is a member of Halal Correct Certification-Group :</div>
-        The Halal Correct Certification Foundation (TQ HCC) holds accreditation and recognition from numerous international Islamic authorities and operates under the supervision of the independent Islamic Council for Fatwa and Research in Germany (IBFR). The IBFR represents the four major Islamic law schools and maintains strong connections with pertinent Islamic institutions globally. Additionally, TQ HCC collaborates with specialized food agencies like Eurofins Food & Feed Testing (International) and Scienta Nova in Germany for research and laboratory services in the field of food technology.
+        <div className="font-semibold">
+          Halal Correct Spain es miembro del Grupo de Certificación Halal
+          Correct:
+        </div>
+        La Fundación para la Certificación Halal Correct (TQ HCC) cuenta con la
+        acreditación y el reconocimiento de numerosas autoridades islámicas
+        internacionales y opera bajo la supervisión del Consejo Islámico para la
+        Fatwa y la Investigación en Alemania (IBFR), entidad independiente. El
+        IBFR representa a las cuatro principales escuelas de derecho islámico y
+        mantiene sólidas conexiones con instituciones islámicas pertinentes a
+        nivel mundial. Además, TQ HCC colabora con agencias alimentarias
+        especializadas como Eurofins Food &amp; Feed Testing (Internacional) y
+        Scienta Nova en Alemania para servicios de investigación y laboratorio
+        en el campo de la tecnología alimentaria.
       </>
     ),
   },
   {
-    label: "Unique in international halal accreditations",
+    label: "Único en acreditaciones halal internacionales",
     value: "tab2",
     desc: (
       <>
-        Halal correct Germany Certification works in compliance with the internationally
-        recognized halal guidelines based on the quality management system ISO
-        9001:2015/ EC 17065:2012 and EC 19011:2011. To provide additional
-        transparency and halal guarantee, it is our goal to obtain a broad
-        international recognition.
+        La Certificación Halal Correct Spain trabaja conforme a las directrices
+        halal reconocidas internacionalmente, basadas en el sistema de gestión
+        de calidad ISO 9001:2015/ CE 17065:2012 y CE 19011:2011. Para brindar
+        mayor transparencia y garantía halal, nuestro objetivo es obtener un
+        amplio reconocimiento internacional.
       </>
     ),
   },

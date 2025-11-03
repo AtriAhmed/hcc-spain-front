@@ -22,15 +22,15 @@ export default Cards
 
 const arr = [
   {
-    title: "the entire chain",
-    text: "Halal Correct Germany ensures adherence to Islamic slaughter and processing principles throughout the supply chain with professionalism. We maintain the highest quality management standards through a rigorous documentation and traceability system, guaranteeing integrity and excellence in halal certification. ",
+    title: "Toda la cadena",
+    text: "Halal Correct Spain garantiza el cumplimiento de los principios islámicos de sacrificio y procesamiento en toda la cadena de suministro con profesionalismo. Mantenemos los más altos estándares de gestión de calidad mediante un riguroso sistema de documentación y trazabilidad, lo que garantiza la integridad y la excelencia en la certificación halal.",
   },
   {
-    title: "the halal consumer",
-    text: "Halal Correct Germany is committed to providing trustworthy halal products globally. We continually enhance our quality management system and pursue international accreditations to uphold the highest standards of reliability and integrity in halal certification.",
+    title: "El consumidor halal",
+    text: "Halal Correct Spain se compromete a proporcionar productos halal confiables a nivel mundial. Mejoramos continuamente nuestro sistema de gestión de calidad y buscamos acreditaciones internacionales para mantener los más altos estándares de fiabilidad e integridad en la certificación halal.",
   },
   {
-    title: "accreditations",
-    text: "Halal Correct Germany operates in alignment with internationally recognized Halal guidelines, following the quality management system standards ISO 9001:2015/EC 17065:2012. Our aim is to enhance transparency and provide a robust halal guarantee by seeking broad international recognition.",
+    title: "Acreditaciones",
+    text: "Halal Correct Spain opera conforme a las directrices Halal reconocidas internacionalmente, siguiendo las normas de sistemas de gestión de calidad ISO 9001:2015/EC 17065:2012. Nuestro objetivo es mejorar la transparencia y ofrecer una sólida garantía halal mediante la búsqueda de un amplio reconocimiento internacional.",
   },
 ]
