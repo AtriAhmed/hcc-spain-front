@@ -19,15 +19,15 @@ function sendRequest(
   explanationVal
 ) {
   const data = {
-    company:companyVal,
-    name:nameVal,
-    email:emailVal,
-    tel:telVal,
-    office_address:officeAddressVal,
-    factory_address:factoryAddressVal,
-    explanation:explanationVal
+    company: companyVal,
+    name: nameVal,
+    email: emailVal,
+    tel: telVal,
+    office_address: officeAddressVal,
+    factory_address: factoryAddressVal,
+    explanation: explanationVal,
   }
-  return axios.post('/api/create-apply',data)
+  return axios.post("/api/create-apply", data)
 }
 
 function Apply() {
@@ -64,12 +64,12 @@ function Apply() {
       !factoryAddressVal.length ||
       !explanationVal.length
     ) {
-      setError("All fields are required")
+      setError("Todos los campos son obligatorios")
       return
     }
 
     if (!validator.isEmail(emailVal)) {
-      setError("Please enter a valid email")
+      setError("Por favor ingrese un email válido")
       return
     }
 
@@ -86,7 +86,7 @@ function Apply() {
       )
       setSent(true)
     } catch (err) {
-      setError("There has been an error, please try again")
+      setError("Ha ocurrido un error, por favor inténtelo de nuevo")
     }
     setLoading(false)
   }
@@ -95,7 +95,7 @@ function Apply() {
     return (
       <div className="w-full max-w-[500px] px-10 py-28 rounded-lg bg-[#9dbc98] flex flex-col items-center justify-center">
         <h3 className="mb-6 font-open font-light text-3xl md:text-4xl text-center text-white">
-          Your request has been sent
+          Su solicitud ha sido enviada
         </h3>
         <CircleCheck width={125} height={125} fill="white" />
         <Link
@@ -106,7 +106,7 @@ function Apply() {
             icon={faArrowLeft}
             className="mr-2 ml-[-20px] text-[#9dbc98]"
           />
-          Home
+          Inicio
         </Link>
       </div>
     )
@@ -118,14 +118,14 @@ function Apply() {
     >
       <section className="w-full md:w-1/2 bg-white p-10 rounded-t-xl md:rounded-l-xl md:rounded-tr-none">
         <h1 className="px-2 py-6 font-open font-normal text-2xl md:text-3xl text-center capitalize text-[#9dbc98]">
-          General information
+          Información general
         </h1>
         <div className="w-full flex flex-col gap-6 font-open font-normal text-base text-slate-900 ">
           <input
             type="text"
             value={company}
             onChange={e => setCompany(e.target.value)}
-            placeholder="Your Company Name"
+            placeholder="Nombre de su empresa"
             className="px-2 py-2 border-b border-slate-500 placeholder-slate-500 bg-transparent outline-none"
             required
             autoFocus
@@ -134,7 +134,7 @@ function Apply() {
             type="text"
             value={name}
             onChange={e => setName(e.target.value)}
-            placeholder="Your Name"
+            placeholder="Su nombre"
             className="px-2 py-2 border-b border-slate-500 placeholder-slate-500 bg-transparent outline-none"
             required
           />
@@ -142,7 +142,7 @@ function Apply() {
             type="email"
             value={email}
             onChange={e => setEmail(e.target.value)}
-            placeholder="Your Email"
+            placeholder="Su email"
             className="px-2 py-2 border-b border-slate-500 placeholder-slate-500 bg-transparent outline-none"
             required
           />
@@ -150,7 +150,7 @@ function Apply() {
             type="text"
             value={tel}
             onChange={e => setTel(e.target.value)}
-            placeholder="Your Phone"
+            placeholder="Su teléfono"
             className="px-2 py-2 border-b border-slate-500 placeholder-slate-500 bg-transparent outline-none"
             required
           />
@@ -158,14 +158,14 @@ function Apply() {
       </section>
       <section className="w-full md:w-1/2 bg-[#9dbc98] p-10 rounded-b-xl md:rounded-r-xl md:rounded-bl-none">
         <h1 className="px-2 py-6 font-open font-normal text-2xl md:text-3xl text-center capitalize text-white">
-          Contact details
+          Datos de contacto
         </h1>
         <div className="w-full flex flex-col gap-4 font-open font-normal text-base text-white ">
           <input
             type="text"
             value={office_address}
             onChange={e => setOfficeAddress(e.target.value)}
-            placeholder="Head Office Address"
+            placeholder="Dirección de oficina principal"
             className="px-2 py-1 border-b border-slate-100 placeholder-slate-100 bg-transparent outline-none"
             required
           />
@@ -173,7 +173,7 @@ function Apply() {
             type="text"
             value={factory_address}
             onChange={e => setFactoryAddress(e.target.value)}
-            placeholder="Factory Address"
+            placeholder="Dirección de fábrica"
             className="px-2 py-1 border-b border-slate-100 placeholder-slate-100 bg-transparent outline-none"
             required
           />
@@ -181,7 +181,7 @@ function Apply() {
             type="text"
             value={explanation}
             onChange={e => setExplanation(e.target.value)}
-            placeholder="Please provide an explanation"
+            placeholder="Por favor proporcione una explicación"
             rows="4"
             className="px-2 py-1 border-b border-slate-100 placeholder-slate-100 bg-[rgb(255,255,255,.1)] outline-none resize-none"
             required
@@ -206,7 +206,7 @@ function Apply() {
             <div className="w-full sm:w-1/2 relative">
               <input
                 type="submit"
-                value="Send"
+                value="Enviar"
                 className="w-full px-3 py-2 rounded-2xl text-slate-900 bg-gradient-to-br from-green-200 to-green-400 cursor-pointer hover:filter hover:saturate-[200%] transition duration-300"
               />
               {loading && (
@@ -228,7 +228,7 @@ function Apply() {
                 icon={faArrowLeft}
                 className="mr-2 ml-[-20px] text-slate-600"
               />
-              Back
+              Volver
             </Link>
           </div>
         </div>
