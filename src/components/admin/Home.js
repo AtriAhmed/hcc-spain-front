@@ -2,6 +2,7 @@ import { ChatBubbleLeftRightIcon, ClipboardDocumentCheckIcon, ExclamationTriangl
 import { Link } from 'gatsby'
 import React from 'react'
 import { useAuthContext } from '../../contexts/AuthProvider'
+import { MosqueOutlined } from '@mui/icons-material'
 
 export default function Home() {
   const { user, setUser } = useAuthContext()
@@ -13,6 +14,7 @@ export default function Home() {
           <Link className='col-span-4 shadow-lg rounded-lg p-6 flex flex-col items-center justify-center' to='/admin/users-requests'><UserPlusIcon className="block h-10 w-10 flex-start" aria-hidden="true" /> Users Requests</Link>
         </> : <></>}
         <Link className='col-span-4 shadow-lg rounded-lg p-6 flex flex-col items-center justify-center' to='/admin/applies'><PlusIcon className="block h-10 w-10 flex-start" aria-hidden="true" />Applies</Link>
+        <Link className='col-span-4 shadow-lg rounded-lg p-6 flex flex-col items-center justify-center' to='/admin/saudi-applies'><MosqueOutlined fontSize="large" className="flex-start" />Saudi Applications</Link>
         <Link className='col-span-4 shadow-lg rounded-lg p-6 flex flex-col items-center justify-center' to='/admin/checks'><QuestionMarkCircleIcon className="block h-10 w-10 flex-start" aria-hidden="true" />Checks</Link>
         <Link className='col-span-4 shadow-lg rounded-lg p-6 flex flex-col items-center justify-center' to='/admin/feedbacks'><ChatBubbleLeftRightIcon className="block h-10 w-10 flex-start" aria-hidden="true" />Feedbacks</Link>
         <Link className='col-span-4 shadow-lg rounded-lg p-6 flex flex-col items-center justify-center' to='/admin/complaints'><ExclamationTriangleIcon className="block h-10 w-10 flex-start" aria-hidden="true" />Complaints</Link>
