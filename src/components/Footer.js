@@ -21,19 +21,23 @@ function Footer() {
             <ul className="font-poppins font-light text-sm">
               <li>
                 <span className="font-semibold uppercase">P.O: </span>
-                <span className=" text-sm">46047 Oberhausen, Alemania</span>
+                <span className=" text-sm">
+                  03003 Alicante, Alicante, Spain
+                </span>
               </li>
               <li>
                 <span className="font-semibold">DIRECCIÓN: </span>
-                <span className="text-sm">Centroallee 273-277</span>
+                <span className="text-sm">
+                  Antigua Casa del mar, Av. Perfecto Palacio de la Fuente, 1
+                </span>
               </li>
               <li>
                 <span className="font-semibold">Teléfono: </span>
                 <a
-                  href="tel:+4920888027110"
+                  href="tel:+31715235770"
                   className="text-blue-500 hover:text-blue-700 transition duration-300 text-sm"
                 >
-                  +49 208 8802 7110
+                  +31 71 523 57 70
                 </a>
               </li>
 
@@ -41,10 +45,10 @@ function Footer() {
                 <div className="font-semibold">Correo electrónico: </div>
                 <div className="">
                   <a
-                    href="mailto:germany@halalcorrect.com"
+                    href="mailto:spain@halalcorrect.com"
                     className="text-blue-500 hover:text-blue-700 transition duration-300 text-sm"
                   >
-                    germany@halalcorrect.com
+                    spain@halalcorrect.com
                     <br />
                   </a>
                 </div>
