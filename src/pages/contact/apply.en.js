@@ -1,5 +1,5 @@
 import React from "react"
-import Apply from "../../components/contact/Apply"
+import Apply from "../../components/en/contact/Apply"
 import Seo from "../../components/seo"
 
 function index() {

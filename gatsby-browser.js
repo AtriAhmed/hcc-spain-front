@@ -39,7 +39,6 @@ export const onRouteUpdate = ({ location, prevLocation }) => {
     "/register",
     "/en",
     "/es",
-    "/blog",
     "/404",
   ]
 

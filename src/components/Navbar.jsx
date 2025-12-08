@@ -1,7 +1,6 @@
 import { faBars } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { Link } from "../contexts/TranslationContext"
-import { Link as GatsbyLink } from "gatsby"
 import React from "react"
 import { useUIToolsContext } from "../contexts/UIToolsProvider"
 import { useTranslation } from "../contexts/TranslationContext"
@@ -89,7 +88,7 @@ function Navbar({ location }) {
                 : "text-white hover:text-primary"
             }`}
           >
-            <GatsbyLink to="/blog">{t("blog")}</GatsbyLink>
+            <Link to="/blog">{t("blog")}</Link>
           </li>
         </ul>
 
