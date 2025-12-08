@@ -19,6 +19,7 @@
     "animate.css": "^4.1.1",
     "axios": "^1.2.3",
     "gatsby": "^5.4.0",
+    "gatsby-plugin-i18n": "^1.0.1",
     "gatsby-plugin-image": "^3.4.0",
     "gatsby-plugin-manifest": "^5.4.0",
     "gatsby-plugin-sharp": "^5.4.0",

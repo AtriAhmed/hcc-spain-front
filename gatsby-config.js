@@ -43,5 +43,12 @@ module.exports = {
         icon: `src/images/logo2.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: "gatsby-plugin-i18n",
+      options: {
+        langKeyDefault: "es",
+        useLangKeyLayout: false,
+      },
+    },
   ],
 }

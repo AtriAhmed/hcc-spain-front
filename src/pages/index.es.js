@@ -1,5 +1,4 @@
 import * as React from "react"
-import { useEffect } from "react"
 import Seo from "../components/seo"
 import Why from "../components/home/Why"
 import Principles from "../components/home/Principles"
@@ -12,24 +11,8 @@ import DivsSection from "../components/home/DivsSection"
 import SatisfiedCustomers from "../components/home/SatisfiedCustomers"
 import Map from "../components/Map"
 import BlogSection from "../components/home/BlogSection"
-import { navigate } from "gatsby"
-import { useTranslation } from "../contexts/TranslationContext"
 
 function IndexPage() {
-  // const { setLanguage } = useTranslation()
-
-  // useEffect(() => {
-  //   const userLang = navigator.language || navigator?.userLanguage // Get user's language
-  //   const langCode = userLang.split("-")[0] // Get the language code (e.g., 'fr')
-
-  //   // Redirect if the language is supported
-  //   const supportedLanguages = [`en`, `fr`] // Add your supported languages here
-  //   if (supportedLanguages.includes(langCode)) {
-  //     setLanguage(langCode)
-  //     navigate(`/${langCode}`)
-  //   }
-  // }, [])
-
   return (
     <div>
       <Why />

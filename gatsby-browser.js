@@ -12,40 +12,52 @@ import UIToolsProvider from "./src/contexts/UIToolsProvider"
 
 import { config } from "@fortawesome/fontawesome-svg-core"
 import "@fortawesome/fontawesome-svg-core/styles.css"
-import "animate.css";
+import "animate.css"
 import axios from "axios"
 import AdminPrivateRoute from "./src/components/auth/AdminPrivateRoute"
 import AuthProvider from "./src/contexts/AuthProvider"
-import "./src/i18n";
+import "./src/i18n"
+import { TranslationProvider } from "./src/contexts/TranslationContext"
 
 export function onClientEntry() {
   /* Prevents fontawesome auto css insertion */
   config.autoAddCss = false
   axios.defaults.baseURL = process.env.GATSBY_API_URL
   axios.interceptors.request.use(function (config) {
-    const token = localStorage.getItem('auth_token');
-    config.headers.Authorization = token ? `Bearer ${token}` : '';
+    const token = localStorage.getItem("auth_token")
+    config.headers.Authorization = token ? `Bearer ${token}` : ""
     return config
-
   })
+}
+
+export const onRouteUpdate = ({ location, prevLocation }) => {
+  const path = location.pathname
+
+  const allowedPrefixes = ["/admin", "/en", "/es"]
+
+  const isAllowed = allowedPrefixes.some(prefix => path.startsWith(prefix))
+
+  if (!isAllowed && typeof window !== "undefined") {
+    window.location.replace("/en" + path)
+  }
 }
 
 export function wrapPageElement({ element, props }) {
   // props provide same data to Layout as Page element will get
   // including location, data, etc - you don't need to pass it
   return (
-    <AuthProvider>
-      <UIToolsProvider>
-        {props.location.pathname.indexOf("/admin") === 0 ? (
-          <AdminPrivateRoute>
-            <AdminLayout>
-              {element}
-            </AdminLayout>
-          </AdminPrivateRoute>
-        ) : (
-          <Layout {...props}>{element}</Layout>
-        )}
-      </UIToolsProvider>
-    </AuthProvider>
+    <TranslationProvider>
+      <AuthProvider>
+        <UIToolsProvider>
+          {props.location.pathname.indexOf("/admin") === 0 ? (
+            <AdminPrivateRoute>
+              <AdminLayout>{element}</AdminLayout>
+            </AdminPrivateRoute>
+          ) : (
+            <Layout {...props}>{element}</Layout>
+          )}
+        </UIToolsProvider>
+      </AuthProvider>
+    </TranslationProvider>
   )
 }
