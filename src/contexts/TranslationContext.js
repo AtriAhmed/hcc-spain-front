@@ -153,7 +153,7 @@ export const Link = ({ to, children, ...props }) => {
   const currentLanguage = getLanguageFromUrl(currentPathname)
 
   // Don't prefix if the destination already has a language prefix
-  if (to.startsWith("/en") || to.startsWith("/es")) {
+  if (to.startsWith("/en") || to.startsWith("/es") || !to) {
     return (
       <GatsbyLink to={to} {...props}>
         {children}
