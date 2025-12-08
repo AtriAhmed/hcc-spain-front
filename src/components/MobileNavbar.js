@@ -64,7 +64,7 @@ function MobileNavbar({ location }) {
             <Link to="/" onClick={() => setMobileNavbarOpen(false)}>
               <img
                 src={logo}
-                alt="Halal Correct GermanyN HALAL CONFIRMATION CENTER LIMITED logo"
+                alt="Halal Correct HALAL CONFIRMATION CENTER LIMITED logo"
                 className="w-full max-w-[300px] mx-auto"
               />
             </Link>
