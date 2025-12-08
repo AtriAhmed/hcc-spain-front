@@ -33,7 +33,7 @@ export function onClientEntry() {
 export const onRouteUpdate = ({ location, prevLocation }) => {
   const path = location.pathname
 
-  const allowedPrefixes = ["/admin", "/en", "/es"]
+  const allowedPrefixes = ["/admin", "/en", "/es", "/blog"]
 
   const isAllowed = allowedPrefixes.some(prefix => path.startsWith(prefix))
 
