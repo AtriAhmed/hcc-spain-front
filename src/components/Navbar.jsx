@@ -104,7 +104,7 @@ function Navbar({ location }) {
           <Link
             to={
               lang === "en"
-                ? location?.pathname?.replace(/^\/en/, "/es") || "/es"
+                ? ""
                 : "/en" + (location?.pathname?.replace(/^\/es/, "") || "")
             }
             className={`p-1 rounded transition duration-300 ${
@@ -122,7 +122,7 @@ function Navbar({ location }) {
           <Link
             to={
               lang === "es"
-                ? location?.pathname?.replace(/^\/es/, "/en") || "/en"
+                ? ""
                 : "/es" + (location?.pathname?.replace(/^\/en/, "") || "")
             }
             className={`p-1 rounded transition duration-300 ${
