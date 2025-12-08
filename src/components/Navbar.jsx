@@ -9,7 +9,25 @@ import { LANGUAGES } from "../constants"
 
 function Navbar({ location }) {
   const { setMobileNavbarOpen } = useUIToolsContext()
-  const { t } = useTranslation(location?.pathname)
+  const { t, lang } = useTranslation(location?.pathname)
+
+  // Function to get the URL for the other language
+  const getLanguageSwitchUrl = () => {
+    const currentPath = location?.pathname || "/"
+
+    if (lang === "en") {
+      // Switch from English to Spanish: replace /en with /es
+      return currentPath.replace(/^\/en/, "/es")
+    } else {
+      // Switch from Spanish to English: replace /es with /en or add /en if no prefix
+      if (currentPath.startsWith("/es")) {
+        return currentPath.replace(/^\/es/, "/en")
+      } else {
+        // Handle root or other paths without language prefix
+        return "/en" + currentPath
+      }
+    }
+  }
 
   return (
     <div className="z-[100] fixed w-full bg-[rgba(0,0,0,0.5)]">
@@ -73,19 +91,52 @@ function Navbar({ location }) {
             <Link to="/blog">{t("blog")}</Link>
           </li>
         </ul>
-        {/* <select defaultValue={i18n.language} onChange={onChangeLang}>
-          {LANGUAGES.map(({ code, label }) => (
-            <option key={code} value={code}>
-              {label}
-            </option>
-          ))}
-        </select> */}
+
         <Link
           to="/contact/apply"
           className="hidden min-[950px]:block px-5 py-2 border-2 border-white rounded-full hover:bg-white font-open font-bold text-white hover:text-[#9dbc98] text-sm uppercase transition duration-500"
         >
           {t("apply now")}
         </Link>
+
+        {/* Language Selector */}
+        <div className="hidden min-[950px]:flex items-center gap-0.5">
+          <Link
+            to={
+              lang === "en"
+                ? location?.pathname?.replace(/^\/en/, "/es") || "/es"
+                : "/en" + (location?.pathname?.replace(/^\/es/, "") || "")
+            }
+            className={`p-1 rounded transition duration-300 ${
+              lang === "en" ? "opacity-60 hover:opacity-80" : "opacity-100"
+            }`}
+            title="English"
+          >
+            <img
+              src="https://flagcdn.com/w20/us.png"
+              alt="English"
+              className="w-5 h-4"
+            />
+          </Link>
+          <span className="text-white/50">|</span>
+          <Link
+            to={
+              lang === "es"
+                ? location?.pathname?.replace(/^\/es/, "/en") || "/en"
+                : "/es" + (location?.pathname?.replace(/^\/en/, "") || "")
+            }
+            className={`p-1 rounded transition duration-300 ${
+              lang === "es" ? "opacity-60 hover:opacity-80" : "opacity-100"
+            }`}
+            title="Español"
+          >
+            <img
+              src="https://flagcdn.com/w20/es.png"
+              alt="Español"
+              className="w-5 h-4"
+            />
+          </Link>
+        </div>
       </div>
     </div>
   )

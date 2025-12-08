@@ -11,6 +11,11 @@ const getLanguageFromUrl = pathname => {
     return "en"
   }
 
+  // Check if URL starts with /es
+  if (pathname.startsWith("/es")) {
+    return "es"
+  }
+
   // Default to Spanish for all other URLs (including root)
   return "es"
 }
