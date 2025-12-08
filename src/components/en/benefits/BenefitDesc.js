@@ -13,6 +13,42 @@ function BenefitDesc() {
         </FadeUpOnScroll>
         <FadeUpOnScroll>
           <div className="pt-8 flex flex-col items-center md:flex-row gap-8">
+            <div className="font-open font-normal text-base text-center md:text-left text-slate-900">
+              <h2 className="font-poppins font-bold text-xl mb-4">
+                References to Indonesian Halal Standards & Regulations
+              </h2>
+              <p className="mb-4">
+                Halal Correct Spain operates in full compliance with the
+                official Indonesian halal regulations, including but not limited
+                to:
+              </p>
+              <ul className="list-disc list-inside space-y-2 mb-4">
+                <li>Law No. 33 of 2014 on Halal Product Assurance (UU JPH)</li>
+                <li>
+                  Government Regulation No. 39 of 2021 on the Implementation of
+                  Halal Product Assurance
+                </li>
+                <li>
+                  BPJPH Regulations and Decrees, covering the halal
+                  certification scheme, Halal Correct Spain requirements, halal
+                  auditor qualifications, and compliance assessment processes
+                </li>
+                <li>
+                  MUI Fatwa and Provisions related to halal product
+                  determination
+                </li>
+              </ul>
+              <p>
+                All certification processes, quality manuals, internal
+                procedures, and Halal Correct Spain services refer to these
+                standards and regulations to ensure full compliance with the
+                Indonesian halal assurance system.
+              </p>
+            </div>
+          </div>
+        </FadeUpOnScroll>
+        <FadeUpOnScroll>
+          <div className="pt-8 flex flex-col items-center md:flex-row gap-8">
             <p className="font-open font-normal text-base text-center md:text-left text-slate-900">
               Halal certification is only issued by a trusted and legally
               recognized halal certification body. Halal Correct Spain has been
@@ -63,7 +99,6 @@ function BenefitDesc() {
               indicators. This procedure allows the company to obtain
               recognition from Halal Correct Spain, as these companies care
               about the image of their final product in the halal market.
-              <br />
               <br />A recognized and legal halal certificate is only issued by
               recognized and specialized halal certification bodies. Halal
               Correct Spain has been accredited by various Halal accreditation

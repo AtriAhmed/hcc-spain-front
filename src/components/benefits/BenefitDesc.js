@@ -13,6 +13,46 @@ function BenefitDesc() {
         </FadeUpOnScroll>
         <FadeUpOnScroll>
           <div className="pt-8 flex flex-col items-center md:flex-row gap-8">
+            <div className="font-open font-normal text-base text-center md:text-left text-slate-900">
+              <h2 className="font-poppins font-bold text-xl mb-4">
+                Referencias a las Normas y Regulaciones Halal de Indonesia
+              </h2>
+              <p className="mb-4">
+                Halal Correct Spain opera en total cumplimiento con las
+                regulaciones halal oficiales de Indonesia, incluyendo pero no
+                limitándose a:
+              </p>
+              <ul className="list-disc list-inside space-y-2 mb-4">
+                <li>
+                  Ley No. 33 de 2014 sobre Garantía de Productos Halal (UU JPH)
+                </li>
+                <li>
+                  Regulación Gubernamental No. 39 de 2021 sobre la
+                  Implementación de la Garantía de Productos Halal
+                </li>
+                <li>
+                  Regulaciones y Decretos de BPJPH, que cubren el esquema de
+                  certificación halal, requisitos de Halal Correct Spain,
+                  calificaciones de auditores halal, y procesos de evaluación de
+                  cumplimiento
+                </li>
+                <li>
+                  Fatwa y Disposiciones del MUI relacionadas con la
+                  determinación de productos halal
+                </li>
+              </ul>
+              <p>
+                Todos los procesos de certificación, manuales de calidad,
+                procedimientos internos, y servicios de Halal Correct Spain se
+                refieren a estos estándares y regulaciones para asegurar el
+                total cumplimiento con el sistema de garantía halal de
+                Indonesia.
+              </p>
+            </div>
+          </div>
+        </FadeUpOnScroll>
+        <FadeUpOnScroll>
+          <div className="pt-8 flex flex-col items-center md:flex-row gap-8">
             <p className="font-open font-normal text-base text-center md:text-left text-slate-900">
               La certificación Halal solo la emite un organismo de certificación
               halal de confianza y legalmente reconocido. Halal correct Spain ha

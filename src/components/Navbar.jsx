@@ -43,7 +43,7 @@ function Navbar({ location }) {
         >
           <FontAwesomeIcon icon={faBars} className="text-white" size="2x" />
         </button>
-        <ul className="hidden min-[950px]:flex gap-4 text-sm list-none">
+        <ul className="hidden min-[950px]:flex gap-4 text-[13px] list-none">
           <li
             className={`py-2 font-open transition duration-500 ${
               location?.pathname === "/"
