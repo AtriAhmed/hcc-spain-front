@@ -7,16 +7,21 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { Link } from "gatsby"
 import React from "react"
+import { useTranslation } from "../contexts/TranslationContext"
 import logo2 from "../images/logo2.png"
 
-function Footer() {
+function Footer({ location }) {
+  console.log("-------------------- location?.pathname --------------------")
+  console.log(location?.pathname)
+  const { t } = useTranslation(location?.pathname)
+
   return (
     <div className="w-full">
       <div className="w-full max-w-7xl mx-auto px-8 pt-10">
         <div className="px-8 lg:px-20 py-10 border border-[#9dbc98] rounded-lg grid grid-cols-12 gap-6 relative before:border-4 before:border-[#9dbc98] before:rounded-xl before:absolute before:inset-[-7px] before:z-[-1]">
           <section className="col-span-12 sm:col-span-6 lg:col-span-3">
             <h3 className="pb-4 font-poppins font-semibold text-xl text-[#9dbc98] uppercase">
-              CERTIFICACIÓN Halal Correct Spain
+              {t("halal certification spain")}
             </h3>
             <ul className="font-poppins font-light text-sm">
               <li>
@@ -26,13 +31,15 @@ function Footer() {
                 </span>
               </li>
               <li>
-                <span className="font-semibold">DIRECCIÓN: </span>
+                <span className="font-semibold">
+                  {t("address").toUpperCase()}:{" "}
+                </span>
                 <span className="text-sm">
                   Antigua Casa del mar, Av. Perfecto Palacio de la Fuente, 1
                 </span>
               </li>
               <li>
-                <span className="font-semibold">Teléfono: </span>
+                <span className="font-semibold">{t("phone")}: </span>
                 <a
                   href="tel:+31715235770"
                   className="text-blue-500 hover:text-blue-700 transition duration-300 text-sm"
@@ -42,7 +49,7 @@ function Footer() {
               </li>
 
               <li className="flex gap-2">
-                <div className="font-semibold">Correo electrónico: </div>
+                <div className="font-semibold">{t("email")}: </div>
                 <div className="">
                   <a
                     href="mailto:spain@halalcorrect.com"
@@ -54,20 +61,22 @@ function Footer() {
                 </div>
               </li>
               <li>
-                <span className="font-semibold">ALCANCE: </span>
+                <span className="font-semibold">
+                  {t("scope").toUpperCase()}:{" "}
+                </span>
                 <span className="text-sm">
                   {" "}
-                  Inspección y certificación Halal
+                  {t("halal inspection and certification")}
                 </span>
               </li>
             </ul>
           </section>
           <section className="col-span-12 sm:col-span-6 lg:col-span-3">
             <h3 className="pb-4 font-poppins font-semibold text-xl text-[#9dbc98] uppercase">
-              Enlaces útiles
+              {t("useful links")}
             </h3>
             <ul className=" font-poppins font-normal text-sm">
-              {usefulLinks.map(element => (
+              {getUsefulLinks(t).map(element => (
                 <li
                   key={element.text}
                   className="text-black hover:text-blue-500 transition duration-300"
@@ -80,10 +89,10 @@ function Footer() {
           </section>
           <section className="col-span-12 sm:col-span-6 lg:col-span-3">
             <h3 className="pb-4 font-poppins font-semibold text-xl text-[#9dbc98] uppercase">
-              Contáctanos
+              {t("contact us")}
             </h3>
             <ul className=" font-poppins font-normal text-sm">
-              {contactLinks.map(element => (
+              {getContactLinks(t).map(element => (
                 <li
                   key={element.text}
                   className="text-black hover:text-blue-500 transition duration-300"
@@ -105,9 +114,9 @@ function Footer() {
         <p className="max-w-[600px] py-10 mx-auto font-poppins font-light text-lg text-[#9dbc98] text-center">
           © Copyright{" "}
           <span className="font-semibold">
-            CERTIFICACIÓN Halal Correct Spain.
+            {t("halal certification spain")}.
           </span>{" "}
-          Todos los derechos reservados. Desarrollado por CODA-TECH
+          {t("all rights reserved")}. {t("developed by")} CODA-TECH
         </p>
       </div>
     </div>
@@ -116,47 +125,47 @@ function Footer() {
 
 export default Footer
 
-const usefulLinks = [
+const getUsefulLinks = t => [
   {
-    text: "Inicio",
+    text: t("home"),
     path: "/",
   },
   {
-    text: "¿Quiénes somos?",
+    text: t("who are we"),
     path: "/about/",
   },
   {
-    text: "Estructura de la empresa",
+    text: t("company structure"),
     path: "/about/structure",
   },
   {
-    text: "Nuestros servicios",
+    text: t("our services"),
     path: "/certification/services",
   },
   {
-    text: "Significado de Halal",
+    text: t("what does halal mean"),
     path: "/about/halal-meaning",
   },
 ]
-const contactLinks = [
+const getContactLinks = t => [
   {
-    text: "Solicitud",
+    text: t("application"),
     path: "/contact/apply",
   },
   {
-    text: "Solicitud de información",
+    text: t("information request"),
     path: "/contact/information",
   },
   {
-    text: "Comentarios",
+    text: t("feedback"),
     path: "/contact/feedback",
   },
   {
-    text: "Quejas",
+    text: t("complaints"),
     path: "/contact/complaint",
   },
   {
-    text: "Verificación del certificado Halal",
+    text: t("halal certificate check"),
     path: "/contact/check",
   },
 ]

@@ -15,9 +15,13 @@ import MobileNavbar from "./MobileNavbar"
 import Video from "./Video"
 
 const Layout = ({ children, location = { pathname: "" } }) => {
-
-  const haveLayout = ()=> {
-    return location?.pathname.indexOf("/contact") !== 0 && location?.pathname.indexOf("/login") !== 0 && location?.pathname.indexOf("/register") !== 0 && location?.pathname.indexOf("/check-certificate") !== 0
+  const haveLayout = () => {
+    return (
+      location?.pathname.indexOf("/contact") !== 0 &&
+      location?.pathname.indexOf("/login") !== 0 &&
+      location?.pathname.indexOf("/register") !== 0 &&
+      location?.pathname.indexOf("/check-certificate") !== 0
+    )
   }
 
   return (
@@ -26,13 +30,9 @@ const Layout = ({ children, location = { pathname: "" } }) => {
       <Video />
       <MobileNavbar />
       <ScrollUpButton />
-      { haveLayout() ? (
-        <Navbar location={location} />
-      ) : (
-        ""
-      )}
+      {haveLayout() ? <Navbar location={location} /> : ""}
       {children}
-      {haveLayout() ? <Footer /> : ""}
+      {haveLayout() ? <Footer location={location} /> : ""}
     </>
   )
 }

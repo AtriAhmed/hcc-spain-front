@@ -49,6 +49,18 @@ const translations = {
     complaints: "Complaints",
     "halal certificate check": "Halal Certificate Check",
     "saudi arabia application": "Saudi Arabia Application",
+    // Footer translations
+    "halal certification spain": "Halal Certification Spain",
+    address: "ADDRESS",
+    phone: "Phone",
+    email: "Email",
+    scope: "SCOPE",
+    "halal inspection and certification": "Halal inspection and certification",
+    "useful links": "Useful Links",
+    "contact us": "Contact Us",
+    application: "Application",
+    "all rights reserved": "All rights reserved",
+    "developed by": "Developed by",
   },
   es: {
     home: "Inicio",
@@ -78,6 +90,18 @@ const translations = {
     complaints: "Quejas",
     "halal certificate check": "Comprobación del certificado Halal",
     "saudi arabia application": "Solicitud en Arabia Saudita",
+    // Footer translations
+    "halal certification spain": "CERTIFICACIÓN Halal Correct Spain",
+    address: "DIRECCIÓN",
+    phone: "Teléfono",
+    email: "Correo electrónico",
+    scope: "ALCANCE",
+    "halal inspection and certification": "Inspección y certificación Halal",
+    "useful links": "Enlaces útiles",
+    "contact us": "Contáctanos",
+    application: "Solicitud",
+    "all rights reserved": "Todos los derechos reservados",
+    "developed by": "Desarrollado por",
   },
 }
 
