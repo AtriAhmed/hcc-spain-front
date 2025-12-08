@@ -3,19 +3,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { Link } from "gatsby"
 import React from "react"
 import { useUIToolsContext } from "../contexts/UIToolsProvider"
+import { useTranslation } from "../contexts/TranslationContext"
 import Dropdown from "../lib/Dropdown"
 import { LANGUAGES } from "../constants"
-import { useTranslation } from "react-i18next"
 
 function Navbar({ location }) {
   const { setMobileNavbarOpen } = useUIToolsContext()
-
-  const { i18n, t } = useTranslation()
-
-  const onChangeLang = e => {
-    const lang_code = e.target.value
-    i18n.changeLanguage(lang_code)
-  }
+  const { t } = useTranslation(location?.pathname)
 
   return (
     <div className="z-[100] fixed w-full bg-[rgba(0,0,0,0.5)]">
@@ -39,32 +33,32 @@ function Navbar({ location }) {
                 : "font-medium text-white hover:text-[#9dbc98]"
             }`}
           >
-            <Link to="/">Inicio</Link>
+            <Link to="/">{t("home")}</Link>
           </li>
           <li>
             <Dropdown
-              {...aboutItems}
+              {...getAboutItems(t)}
               path="/about"
               active={location?.pathname.indexOf("/about") === 0}
             />
           </li>
           <li>
             <Dropdown
-              {...certificationItems}
+              {...getCertificationItems(t)}
               path="/certification"
               active={location?.pathname.indexOf("/certification") === 0}
             />
           </li>
           <li>
             <Dropdown
-              {...policiesItems}
+              {...getPoliciesItems(t)}
               path="/policies"
               active={location?.pathname.indexOf("/policies") === 0}
             />
           </li>
           <li>
             <Dropdown
-              {...contactItems}
+              {...getContactItems(t)}
               path="/contact"
               active={location?.pathname.indexOf("/contact") === 0}
             />
@@ -76,7 +70,7 @@ function Navbar({ location }) {
                 : "text-white hover:text-primary"
             }`}
           >
-            <Link to="/blog">Blog</Link>
+            <Link to="/blog">{t("blog")}</Link>
           </li>
         </ul>
         {/* <select defaultValue={i18n.language} onChange={onChangeLang}>
@@ -90,7 +84,7 @@ function Navbar({ location }) {
           to="/contact/apply"
           className="hidden min-[950px]:block px-5 py-2 border-2 border-white rounded-full hover:bg-white font-open font-bold text-white hover:text-[#9dbc98] text-sm uppercase transition duration-500"
         >
-          Solicitar ahora
+          {t("apply now")}
         </Link>
       </div>
     </div>
@@ -99,106 +93,106 @@ function Navbar({ location }) {
 
 export default Navbar
 
-const aboutItems = {
-  title: "Sobre nosotros",
+const getAboutItems = t => ({
+  title: t("about us"),
   items: [
     {
-      text: "¿Quiénes somos?",
+      text: t("who are we"),
       path: "/about",
     },
     {
-      text: "Estructura de la empresa",
+      text: t("company structure"),
       path: "/about/structure",
     },
     {
-      text: "Visión, misión y valores fundamentales",
+      text: t("vision mission and core values"),
       path: "/about/vision",
     },
     {
-      text: "Aprobación internacional",
+      text: t("international approval"),
       path: "/about/international-approval",
     },
     {
-      text: "¿Qué significa Halal?",
+      text: t("what does halal mean"),
       path: "/about/halal-meaning",
     },
     {
-      text: "Ubicaciones",
+      text: t("locations"),
       path: "/about/locations",
     },
   ],
-}
+})
 
-const certificationItems = {
-  title: "Certificación",
+const getCertificationItems = t => ({
+  title: t("certification"),
   items: [
     {
-      text: "Procedimiento de certificación",
+      text: t("certification procedure"),
       path: "/certification/procedure",
     },
     {
-      text: "Categorías de productos",
+      text: t("product categories"),
       path: "/certification/categories",
     },
     {
-      text: "Nuestros servicios",
+      text: t("our services"),
       path: "/certification/services",
     },
     {
-      text: "Auditoría y capacitación",
+      text: t("auditing and training"),
       path: "/certification/auditing",
     },
     {
-      text: "Beneficios de nuestra certificación",
+      text: t("benefits of our certification"),
       path: "/certification/benefits",
     },
   ],
-}
+})
 
-const policiesItems = {
-  title: "Políticas",
+const getPoliciesItems = t => ({
+  title: t("policies"),
   items: [
     {
-      text: "Garantía Halal",
+      text: t("halal guarantee"),
       path: "/policies/guarantee",
     },
     {
-      text: "Política de integridad",
+      text: t("integrity policy"),
       path: "/policies/integrity",
     },
     {
-      text: "Regulación de tarifas",
+      text: t("fee regulation"),
       path: "/policies/fee-regulation",
     },
     {
-      text: "Confidencialidad e imparcialidad",
+      text: t("confidentiality and impartiality"),
       path: "/policies/confidentiality-and-impartiality/",
     },
   ],
-}
+})
 
-const contactItems = {
-  title: "Contacto",
+const getContactItems = t => ({
+  title: t("contact"),
   items: [
     {
-      text: "Solicitud de información",
+      text: t("information request"),
       path: "/contact/information",
     },
     {
-      text: "Comentarios",
+      text: t("feedback"),
       path: "/contact/feedback",
     },
     {
-      text: "Quejas",
+      text: t("complaints"),
       path: "/contact/complaint",
     },
     {
-      text: "Comprobación del certificado Halal",
+      text: t("halal certificate check"),
       path: "/contact/check",
     },
     {
-      text: "Solicitud en Arabia Saudita",
+      text: t("saudi arabia application"),
       path: "/contact/saudi-apply",
     },
   ],
-}
+})

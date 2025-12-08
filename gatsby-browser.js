@@ -16,7 +16,7 @@ import "animate.css"
 import axios from "axios"
 import AdminPrivateRoute from "./src/components/auth/AdminPrivateRoute"
 import AuthProvider from "./src/contexts/AuthProvider"
-import "./src/i18n"
+// import "./src/i18n"
 import { TranslationProvider } from "./src/contexts/TranslationContext"
 
 export function onClientEntry() {
