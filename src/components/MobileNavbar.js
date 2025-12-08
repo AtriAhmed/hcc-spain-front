@@ -8,12 +8,14 @@ import {
   AccordionBody,
 } from "@material-tailwind/react"
 import { useUIToolsContext } from "../contexts/UIToolsProvider"
+import { useTranslation } from "../contexts/TranslationContext"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons"
 import { CloseRounded } from "@mui/icons-material"
 
-function MobileNavbar() {
+function MobileNavbar({ location }) {
   const { mobileNavbarOpen, setMobileNavbarOpen } = useUIToolsContext()
+  const { t, lang } = useTranslation(location?.pathname)
   const [open, setOpen] = useState(-1)
 
   //   closing the dropdown whenever the navbar closes
@@ -23,8 +25,9 @@ function MobileNavbar() {
 
   return (
     <div
-      className={`fixed top-0 left-0 w-full h-screen overflow-hidden z-[1000] ${mobileNavbarOpen ? "pointer-events-auto" : "pointer-events-none"
-        }`}
+      className={`fixed top-0 left-0 w-full h-screen overflow-hidden z-[1000] ${
+        mobileNavbarOpen ? "pointer-events-auto" : "pointer-events-none"
+      }`}
     >
       <Transition
         show={mobileNavbarOpen}
@@ -68,7 +71,7 @@ function MobileNavbar() {
           </div>
           {/* menu */}
           <ul className="divide-y mt-5">
-            {items.map((item, index) =>
+            {getItems(t, lang, location).map((item, index) =>
               item.children === undefined ? (
                 <li className="px-3 py-2" key={item.title}>
                   <Link
@@ -86,14 +89,16 @@ function MobileNavbar() {
                     icon={
                       <FontAwesomeIcon
                         icon={faChevronDown}
-                        className={`transition duration-300 ${open === index ? "-rotate-180" : ""
-                          }`}
+                        className={`transition duration-300 ${
+                          open === index ? "-rotate-180" : ""
+                        }`}
                       />
                     }
                   >
                     <AccordionHeader
-                      className={`px-3 py-2 flex font-open font-semibold text-base text-left ${open === index ? "border-b" : "border-0"
-                        }`}
+                      className={`px-3 py-2 flex font-open font-semibold text-base text-left ${
+                        open === index ? "border-b" : "border-0"
+                      }`}
                       onClick={() =>
                         setOpen(prev => (prev === index ? -1 : index))
                       }
@@ -139,109 +144,171 @@ function MobileNavbar() {
 
 export default MobileNavbar
 
-const items = [
-  {
-    title: "Home",
-    path: "/",
-  },
-  {
-    title: "Apply now",
-    path: "/contact/apply",
-  },
-  {
-    title: "About us",
-    children: [
-      {
-        title: "Who are we?",
-        path: "/about",
-      },
-      {
-        title: "Company structure",
-        path: "/about/structure",
-      },
-      {
-        title: "Vision, mission and core values",
-        path: "/about/vision",
-      },
-      {
-        title: "International approval",
-        path: "/about/international-approval",
-      },
-      {
-        title: "What does halal mean?",
-        path: "/about/halal-meaning",
-      },
-      {
-        title: "Locations",
-        path: "/about/locations",
-      },
-    ],
-  },
-  {
-    title: "Certification",
-    children: [
-      {
-        title: "Certification procedure",
-        path: "/certification/procedure",
-      },
-      {
-        title: "Product categories",
-        path: "/certification/categories",
-      },
-      {
-        title: "Our services",
-        path: "/certification/services",
-      },
-      {
-        title: "Auditing and training",
-        path: "/certification/auditing",
-      },
-      {
-        title: "Benefits of our certification",
-        path: "/certification/benefits",
-      },
-    ],
-  },
-  {
-    title: "Policies",
-    children: [
-      {
-        title: "Halal guarantee",
-        path: "/policies/guarantee",
-      },
-      {
-        title: "Integrity policy",
-        path: "/policies/integrity",
-      },
-      {
-        title: "Fee Regulation",
-        path: "/policies/fee-regulation",
-      },
-      {
-        title: "Confidentiality And Impartiality",
-        path: "/policies/confidentiality-and-impartiality/",
-      },
-    ],
-  },
-  {
-    title: "Contact",
-    children: [
-      {
-        title: "Request for information",
-        path: "/contact/information",
-      },
-      {
-        title: "Feedback",
-        path: "/contact/feedback",
-      },
-      {
-        title: "Complaint",
-        path: "/contact/complaint",
-      },
-      {
-        title: "Halal certificate check",
-        path: "/contact/check",
-      },
-    ],
-  },
-]
+const getItems = (t, lang, location) => {
+  const currentPath = location?.pathname || "/"
+
+  return [
+    {
+      title: t("home"),
+      path: "/",
+    },
+    {
+      title: t("apply now"),
+      path: "/contact/apply",
+    },
+    {
+      title: t("about us"),
+      children: [
+        {
+          title: t("who are we"),
+          path: "/about",
+        },
+        {
+          title: t("company structure"),
+          path: "/about/structure",
+        },
+        {
+          title: t("vision mission and core values"),
+          path: "/about/vision",
+        },
+        {
+          title: t("international approval"),
+          path: "/about/international-approval",
+        },
+        {
+          title: t("what does halal mean"),
+          path: "/about/halal-meaning",
+        },
+        {
+          title: t("locations"),
+          path: "/about/locations",
+        },
+      ],
+    },
+    {
+      title: t("certification"),
+      children: [
+        {
+          title: t("certification procedure"),
+          path: "/certification/procedure",
+        },
+        {
+          title: t("product categories"),
+          path: "/certification/categories",
+        },
+        {
+          title: t("our services"),
+          path: "/certification/services",
+        },
+        {
+          title: t("auditing and training"),
+          path: "/certification/auditing",
+        },
+        {
+          title: t("benefits of our certification"),
+          path: "/certification/benefits",
+        },
+      ],
+    },
+    {
+      title: t("policies"),
+      children: [
+        {
+          title: t("halal guarantee"),
+          path: "/policies/guarantee",
+        },
+        {
+          title: t("integrity policy"),
+          path: "/policies/integrity",
+        },
+        {
+          title: t("fee regulation"),
+          path: "/policies/fee-regulation",
+        },
+        {
+          title: t("confidentiality and impartiality"),
+          path: "/policies/confidentiality-and-impartiality/",
+        },
+      ],
+    },
+    {
+      title: t("contact"),
+      children: [
+        {
+          title: t("information request"),
+          path: "/contact/information",
+        },
+        {
+          title: t("feedback"),
+          path: "/contact/feedback",
+        },
+        {
+          title: t("complaints"),
+          path: "/contact/complaint",
+        },
+        {
+          title: t("halal certificate check"),
+          path: "/contact/check",
+        },
+        {
+          title: t("saudi arabia application"),
+          path: "/contact/saudi-apply",
+        },
+      ],
+    },
+    {
+      title: t("blog"),
+      path: "/blog",
+    },
+    {
+      title: (
+        <div className="flex items-center gap-2">
+          <img
+            src={
+              lang === "en"
+                ? "https://flagcdn.com/w20/us.png"
+                : "https://flagcdn.com/w20/es.png"
+            }
+            alt={lang === "en" ? "English" : "Español"}
+            className="w-5 h-4 inline mr-2"
+          />
+          {lang === "en" ? "EN" : "ES"}
+        </div>
+      ),
+      children: [
+        {
+          title: (
+            <div className="flex items-center gap-2">
+              <img
+                src="https://flagcdn.com/w20/us.png"
+                alt="English"
+                className="w-5 h-4"
+              />
+              <span>English</span>
+            </div>
+          ),
+          path:
+            lang === "en"
+              ? ""
+              : "/en" + (currentPath?.replace(/^\/es/, "") || ""),
+        },
+        {
+          title: (
+            <div className="flex items-center gap-2">
+              <img
+                src="https://flagcdn.com/w20/es.png"
+                alt="Español"
+                className="w-5 h-4"
+              />
+              <span>Español</span>
+            </div>
+          ),
+          path:
+            lang === "es"
+              ? ""
+              : "/es" + (currentPath?.replace(/^\/en/, "") || ""),
+        },
+      ],
+    },
+  ]
+}

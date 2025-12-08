@@ -28,7 +28,7 @@ const Layout = ({ children, location = { pathname: "" } }) => {
     <>
       {/* <Header siteTitle={data.site.siteMetadata?.title || `Title`} /> */}
       <Video />
-      <MobileNavbar />
+      <MobileNavbar location={location} />
       <ScrollUpButton />
       {haveLayout() ? <Navbar location={location} /> : ""}
       {children}

@@ -100,42 +100,12 @@ function Navbar({ location }) {
         </Link>
 
         {/* Language Selector */}
-        <div className="hidden min-[950px]:flex items-center gap-0.5">
-          <Link
-            to={
-              lang === "en"
-                ? ""
-                : "/en" + (location?.pathname?.replace(/^\/es/, "") || "")
-            }
-            className={`p-1 rounded transition duration-300 ${
-              lang === "en" ? "opacity-60 hover:opacity-80" : "opacity-100"
-            }`}
-            title="English"
-          >
-            <img
-              src="https://flagcdn.com/w20/us.png"
-              alt="English"
-              className="w-5 h-4"
-            />
-          </Link>
-          <span className="text-white/50">|</span>
-          <Link
-            to={
-              lang === "es"
-                ? ""
-                : "/es" + (location?.pathname?.replace(/^\/en/, "") || "")
-            }
-            className={`p-1 rounded transition duration-300 ${
-              lang === "es" ? "opacity-60 hover:opacity-80" : "opacity-100"
-            }`}
-            title="Español"
-          >
-            <img
-              src="https://flagcdn.com/w20/es.png"
-              alt="Español"
-              className="w-5 h-4"
-            />
-          </Link>
+        <div className="hidden min-[950px]:block">
+          <Dropdown
+            {...getLanguageItems(lang, location)}
+            path=""
+            active={false}
+          />
         </div>
       </div>
     </div>
@@ -247,3 +217,58 @@ const getContactItems = t => ({
     },
   ],
 })
+
+const getLanguageItems = (currentLang, location) => {
+  const currentPath = location?.pathname || "/"
+
+  return {
+    title: (
+      <>
+        <img
+          src={
+            currentLang === "en"
+              ? "https://flagcdn.com/w20/us.png"
+              : "https://flagcdn.com/w20/es.png"
+          }
+          alt={currentLang === "en" ? "English" : "Español"}
+          className="inline w-5 h-4 mr-2"
+        />
+        {currentLang === "en" ? "EN" : "ES"}
+      </>
+    ),
+    items: [
+      {
+        text: (
+          <div className="flex items-center gap-2">
+            <img
+              src="https://flagcdn.com/w20/us.png"
+              alt="English"
+              className="w-5 h-4"
+            />
+            <span>English</span>
+          </div>
+        ),
+        path:
+          currentLang === "en"
+            ? ""
+            : "/en" + (currentPath?.replace(/^\/es/, "") || ""),
+      },
+      {
+        text: (
+          <div className="flex items-center gap-2">
+            <img
+              src="https://flagcdn.com/w20/es.png"
+              alt="Español"
+              className="w-5 h-4"
+            />
+            <span>Español</span>
+          </div>
+        ),
+        path:
+          currentLang === "es"
+            ? ""
+            : "/es" + (currentPath?.replace(/^\/en/, "") || ""),
+      },
+    ],
+  }
+}
