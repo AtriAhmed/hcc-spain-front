@@ -7,7 +7,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { PlusCircleIcon } from "@heroicons/react/24/outline"
 import { ArrowForward, Warning } from "@mui/icons-material"
-import { Link } from "gatsby"
+import { Link } from "../../../contexts/TranslationContext"
 import { useState } from "react"
 import Select from "react-select"
 import validator from "validator"

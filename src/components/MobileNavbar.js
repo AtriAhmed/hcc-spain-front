@@ -1,6 +1,6 @@
 import { Transition } from "@headlessui/react"
 import React, { useEffect, useState } from "react"
-import { Link } from "gatsby"
+import { Link } from "../contexts/TranslationContext"
 import logo from "../images/kenya.jpg"
 import {
   Accordion,

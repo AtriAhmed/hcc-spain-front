@@ -1,4 +1,4 @@
-import { Link } from "gatsby"
+import { Link } from "../../contexts/TranslationContext"
 import React from "react"
 import "./Post.css"
 import { ArrowForward, ArrowRight } from "@mui/icons-material"

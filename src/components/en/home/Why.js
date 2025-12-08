@@ -1,4 +1,4 @@
-import { Link } from "gatsby"
+import { Link } from "../../../contexts/TranslationContext"
 import React from "react"
 import { useUIToolsContext } from "../../../contexts/UIToolsProvider"
 import ZoomInOnScroll from "../../../lib/ZoomInOnScroll"

@@ -7,7 +7,7 @@ import axios from "axios"
 import React, { useEffect, useState } from "react"
 import Swal from "sweetalert2"
 import ReactLoading from "react-loading"
-import { Link } from "gatsby"
+import { Link } from "../../../contexts/TranslationContext"
 
 export default function Blogs() {
   const [loading, setLoading] = useState(true)

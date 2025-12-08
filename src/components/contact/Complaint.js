@@ -4,7 +4,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import React, { useState } from "react"
-import { Link } from "gatsby"
+import { Link } from "../../contexts/TranslationContext"
 import ReactLoading from "react-loading"
 import validator from "validator"
 import axios from "axios"

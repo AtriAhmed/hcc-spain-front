@@ -2,7 +2,7 @@ import React from "react"
 import FadeUpOnScroll from "../../../lib/FadeUpOnScroll"
 import sfdaLogo from "../../../images/sfda.jpg"
 import logoHcc from "../../../images/logo2.png"
-import { Link } from "gatsby"
+import { Link } from "../../../contexts/TranslationContext"
 import Title from "../../Title"
 import Posts from "../../blog/Posts"
 

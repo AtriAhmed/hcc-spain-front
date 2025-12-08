@@ -2,7 +2,7 @@ import { Transition } from "@headlessui/react"
 import React, { useRef, useState } from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons"
-import { Link } from "gatsby"
+import { Link } from "../contexts/TranslationContext"
 
 function Dropdown({ title, path = "", items, active }) {
   const [isOpen, setIsOpen] = useState(false)
@@ -27,7 +27,11 @@ function Dropdown({ title, path = "", items, active }) {
       <button
         className={`py-2 relative font-open capitalize transition duration-300 before:w-full before:h-[20px] before:absolute before:top-[95%] ${
           isOpen ? "before:block" : "before:hidden"
-        }  ${active ? "text-[#9dbc98] font-bold" : "text-white hover:text-[#9dbc98] font-medium"}`}
+        }  ${
+          active
+            ? "text-[#9dbc98] font-bold"
+            : "text-white hover:text-[#9dbc98] font-medium"
+        }`}
         ref={dropdownRef}
       >
         {title}

@@ -1,4 +1,5 @@
 import React, { createContext, useContext, useState, ReactNode } from "react"
+import { Link as GatsbyLink } from "gatsby"
 
 const TranslationContext = createContext(undefined)
 
@@ -141,4 +142,42 @@ export const useTranslation = pathname => {
     lang: urlLanguage,
     setLanguage: context?.setLanguage,
   }
+}
+
+export const Link = ({ to, children, ...props }) => {
+  // Get current pathname from window location or props
+  const currentPathname =
+    typeof window !== "undefined" ? window.location.pathname : ""
+
+  // Detect current language from URL
+  const currentLanguage = getLanguageFromUrl(currentPathname)
+
+  // Don't prefix if the destination already has a language prefix
+  if (to.startsWith("/en") || to.startsWith("/es")) {
+    return (
+      <GatsbyLink to={to} {...props}>
+        {children}
+      </GatsbyLink>
+    )
+  }
+
+  // For root path, use language prefix only
+  if (to === "/") {
+    const localizedPath = currentLanguage === "es" ? "/" : `/${currentLanguage}`
+    return (
+      <GatsbyLink to={localizedPath} {...props}>
+        {children}
+      </GatsbyLink>
+    )
+  }
+
+  // Add language prefix to other paths
+  const localizedPath =
+    currentLanguage === "es" ? to : `/${currentLanguage}${to}`
+
+  return (
+    <GatsbyLink to={localizedPath} {...props}>
+      {children}
+    </GatsbyLink>
+  )
 }

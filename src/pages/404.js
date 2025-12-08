@@ -1,4 +1,4 @@
-import { Link } from "gatsby"
+import { Link } from "../contexts/TranslationContext"
 import * as React from "react"
 
 import Seo from "../components/seo"
