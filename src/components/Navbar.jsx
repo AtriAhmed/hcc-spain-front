@@ -219,9 +219,6 @@ const getContactItems = t => ({
 })
 
 const getLanguageItems = (currentLang, location) => {
-  console.log("-------------------- location --------------------")
-  console.log(location)
-
   const currentPath = location?.pathname || "/"
 
   return {
