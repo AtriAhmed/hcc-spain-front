@@ -106,7 +106,7 @@ function Footer({ location }) {
           <section className="flex items-center justify-center col-span-12 sm:col-span-6 lg:col-span-3">
             <img
               src={logo2}
-              alt="Halal Correct GermanyN HALAL CONFIRMATION CENTER LIMITED logo"
+              alt="Halal Correct HALAL CONFIRMATION CENTER LIMITED logo"
               className="w-full max-w-[300px]"
             />
           </section>
