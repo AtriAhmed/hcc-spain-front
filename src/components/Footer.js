@@ -18,7 +18,7 @@ function Footer({ location }) {
   return (
     <div className="w-full">
       <div className="w-full max-w-7xl mx-auto px-8 pt-10">
-        <div className="px-8 lg:px-20 py-10 border border-[#9dbc98] rounded-lg grid grid-cols-12 gap-6 relative before:border-4 before:border-[#9dbc98] before:rounded-xl before:absolute before:inset-[-7px] before:z-[-1]">
+        <div className="px-3 lg:px-20 py-10 border border-[#9dbc98] rounded-lg sm:grid grid-cols-12 gap-6 relative before:border-4 before:border-[#9dbc98] before:rounded-xl before:absolute before:inset-[-7px] before:z-[-1]">
           <section className="col-span-12 sm:col-span-6 lg:col-span-3">
             <h3 className="pb-4 font-poppins font-semibold text-xl text-[#9dbc98] uppercase">
               {t("halal certification spain")}
@@ -47,8 +47,17 @@ function Footer({ location }) {
                   +31 71 523 57 70
                 </a>
               </li>
+              <li>
+                <span className="font-semibold">{t("phone")}: </span>
+                <a
+                  href="tel:+34625210450"
+                  className="text-blue-500 hover:text-blue-700 transition duration-300 text-sm"
+                >
+                  +34 625 21 04 50
+                </a>
+              </li>
 
-              <li className="flex gap-2">
+              <li className="flex gap-x-2 flex-wrap">
                 <div className="font-semibold">{t("email")}: </div>
                 <div className="">
                   <a

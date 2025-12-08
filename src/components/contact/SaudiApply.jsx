@@ -206,6 +206,39 @@ export default function SaudiApply() {
       </div>
     )
 
+  const customSelectStyles = {
+    control: provided => ({
+      ...provided,
+      minHeight: "38px",
+    }),
+    valueContainer: provided => ({
+      ...provided,
+      textOverflow: "ellipsis",
+      width: 0,
+      whiteSpace: "nowrap",
+      overflow: "hidden",
+    }),
+    multiValue: provided => ({
+      ...provided,
+      maxWidth: "100%",
+    }),
+    multiValueLabel: provided => ({
+      ...provided,
+      whiteSpace: "nowrap",
+      overflow: "hidden",
+      textOverflow: "ellipsis",
+    }),
+    menu: provided => ({
+      ...provided,
+      zIndex: 9999,
+    }),
+    option: provided => ({
+      ...provided,
+      whiteSpace: "normal",
+      wordWrap: "break-word",
+    }),
+  }
+
   return (
     <div className="flex flex-col gap-4 max-w-5xl">
       <header className="flex flex-col items-center gap-4">
@@ -372,6 +405,10 @@ export default function SaudiApply() {
                   }}
                   value={activity}
                   placeholder="Seleccione..."
+                  styles={customSelectStyles}
+                  menuPortalTarget={document.body}
+                  menuPosition="fixed"
+                  noOptionsMessage={() => "No hay opciones disponibles"}
                 />
                 <div className="flex items-center gap-4 mt-2">
                   <div className="text-gray-500">¿Otro?</div>
@@ -453,6 +490,10 @@ export default function SaudiApply() {
                   }}
                   value={qualCertif}
                   placeholder="Seleccione..."
+                  styles={customSelectStyles}
+                  menuPortalTarget={document.body}
+                  menuPosition="fixed"
+                  noOptionsMessage={() => "No hay opciones disponibles"}
                 />
                 <div className="flex items-center gap-4 mt-2">
                   <div className="text-gray-500">¿Otro?</div>
