@@ -1,14 +1,14 @@
 import React from "react"
 import { Swiper, SwiperSlide } from "swiper/react"
-import sfda from "../images/sfda.jpg"
-import moiat from "../images/moiat.jpg"
-import eiac from "../images/eiac.jpg"
-import hcc from "../images/logo2.png"
+import sfda from "../../images/sfda.jpg"
+import moiat from "../../images/moiat.jpg"
+import eiac from "../../images/eiac.jpg"
+import hcc from "../../images/logo2.png"
 
 import "swiper/css"
 import "swiper/css/autoplay"
 import { Autoplay } from "swiper"
-import FadeUpOnScroll from "../lib/FadeUpOnScroll"
+import FadeUpOnScroll from "../../lib/FadeUpOnScroll"
 
 function Partnership() {
   return (
@@ -16,7 +16,7 @@ function Partnership() {
       <div className="w-full px-8 py-16 max-w-w1300 mx-auto">
         <FadeUpOnScroll>
           <h3 className="capitalize font-poppins font-bold text-3xl md:text-4xl text-center md:text-left text-primary  transition-all duration-1000 ">
-            Acreditación y colaboración:
+            Accreditation and partnership:
           </h3>
         </FadeUpOnScroll>
         <FadeUpOnScroll>

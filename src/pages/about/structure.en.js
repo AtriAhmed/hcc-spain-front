@@ -1,5 +1,5 @@
 import React from "react"
-import HalalProducer from "../../components/HalalProducer"
+import HalalProducer from "../../components/en/HalalProducer"
 import Seo from "../../components/seo"
 import Structure from "../../components/en/structure/Structure"
 import structure1 from "../../images/structure_1.jpg"

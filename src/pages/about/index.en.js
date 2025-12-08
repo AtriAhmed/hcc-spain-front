@@ -2,8 +2,8 @@ import React from "react"
 import Cards from "../../components/en/about/Cards"
 import PartnershipsTab from "../../components/en/about/PartnershipsTab"
 import WhoAreWe from "../../components/en/about/WhoAreWe"
-import HalalProducer from "../../components/HalalProducer"
-import Partnership from "../../components/Partnership"
+import HalalProducer from "../../components/en/HalalProducer"
+import Partnership from "../../components/en/Partnership"
 import Seo from "../../components/seo"
 
 function AboutPage() {
