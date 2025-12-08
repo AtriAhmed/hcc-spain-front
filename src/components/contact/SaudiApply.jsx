@@ -406,7 +406,9 @@ export default function SaudiApply() {
                   value={activity}
                   placeholder="Seleccione..."
                   styles={customSelectStyles}
-                  menuPortalTarget={document.body}
+                  menuPortalTarget={
+                    typeof document !== "undefined" ? document.body : null
+                  }
                   menuPosition="fixed"
                   noOptionsMessage={() => "No hay opciones disponibles"}
                 />
@@ -491,7 +493,9 @@ export default function SaudiApply() {
                   value={qualCertif}
                   placeholder="Seleccione..."
                   styles={customSelectStyles}
-                  menuPortalTarget={document.body}
+                  menuPortalTarget={
+                    typeof document !== "undefined" ? document.body : null
+                  }
                   menuPosition="fixed"
                   noOptionsMessage={() => "No hay opciones disponibles"}
                 />
