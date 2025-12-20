@@ -45,7 +45,7 @@ export const onRouteUpdate = ({ location, prevLocation }) => {
   const isAllowed = allowedPrefixes.some(prefix => path.startsWith(prefix))
 
   if (!isAllowed && typeof window !== "undefined") {
-    window.location.replace("/en" + path)
+    window.location.replace("/es" + path)
   }
 }
 

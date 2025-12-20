@@ -172,8 +172,7 @@ export const Link = ({ to, children, ...props }) => {
   }
 
   // Add language prefix to other paths
-  const localizedPath =
-    currentLanguage === "es" ? to : `/${currentLanguage}${to}`
+  const localizedPath = `/${currentLanguage}${to}`
 
   return (
     <GatsbyLink to={localizedPath} {...props}>
