@@ -1,9 +1,8 @@
 import React from "react"
 import CertificationProc from "../../components/en/certification-procedures/CertificationProc"
+import CertificationSteps from "../../components/en/certification-procedures/CertificationSteps"
 import Partnership from "../../components/en/Partnership"
 import Seo from "../../components/seo"
-import procedureImg from "../../images/certification_procedure_1.png"
-import FadeUpOnScroll from "../../lib/FadeUpOnScroll"
 
 function index() {
   return (
@@ -11,9 +10,7 @@ function index() {
       <div className="h-[300px] bg-[url(./images/doctor_1.jpg)] bg-cover bg-center"></div>
 
       <CertificationProc />
-      <FadeUpOnScroll>
-        <img src={procedureImg} alt="procedure" className="mx-auto py-10" />
-      </FadeUpOnScroll>
+      <CertificationSteps />
       <Partnership />
     </div>
   )
@@ -21,4 +18,4 @@ function index() {
 
 export default index
 
-export const Head = () => <Seo title="Certification procedures" />
+export const Head = () => <Seo title="Halal Certification Process" />

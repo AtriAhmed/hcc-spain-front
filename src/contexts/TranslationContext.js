@@ -62,6 +62,7 @@ const translations = {
     application: "Application",
     "all rights reserved": "All rights reserved",
     "developed by": "Developed by",
+    "halal certification process": "Halal Certification Process",
   },
   es: {
     home: "Inicio",
@@ -103,6 +104,7 @@ const translations = {
     application: "Solicitud",
     "all rights reserved": "Todos los derechos reservados",
     "developed by": "Desarrollado por",
+    "halal certification process": "Proceso de certificación Halal",
   },
 }
 

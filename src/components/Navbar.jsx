@@ -148,7 +148,7 @@ const getCertificationItems = t => ({
   title: t("certification"),
   items: [
     {
-      text: t("certification procedure"),
+      text: t("halal certification process"),
       path: "/certification/procedure",
     },
     {

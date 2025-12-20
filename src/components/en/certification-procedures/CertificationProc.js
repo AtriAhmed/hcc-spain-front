@@ -1,6 +1,6 @@
 import React from "react"
 import FadeUpOnScroll from "../../../lib/FadeUpOnScroll"
-import HalalProducer from "../../HalalProducer"
+import HalalProducer from "../HalalProducer"
 
 function CertificationProc() {
   return (
