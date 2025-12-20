@@ -6,12 +6,12 @@ const CertificationSteps = () => {
     <section className="w-full  bg-gray-100">
       <div className="w-full max-w-7xl mx-auto px-8 py-12">
         <FadeUpOnScroll>
-          <h2 className="font-poppins font-bold text-3xl scr800:text-4xl text-primary capitalize transition-all duration-1000 ">
+          <h2 className="font-poppins font-bold text-3xl md:text-4xl text-primary capitalize transition-all duration-1000 ">
             Halal Certification Application Timeline
           </h2>
         </FadeUpOnScroll>
         <FadeUpOnScroll>
-          <div className="pt-8 flex flex-col items-center scr800:flex-row gap-8">
+          <div className="pt-8 flex flex-col items-center md:flex-row gap-8">
             <p className="font-open font-normal text-base text-slate-900">
               The average duration of a Halal certification application ranges
               between{" "}

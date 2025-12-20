@@ -73,7 +73,7 @@ function MobileNavbar({ location }) {
           <ul className="divide-y mt-5">
             {getItems(t, lang, location).map((item, index) =>
               item.children === undefined ? (
-                <li className="px-3 py-2" key={item.title}>
+                <li className="px-3 py-2" key={item.path || item.title}>
                   <Link
                     to={item.path}
                     onClick={() => setMobileNavbarOpen(false)}
@@ -83,7 +83,7 @@ function MobileNavbar({ location }) {
                   </Link>
                 </li>
               ) : (
-                <li key={item.title}>
+                <li key={item.path || item.title}>
                   <Accordion
                     open={open === index}
                     icon={
@@ -119,7 +119,7 @@ function MobileNavbar({ location }) {
                     >
                       <ul className="divide-y">
                         {item.children.map((child, i) => (
-                          <li key={child.title}>
+                          <li key={child.path || item.title}>
                             <Link
                               to={child.path}
                               className="block py-2"
@@ -189,7 +189,7 @@ const getItems = (t, lang, location) => {
       title: t("certification"),
       children: [
         {
-          title: t("certification procedure"),
+          title: t("halal certification process"),
           path: "/certification/procedure",
         },
         {
@@ -207,6 +207,10 @@ const getItems = (t, lang, location) => {
         {
           title: t("benefits of our certification"),
           path: "/certification/benefits",
+        },
+        {
+          title: t("bpjph recognition"),
+          path: "/certification/bpjph-recognition",
         },
       ],
     },

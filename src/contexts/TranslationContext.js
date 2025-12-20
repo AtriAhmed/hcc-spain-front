@@ -63,6 +63,7 @@ const translations = {
     "all rights reserved": "All rights reserved",
     "developed by": "Developed by",
     "halal certification process": "Halal Certification Process",
+    "bpjph recognition": "BPJPH Recognition",
   },
   es: {
     home: "Inicio",
@@ -105,6 +106,7 @@ const translations = {
     "all rights reserved": "Todos los derechos reservados",
     "developed by": "Desarrollado por",
     "halal certification process": "Proceso de certificación Halal",
+    "bpjph recognition": "Reconocimiento BPJPH",
   },
 }
 

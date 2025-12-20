@@ -167,6 +167,10 @@ const getCertificationItems = t => ({
       text: t("benefits of our certification"),
       path: "/certification/benefits",
     },
+    {
+      text: t("bpjph recognition"),
+      path: "/certification/bpjph-recognition",
+    },
   ],
 })
 

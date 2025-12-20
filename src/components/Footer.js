@@ -11,8 +11,6 @@ import { useTranslation } from "../contexts/TranslationContext"
 import logo2 from "../images/logo2.png"
 
 function Footer({ location }) {
-  console.log("-------------------- location?.pathname --------------------")
-  console.log(location?.pathname)
   const { t } = useTranslation(location?.pathname)
 
   return (
