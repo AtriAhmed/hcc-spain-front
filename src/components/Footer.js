@@ -123,7 +123,7 @@ function Footer({ location }) {
           <span className="font-semibold">
             {t("halal certification spain")}.
           </span>{" "}
-          {t("all rights reserved")}. {t("developed by")} CODA-TECH
+          {t("all rights reserved")}. {t("developed by")} CODAWIZ COMPANY
         </p>
       </div>
     </div>
