@@ -22,6 +22,8 @@ const EditPost = ({ location, params }) => {
     summary_en: "",
     summary_ar: "",
     summary_es: "",
+    image_width: "",
+    image_height: "",
   })
   const [arabicItems, setArabicItems] = useState([])
   const [englishItems, setEnglishItems] = useState([])
@@ -47,6 +49,8 @@ const EditPost = ({ location, params }) => {
           summary_en: post.summary_en,
           summary_ar: post.summary_ar,
           summary_es: post.summary_es, // Changed from summary_nl
+          image_width: post.image_width || "",
+          image_height: post.image_height || "",
         })
 
         setEnglishItems(
@@ -404,6 +408,24 @@ const EditPost = ({ location, params }) => {
           name="image"
           onChange={handleImageChange}
         />
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
+          <Input
+            label="Image width"
+            type="number"
+            name="image_width"
+            value={formData.image_width}
+            onChange={handleChange}
+            min="1"
+          />
+          <Input
+            label="Image height"
+            type="number"
+            name="image_height"
+            value={formData.image_height}
+            onChange={handleChange}
+            min="1"
+          />
+        </div>
         <Button type="submit">Update Post</Button>{" "}
         {/* Changed from "Update Blog" */}
       </form>

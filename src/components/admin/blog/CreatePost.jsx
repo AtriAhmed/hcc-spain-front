@@ -21,6 +21,8 @@ const CreatePost = () => {
     summary_en: "",
     summary_ar: "",
     summary_es: "",
+    image_width: "",
+    image_height: "",
   })
 
   // Separate state for different language content items
@@ -354,6 +356,24 @@ const CreatePost = () => {
           name="image"
           onChange={handleImageChange}
         />
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
+          <Input
+            label="Image width"
+            type="number"
+            name="image_width"
+            value={formData.image_width}
+            onChange={handleChange}
+            min="1"
+          />
+          <Input
+            label="Image height"
+            type="number"
+            name="image_height"
+            value={formData.image_height}
+            onChange={handleChange}
+            min="1"
+          />
+        </div>
         <Button type="submit">Create Post</Button>
       </form>
     </div>

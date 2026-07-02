@@ -61,21 +61,20 @@ export default function BlogDetail({ location, params }) {
     return <div>Loading...</div>
   }
 
+
+  const imageStyle = {
+    width: blogPost.image_width ? `${blogPost.image_width}px` : "100%",
+    height: blogPost.image_height ? `${blogPost.image_height}px` : "auto",
+    objectFit: "cover",
+  };
+
   return (
     <div className="w-full">
       <div
         className="w-full max-w-3xl mx-auto px-8 py-10 pt-[136px]"
         dir={language == "ar" ? "rtl" : "ltr"}
       >
-        {blogPost.image ? (
-          <img
-            src={`${process.env.GATSBY_API_URL}${blogPost.image}`}
-            alt={blogPost.title}
-            className="mb-8"
-          />
-        ) : (
-          ""
-        )}
+        {blogPost.image ? <img src={`${process.env.GATSBY_API_URL}${blogPost.image}`} alt={blogPost.title} className="mb-8" style={imageStyle} /> : ""}
         <div className="flex justify-between items-start pb-4 border-b">
           <div className="flex flex-col gap-1">
             <Title

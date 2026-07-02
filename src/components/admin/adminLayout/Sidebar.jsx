@@ -12,7 +12,7 @@ import {
   UsersIcon,
 } from "@heroicons/react/24/outline"
 import { MosqueOutlined } from "@mui/icons-material"
-import { Link } from "../../../contexts/TranslationContext"
+import {Link} from "gatsby"
 import { useAuthContext } from "../../../contexts/AuthProvider"
 
 const ICON_STYLE = "block h-6 w-6 flex-start"

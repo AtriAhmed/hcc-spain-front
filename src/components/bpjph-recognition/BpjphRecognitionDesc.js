@@ -29,7 +29,7 @@ function BpjphRecognitionDesc() {
     },
     {
       name: "Halal Correct Germany",
-      scope: "Productos alimentarios y químicos",
+      scope: "Productos alimentarios y químicos (en proceso)",
       url: "https://www.halalcorrect.de",
       urlText: "www.halalcorrect.de",
     },
